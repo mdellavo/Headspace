@@ -124,7 +124,7 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener {
 
     @Override
     public void onPlayerError(final ExoPlaybackException error) {
-        Log.d(TAG, "onPlayerReady(error=%s)", error);
+        Log.d(TAG, "onPlayerReady(error=%s)", error, error);
         if (listener != null) {
             handler.post(new Runnable() {
                 @Override

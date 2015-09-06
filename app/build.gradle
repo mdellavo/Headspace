@@ -24,4 +24,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.2.0'
     compile 'com.google.android.exoplayer:exoplayer:r1.4.2'
     compile 'com.squareup.okhttp:okhttp:2.5.0'
+    compile 'org.ini4j:ini4j:0.5.4'
 }

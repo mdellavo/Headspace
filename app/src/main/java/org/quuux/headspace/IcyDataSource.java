@@ -54,6 +54,12 @@ public class IcyDataSource implements HttpDataSource {
             throw new HttpDataSourceException(e, dataSpec);
         }
 
+        if (!response.isSuccessful())
+            throw new HttpDataSource.InvalidResponseCodeException(response.code(), response.headers().toMultimap(), dataSpec);
+
+        // FIXME check content type
+        // FIXME handle redirect?
+
         String metaintVal = response.headers().get("icy-metaint");
         interval = metaintVal != null ? Integer.parseInt(metaintVal) : 0;
 
