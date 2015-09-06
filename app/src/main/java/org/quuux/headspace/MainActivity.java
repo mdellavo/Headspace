@@ -8,11 +8,21 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.squareup.otto.Subscribe;
+
+import org.quuux.headspace.events.EventBus;
+import org.quuux.headspace.events.PlayerError;
+import org.quuux.headspace.events.PlayerStateChange;
+import org.quuux.headspace.events.StreamMetaDataUpdate;
+import org.quuux.headspace.events.PlaylistUpdate;
+import org.quuux.headspace.net.Streamer;
 
 import java.util.Map;
 
 
-public class MainActivity extends AppCompatActivity implements Playlist.Listener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private static final String TAG = Log.buildTag(MainActivity.class);
 
@@ -51,41 +61,38 @@ public class MainActivity extends AppCompatActivity implements Playlist.Listener
             "http://somafm.com/u80s.pls",
     };
 
-    private TextView titleView, urlView;
+    private TextView streamView, titleView, urlView;
     private ImageButton playbackButton;
-
-    private Streamer streamer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        final Streamer streamer = Streamer.getInstance();
+
+        streamView = (TextView) findViewById(R.id.stream);
         titleView = (TextView) findViewById(R.id.title);
         urlView = (TextView) findViewById(R.id.url);
         playbackButton = (ImageButton) findViewById(R.id.playback);
-        playbackButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(final View v) {
-                if (streamer == null)
-                    return;
-
-                if (streamer.isPlaying())
-                    streamer.pause();
-                else
-                    streamer.start();
-            }
-        });
+        playbackButton.setOnClickListener(this);
 
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
         final String url = playlists[((int) (System.currentTimeMillis() % playlists.length))];
-        loadPlaylist(url);
+        streamer.loadPlaylist(url);
     }
 
-    private void loadPlaylist(final String playlistUrl) {
-        Log.d(TAG, "loading playlist %s", playlistUrl);
-        Playlist.parseAsyc(playlistUrl, this);
+    @Override
+    protected void onResume() {
+        super.onResume();
+        EventBus.getInstance().register(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        EventBus.getInstance().unregister(this);
     }
 
     @Override
@@ -107,33 +114,46 @@ public class MainActivity extends AppCompatActivity implements Playlist.Listener
         return super.onOptionsItemSelected(item);
     }
 
+    private void updateStreamInfo(final Map<String, String> metadata) {
+        titleView.setText(metadata.get("StreamTitle"));
+        urlView.setText(metadata.get("StreamUrl"));
+    }
+
+    @Subscribe
+    public void onMetadataUpdated(final StreamMetaDataUpdate update) {
+        updateStreamInfo(update.metadata);
+    }
+
+    @Subscribe
+    public void onPlayerStateChanged(final PlayerStateChange update) {
+        playbackButton.setImageResource(update.playWhenReady ? R.mipmap.ic_pause : R.mipmap.ic_play);
+    }
+
+    @Subscribe
+    public void onError(final PlayerError error) {
+        Log.e(TAG, "player error", error.error);
+        Toast.makeText(this, error.error.toString(), Toast.LENGTH_LONG).show();
+    }
+
+    @Subscribe
+    public void onPlaylistLoaded(final PlaylistUpdate update) {
+        Log.d(TAG, "onPlaylistLoaded(playlist=%s)", update.playlist);
+        streamView.setText(update.playlist.getTrackTitle(update.track));
+    }
+
     @Override
-    public void onPlaylistLoaded(final Playlist playlist) {
-        Log.d(TAG, "onPlaylistLoaded(playlist=%s)", playlist);
+    public void onClick(final View v) {
+        switch (v.getId()) {
+            case R.id.playback:
+                togglePlayback();
+        }
+    }
 
-        if (playlist == null)
-            return;
-
-        final String streamUrl = playlist.getTrackFile(1);
-        if (streamUrl == null)
-            return;
-
-        streamer = Streamer.getInstance(this, streamUrl, new Streamer.Listener() {
-            @Override
-            public void onMetaData(final Map<String, String> metadata) {
-                titleView.setText(metadata.get("StreamTitle"));
-                urlView.setText(metadata.get("StreamUrl"));
-            }
-
-            @Override
-            public void onPlayerStateChanged(final boolean playWhenReady, final int state) {
-                playbackButton.setImageResource(playWhenReady ? R.mipmap.ic_pause : R.mipmap.ic_play);
-            }
-
-            @Override
-            public void onError(final Exception error) {
-
-            }
-        });
+    private void togglePlayback() {
+        final Streamer streamer = Streamer.getInstance();
+        if (streamer.isPlaying())
+            streamer.pause();
+        else
+            streamer.start();
     }
 }

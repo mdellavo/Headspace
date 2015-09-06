@@ -1,9 +1,10 @@
-package org.quuux.headspace;
+package org.quuux.headspace.data;
 
 import android.os.AsyncTask;
 
 import org.ini4j.Ini;
 import org.ini4j.Profile;
+import org.quuux.headspace.Log;
 
 import java.io.IOException;
 import java.net.URL;

@@ -1,4 +1,4 @@
-package org.quuux.headspace;
+package org.quuux.headspace.net;
 
 import com.google.android.exoplayer.C;
 import com.google.android.exoplayer.upstream.DataSpec;
@@ -7,6 +7,10 @@ import com.squareup.okhttp.Headers;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
+
+import org.quuux.headspace.Log;
+import org.quuux.headspace.events.EventBus;
+import org.quuux.headspace.events.StreamMetaDataUpdate;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -109,6 +113,7 @@ public class IcyDataSource implements HttpDataSource {
             Log.d(TAG, "metadata length=%s", length);
             final byte[] buffer = contents.readByteArray(length);
             final Map<String, String> metadata = parseMetadata(new String(buffer));
+
             if (listener != null)
                 listener.onMetaData(metadata);
         }

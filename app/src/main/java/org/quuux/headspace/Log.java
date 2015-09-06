@@ -1,7 +1,7 @@
 package org.quuux.headspace;
 
 
-class Log  {
+public class Log  {
 
     private final String mTag;
 
