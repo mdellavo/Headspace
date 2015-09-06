@@ -8,9 +8,7 @@ import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
 
-import org.quuux.headspace.Log;
-import org.quuux.headspace.events.EventBus;
-import org.quuux.headspace.events.StreamMetaDataUpdate;
+import org.quuux.headspace.util.Log;
 
 import java.io.IOException;
 import java.util.HashMap;

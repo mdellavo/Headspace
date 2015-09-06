@@ -1,5 +1,7 @@
-package org.quuux.headspace;
+package org.quuux.headspace.util;
 
+
+import org.quuux.headspace.BuildConfig;
 
 public class Log  {
 

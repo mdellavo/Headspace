@@ -4,7 +4,7 @@ import android.os.AsyncTask;
 
 import org.ini4j.Ini;
 import org.ini4j.Profile;
-import org.quuux.headspace.Log;
+import org.quuux.headspace.util.Log;
 
 import java.io.IOException;
 import java.net.URL;

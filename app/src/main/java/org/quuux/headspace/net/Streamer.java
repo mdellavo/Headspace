@@ -13,7 +13,7 @@ import com.google.android.exoplayer.upstream.Allocator;
 import com.google.android.exoplayer.upstream.DataSource;
 import com.google.android.exoplayer.upstream.DefaultAllocator;
 
-import org.quuux.headspace.Log;
+import org.quuux.headspace.util.Log;
 import org.quuux.headspace.data.Playlist;
 import org.quuux.headspace.events.EventBus;
 import org.quuux.headspace.events.PlayerError;

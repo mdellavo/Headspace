@@ -18,6 +18,7 @@ import org.quuux.headspace.events.PlayerStateChange;
 import org.quuux.headspace.events.StreamMetaDataUpdate;
 import org.quuux.headspace.events.PlaylistUpdate;
 import org.quuux.headspace.net.Streamer;
+import org.quuux.headspace.util.Log;
 
 import java.util.Map;
 
