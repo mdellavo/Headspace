@@ -8,6 +8,7 @@ import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
 
+import org.quuux.headspace.data.StreamMetaData;
 import org.quuux.headspace.util.Log;
 
 import java.io.IOException;
@@ -22,7 +23,7 @@ import okio.BufferedSource;
 public class IcyDataSource implements HttpDataSource {
 
     public interface Listener {
-        void onMetaData(Map<String, String> metadata);
+        void onMetaData(StreamMetaData metadata);
     }
 
     private static final String TAG = Log.buildTag(IcyDataSource.class);
@@ -62,7 +63,7 @@ public class IcyDataSource implements HttpDataSource {
         // FIXME check content type
         // FIXME handle redirect?
 
-        String metaintVal = response.headers().get("icy-metaint");
+        final String metaintVal = response.headers().get("icy-metaint");
         interval = metaintVal != null ? Integer.parseInt(metaintVal) : 0;
 
         Log.d(TAG, "metadata interval=%s", interval);
@@ -110,18 +111,18 @@ public class IcyDataSource implements HttpDataSource {
         if (length > 0) {
             Log.d(TAG, "metadata length=%s", length);
             final byte[] buffer = contents.readByteArray(length);
-            final Map<String, String> metadata = parseMetadata(new String(buffer));
+            final StreamMetaData metadata = parseMetadata(new String(buffer));
 
             if (listener != null)
                 listener.onMetaData(metadata);
         }
     }
 
-    private Map<String, String> parseMetadata(final String s) {
+    private StreamMetaData parseMetadata(final String s) {
         Log.d(TAG, "metadata=%s", s);
 
         final String[] parts = s.split(";");
-        final Map<String, String> metadata = new HashMap<>(parts.length);
+        final StreamMetaData metadata = new StreamMetaData();
 
         for (String part : parts) {
             final int index = part.indexOf('=');

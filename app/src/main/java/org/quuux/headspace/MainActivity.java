@@ -1,6 +1,11 @@
 package org.quuux.headspace;
 
+import android.content.ComponentName;
+import android.content.Context;
+import android.content.Intent;
+import android.content.ServiceConnection;
 import android.media.AudioManager;
+import android.os.IBinder;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -17,7 +22,6 @@ import org.quuux.headspace.events.PlayerError;
 import org.quuux.headspace.events.PlayerStateChange;
 import org.quuux.headspace.events.StreamMetaDataUpdate;
 import org.quuux.headspace.events.PlaylistUpdate;
-import org.quuux.headspace.net.Streamer;
 import org.quuux.headspace.util.Log;
 
 import java.util.Map;
@@ -65,12 +69,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView streamView, titleView, urlView;
     private ImageButton playbackButton;
 
+    private PlaybackService playbackService = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
-        final Streamer streamer = Streamer.getInstance();
+        startService(new Intent(this, PlaybackService.class));
+
+        setContentView(R.layout.activity_main);
 
         streamView = (TextView) findViewById(R.id.stream);
         titleView = (TextView) findViewById(R.id.title);
@@ -79,9 +86,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         playbackButton.setOnClickListener(this);
 
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
+    }
 
-        final String url = playlists[((int) (System.currentTimeMillis() % playlists.length))];
-        streamer.loadPlaylist(url);
+    @Override
+    protected void onStart() {
+        super.onStart();
+        bindService(new Intent(this, PlaybackService.class), serviceConnection, Context.BIND_AUTO_CREATE);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        unbindService(serviceConnection);
     }
 
     @Override
@@ -147,14 +163,30 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.playback:
                 togglePlayback();
+                break;
         }
     }
 
     private void togglePlayback() {
-        final Streamer streamer = Streamer.getInstance();
-        if (streamer.isPlaying())
-            streamer.pause();
-        else
-            streamer.start();
+        if (playbackService != null)
+            playbackService.togglePlayback();
     }
+
+    final ServiceConnection serviceConnection = new ServiceConnection() {
+        @Override
+        public void onServiceConnected(final ComponentName name, final IBinder service) {
+            playbackService = ((PlaybackService.LocalBinder)service).getService();
+
+            if (!playbackService.isPlaying()) {
+                final String url = playlists[((int) (System.currentTimeMillis() % playlists.length))];
+                playbackService.loadPlaylist(url);
+            }
+
+        }
+
+        @Override
+        public void onServiceDisconnected(final ComponentName name) {
+            playbackService = null;
+        }
+    };
 }

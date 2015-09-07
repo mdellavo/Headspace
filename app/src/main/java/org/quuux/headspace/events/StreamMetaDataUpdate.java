@@ -1,12 +1,12 @@
 package org.quuux.headspace.events;
 
 
-import java.util.Map;
+import org.quuux.headspace.data.StreamMetaData;
 
 public class StreamMetaDataUpdate {
-    public final Map<String, String> metadata;
+    public final StreamMetaData metadata;
 
-    public StreamMetaDataUpdate(final Map<String, String> metadata) {
+    public StreamMetaDataUpdate(final StreamMetaData metadata) {
         this.metadata = metadata;
     }
 }

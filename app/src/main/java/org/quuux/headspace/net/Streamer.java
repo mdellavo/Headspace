@@ -13,6 +13,7 @@ import com.google.android.exoplayer.upstream.Allocator;
 import com.google.android.exoplayer.upstream.DataSource;
 import com.google.android.exoplayer.upstream.DefaultAllocator;
 
+import org.quuux.headspace.data.StreamMetaData;
 import org.quuux.headspace.util.Log;
 import org.quuux.headspace.data.Playlist;
 import org.quuux.headspace.events.EventBus;
@@ -35,6 +36,10 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
     private ExoPlayer player;
     private Handler handler;
 
+    private Playlist playlist;
+    private int track;
+    private StreamMetaData lastMetaData;
+
     protected Streamer() {
         handler = new Handler(Looper.getMainLooper());
         player = ExoPlayer.Factory.newInstance(1);
@@ -50,7 +55,7 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
         return instance;
     }
 
-    public void loadStream(final String url) {
+    private void loadStream(final String url) {
 
         stop();
 
@@ -64,10 +69,10 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
         start();
     }
 
-    public void loadStream(final Playlist playlist) {
-
+    private void loadStream(final Playlist playlist) {
+        this.playlist = playlist;
         // FIXME better track handling
-        final int track = 1;
+        track = 1;
         EventBus.getInstance().post(new PlaylistUpdate(playlist, track));
 
         final String url = playlist.getTrackFile(track);
@@ -77,8 +82,8 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
         loadStream(url);
     }
 
-    private void destory() {
-        Log.d(TAG, "destrory");
+    private void destroy() {
+        Log.d(TAG, "destroy");
         player.release();
     }
 
@@ -121,7 +126,8 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
     }
 
     @Override
-    public void onMetaData(final Map<String, String> metadata) {
+    public void onMetaData(final StreamMetaData metadata) {
+        lastMetaData = metadata;
         handler.post(new Runnable() {
             @Override
             public void run() {
@@ -142,5 +148,17 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
             return;
 
         loadStream(playlist);
+    }
+
+    public Playlist getPlaylist() {
+        return playlist;
+    }
+
+    public int getTrack() {
+        return track;
+    }
+
+    public StreamMetaData getLastMetaData() {
+        return lastMetaData;
     }
 }
