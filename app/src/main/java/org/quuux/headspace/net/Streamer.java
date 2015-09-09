@@ -161,4 +161,8 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
     public StreamMetaData getLastMetaData() {
         return lastMetaData;
     }
+
+    public boolean isStopped() {
+        return player.getPlaybackState() == ExoPlayer.STATE_IDLE;
+    }
 }

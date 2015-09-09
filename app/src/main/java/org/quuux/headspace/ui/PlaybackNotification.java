@@ -8,6 +8,7 @@ import android.support.v4.app.NotificationCompat;
 import android.text.TextUtils;
 
 import org.quuux.headspace.MainActivity;
+import org.quuux.headspace.PlaybackService;
 import org.quuux.headspace.R;
 import org.quuux.headspace.data.Playlist;
 import org.quuux.headspace.data.StreamMetaData;
@@ -37,6 +38,17 @@ public class PlaybackNotification {
         builder.setContentTitle(title);
         builder.setContentText(streamTitle);
         builder.setContentInfo("Headspace");
+
+        final int playbackIcon = stream.isPlaying() ? R.mipmap.ic_pause : R.mipmap.ic_play;
+        final String playbackText = context.getString(stream.isPlaying() ? R.string.action_pause : R.string.action_play);
+        final Intent playbackIntent = new Intent(context, PlaybackService.class);
+        playbackIntent.setAction(PlaybackService.ACTION_TOGGLE_PLAYBACK);
+        builder.addAction(playbackIcon, playbackText, PendingIntent.getService(context, 0, playbackIntent, 0));
+
+        final Intent stopIntent = new Intent(context, PlaybackService.class);
+        stopIntent.setAction(PlaybackService.ACTION_STOP_PLAYBACK);
+        builder.addAction(R.mipmap.ic_stop, context.getString(R.string.stop), PendingIntent.getService(context, 0, stopIntent, 0));
+
         final Intent intent = new Intent(context, MainActivity.class);
         builder.setContentIntent(PendingIntent.getActivity(context, 0, intent, 0));
 
