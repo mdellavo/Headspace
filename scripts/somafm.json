@@ -1,0 +1,355 @@
+[
+    {
+        "description": "A nicely chilled plate of ambient/downtempo beats and grooves.", 
+        "icon": "http://somafm.com/img/groovesalad120.png", 
+        "name": "Groove Salad", 
+        "streams": [
+            "http://somafm.com/groovesalad.pls", 
+            "http://somafm.com/groovesalad130.pls", 
+            "http://somafm.com/groovesalad32.pls", 
+            "http://somafm.com/groovesalad56.pls", 
+            "http://somafm.com/groovesalad64.pls"
+        ]
+    }, 
+    {
+        "description": "Served best chilled, safe with most medications. Atmospheric textures with minimal beats.", 
+        "icon": "http://somafm.com/img/dronezone120.jpg", 
+        "name": "Drone Zone", 
+        "streams": [
+            "http://somafm.com/dronezone.pls", 
+            "http://somafm.com/dronezone130.pls", 
+            "http://somafm.com/dronezone32.pls", 
+            "http://somafm.com/dronezone56.pls", 
+            "http://somafm.com/dronezone64.pls"
+        ]
+    }, 
+    {
+        "description": "New and classic favorite indie pop tracks.", 
+        "icon": "http://somafm.com/img/indychick.jpg", 
+        "name": "Indie Pop Rocks!", 
+        "streams": [
+            "http://somafm.com/indiepop.pls", 
+            "http://somafm.com/indiepop130.pls", 
+            "http://somafm.com/indiepop24.pls", 
+            "http://somafm.com/indiepop32.pls", 
+            "http://somafm.com/indiepop64.pls"
+        ]
+    }, 
+    {
+        "description": "Sensuous and mellow vocals, mostly female, with an electronic influence.", 
+        "icon": "http://somafm.com/img/lush-x120.jpg", 
+        "name": "Lush", 
+        "streams": [
+            "http://somafm.com/lush.pls", 
+            "http://somafm.com/lush130.pls", 
+            "http://somafm.com/lush24.pls", 
+            "http://somafm.com/lush32.pls", 
+            "http://somafm.com/lush64.pls"
+        ]
+    }, 
+    {
+        "description": "Tune in, turn on, space out. Spaced-out ambient and mid-tempo electronica.", 
+        "icon": "http://somafm.com/img/sss.jpg", 
+        "name": "Space Station Soma", 
+        "streams": [
+            "http://somafm.com/spacestation.pls", 
+            "http://somafm.com/spacestation130.pls", 
+            "http://somafm.com/spacestation24.pls", 
+            "http://somafm.com/spacestation32.pls", 
+            "http://somafm.com/spacestation64.pls"
+        ]
+    }, 
+    {
+        "description": "The soundtrack for your stylish, mysterious, dangerous life. For Spies and PIs too!", 
+        "icon": "http://somafm.com/img/secretagent120.jpg", 
+        "name": "Secret Agent", 
+        "streams": [
+            "http://somafm.com/secretagent.pls", 
+            "http://somafm.com/secretagent130.pls", 
+            "http://somafm.com/secretagent24.pls", 
+            "http://somafm.com/secretagent32.pls", 
+            "http://somafm.com/secretagent64.pls"
+        ]
+    }, 
+    {
+        "description": "Early 80s UK Synthpop and a bit of New Wave.", 
+        "icon": "http://somafm.com/img/u80s-120.png", 
+        "name": "Underground 80s", 
+        "streams": [
+            "http://somafm.com/u80s.pls", 
+            "http://somafm.com/u80s130.pls", 
+            "http://somafm.com/u80s192.pls", 
+            "http://somafm.com/u80s32.pls", 
+            "http://somafm.com/u80s56.pls", 
+            "http://somafm.com/u80s64.pls"
+        ]
+    }, 
+    {
+        "description": "Deep ambient electronic, experimental and space music. A soundtrack for inner and outer space exploration.", 
+        "icon": "http://somafm.com/img/deepspaceone120.gif", 
+        "name": "Deep Space One", 
+        "streams": [
+            "http://somafm.com/deepspaceone.pls", 
+            "http://somafm.com/deepspaceone130.pls", 
+            "http://somafm.com/deepspaceone32.pls", 
+            "http://somafm.com/deepspaceone64.pls"
+        ]
+    }, 
+    {
+        "description": "Americana Roots music for Cowhands, Cowpokes and Cowtippers", 
+        "icon": "http://somafm.com/img/bootliquor120.jpg", 
+        "name": "Boot Liquor", 
+        "streams": [
+            "http://somafm.com/bootliquor.pls", 
+            "http://somafm.com/bootliquor130.pls", 
+            "http://somafm.com/bootliquor24.pls", 
+            "http://somafm.com/bootliquor32.pls", 
+            "http://somafm.com/bootliquor64.pls"
+        ]
+    }, 
+    {
+        "description": "A late night blend of deep-house and downtempo chill.", 
+        "icon": "http://somafm.com/img/blender120.png", 
+        "name": "Beat Blender", 
+        "streams": [
+            "http://somafm.com/beatblender.pls", 
+            "http://somafm.com/beatblender32.pls", 
+            "http://somafm.com/beatblender64.pls"
+        ]
+    }, 
+    {
+        "description": "Music for Hacking. The DEF CON Year-Round Channel.", 
+        "icon": "http://somafm.com/img/defcon120.png", 
+        "name": "DEF CON Radio", 
+        "streams": [
+            "http://somafm.com/defcon.pls", 
+            "http://somafm.com/defcon32.pls", 
+            "http://somafm.com/defcon64.pls"
+        ]
+    }, 
+    {
+        "description": "Desi-influenced Asian world beats and beyond.", 
+        "icon": "http://somafm.com/img/sog120.jpg", 
+        "name": "Suburbs of Goa", 
+        "streams": [
+            "http://somafm.com/suburbsofgoa.pls", 
+            "http://somafm.com/suburbsofgoa130.pls", 
+            "http://somafm.com/suburbsofgoa24.pls", 
+            "http://somafm.com/suburbsofgoa32.pls", 
+            "http://somafm.com/suburbsofgoa64.pls"
+        ]
+    }, 
+    {
+        "description": "Electropop and indie dance rock with sparkle and pop.", 
+        "icon": "http://somafm.com/img/poptron120.png", 
+        "name": "PopTron", 
+        "streams": [
+            "http://somafm.com/poptron.pls", 
+            "http://somafm.com/poptron32.pls", 
+            "http://somafm.com/poptron64.pls"
+        ]
+    }, 
+    {
+        "description": "Transcending the world of jazz with eclectic, avant-garde takes on tradition.", 
+        "icon": "http://somafm.com/img/sonicuniverse120.jpg", 
+        "name": "Sonic Universe", 
+        "streams": [
+            "http://somafm.com/sonicuniverse.pls", 
+            "http://somafm.com/sonicuniverse192.pls", 
+            "http://somafm.com/sonicuniverse32.pls", 
+            "http://somafm.com/sonicuniverse64.pls"
+        ]
+    }, 
+    {
+        "description": "Classic bachelor pad, playful exotica and vintage music of tomorrow.", 
+        "icon": "http://somafm.com/img/illstreet.jpg", 
+        "name": "Illinois Street Lounge", 
+        "streams": [
+            "http://somafm.com/illstreet.pls", 
+            "http://somafm.com/illstreet130.pls", 
+            "http://somafm.com/illstreet24.pls", 
+            "http://somafm.com/illstreet32.pls", 
+            "http://somafm.com/illstreet64.pls"
+        ]
+    }, 
+    {
+        "description": "Drown in the electronic sound of instrumental hiphop, future soul and liquid trap.", 
+        "icon": "http://somafm.com/img/fluid120.jpg", 
+        "name": "Fluid", 
+        "streams": [
+            "http://somafm.com/fluid.pls", 
+            "http://somafm.com/fluid130.pls", 
+            "http://somafm.com/fluid32.pls", 
+            "http://somafm.com/fluid64.pls"
+        ]
+    }, 
+    {
+        "description": "Indie Folk, Alt-folk and the occasional folk classics.", 
+        "icon": "http://somafm.com/img/folkfwd120.jpg", 
+        "name": "Folk Forward", 
+        "streams": [
+            "http://somafm.com/folkfwd.pls", 
+            "http://somafm.com/folkfwd32.pls", 
+            "http://somafm.com/folkfwd64.pls"
+        ]
+    }, 
+    {
+        "description": "Progressive house / trance. Tip top tunes.", 
+        "icon": "http://somafm.com/img/thetrip120.jpg", 
+        "name": "The Trip", 
+        "streams": [
+            "http://somafm.com/thetrip.pls", 
+            "http://somafm.com/thetrip32.pls", 
+            "http://somafm.com/thetrip64.pls"
+        ]
+    }, 
+    {
+        "description": "What alternative rock radio should sound like.", 
+        "icon": "http://somafm.com/img/bagel120.png", 
+        "name": "BAGeL Radio", 
+        "streams": [
+            "http://somafm.com/bagel.pls", 
+            "http://somafm.com/bagel32.pls", 
+            "http://somafm.com/bagel64.pls"
+        ]
+    }, 
+    {
+        "description": "Celebrating NASA and Space Explorers everywhere.", 
+        "icon": "http://somafm.com/img/missioncontrol120.jpg", 
+        "name": "Mission Control", 
+        "streams": [
+            "http://somafm.com/missioncontrol.pls", 
+            "http://somafm.com/missioncontrol32.pls", 
+            "http://somafm.com/missioncontrol48.pls", 
+            "http://somafm.com/missioncontrol64.pls"
+        ]
+    }, 
+    {
+        "description": "NEW! Mellow album rock from the Seventies. Yacht friendly.", 
+        "icon": "http://somafm.com/img/seventies120.jpg", 
+        "name": "Left Coast 70s", 
+        "streams": [
+            "http://somafm.com/seventies.pls", 
+            "http://somafm.com/seventies32.pls", 
+            "http://somafm.com/seventies320.pls", 
+            "http://somafm.com/seventies64.pls"
+        ]
+    }, 
+    {
+        "description": "Blips'n'beeps backed mostly w/beats. Intelligent Dance Music.", 
+        "icon": "http://somafm.com/img/cliqhop120.png", 
+        "name": "cliqhop idm", 
+        "streams": [
+            "http://somafm.com/cliqhop.pls", 
+            "http://somafm.com/cliqhop32.pls", 
+            "http://somafm.com/cliqhop64.pls"
+        ]
+    }, 
+    {
+        "description": "Vintage soul tracks from the original 45 RPM vinyl.", 
+        "icon": "http://somafm.com/img/7soul120.png", 
+        "name": "Seven Inch Soul", 
+        "streams": [
+            "http://somafm.com/7soul.pls", 
+            "http://somafm.com/7soul130.pls", 
+            "http://somafm.com/7soul32.pls", 
+            "http://somafm.com/7soul64.pls"
+        ]
+    }, 
+    {
+        "description": "Dubstep, Dub and Deep Bass. May damage speakers at high volume.", 
+        "icon": "http://somafm.com/img/dubstep120.png", 
+        "name": "Dub Step Beyond", 
+        "streams": [
+            "http://somafm.com/dubstep.pls", 
+            "http://somafm.com/dubstep256.pls", 
+            "http://somafm.com/dubstep32.pls", 
+            "http://somafm.com/dubstep64.pls"
+        ]
+    }, 
+    {
+        "description": "NEW! Exploring music from Celtic roots and branches", 
+        "icon": "http://somafm.com/img/thistle120.png", 
+        "name": "ThistleRadio", 
+        "streams": [
+            "http://somafm.com/thistle.pls", 
+            "http://somafm.com/thistle32.pls", 
+            "http://somafm.com/thistle64.pls"
+        ]
+    }, 
+    {
+        "description": "Digitally affected analog rock to calm the agitated heart.", 
+        "icon": "http://somafm.com/img/digitalis120.png", 
+        "name": "Digitalis", 
+        "streams": [
+            "http://somafm.com/digitalis.pls", 
+            "http://somafm.com/digitalis130.pls", 
+            "http://somafm.com/digitalis32.pls", 
+            "http://somafm.com/digitalis64.pls"
+        ]
+    }, 
+    {
+        "description": "Dark industrial/ambient music for tortured souls.", 
+        "icon": "http://somafm.com/img/doomed120.png", 
+        "name": "Doomed", 
+        "streams": [
+            "http://somafm.com/doomed.pls", 
+            "http://somafm.com/doomed32.pls", 
+            "http://somafm.com/doomed64.pls"
+        ]
+    }, 
+    {
+        "description": "From the Playa to the world, for the 2014 Burning Man festival.", 
+        "icon": "http://somafm.com/img/1023brc.jpg", 
+        "name": "Black Rock FM", 
+        "streams": [
+            "http://somafm.com/brfm.pls", 
+            "http://somafm.com/brfm130.pls", 
+            "http://somafm.com/brfm32.pls", 
+            "http://somafm.com/brfm48.pls", 
+            "http://somafm.com/brfm64.pls"
+        ]
+    }, 
+    {
+        "description": "Ambient music mixed with the sounds of San Francisco public safety radio traffic.", 
+        "icon": "http://somafm.com/img/sf1033120.png", 
+        "name": "SF 10-33", 
+        "streams": [
+            "http://somafm.com/sf1033.pls", 
+            "http://somafm.com/sf103332.pls", 
+            "http://somafm.com/sf103364.pls"
+        ]
+    }, 
+    {
+        "description": "Just covers. Songs you know by artists you don't. We've got you covered.", 
+        "icon": "http://somafm.com/img/covers120.jpg", 
+        "name": "Covers", 
+        "streams": [
+            "http://somafm.com/covers.pls", 
+            "http://somafm.com/covers32.pls", 
+            "http://somafm.com/covers64.pls"
+        ]
+    }, 
+    {
+        "description": "From black to doom, prog to sludge, thrash to post, stoner to crossover, punk to industrial. The metal will be detected.", 
+        "icon": "http://somafm.com/img3/metal-200.png", 
+        "name": "Metal Detector", 
+        "streams": [
+            "http://somafm.com/metal.pls", 
+            "http://somafm.com/metal130.pls", 
+            "http://somafm.com/metal32.pls", 
+            "http://somafm.com/metal64.pls"
+        ]
+    }, 
+    {
+        "description": "Spanning the history of electronic and experimental music from the early pioneers to the latest innovators.", 
+        "icon": "http://somafm.com/img/earwaves120.jpg", 
+        "name": "Earwaves", 
+        "streams": [
+            "http://somafm.com/earwaves.pls", 
+            "http://somafm.com/earwaves130.pls", 
+            "http://somafm.com/earwaves32.pls", 
+            "http://somafm.com/earwaves64.pls"
+        ]
+    }
+]

@@ -10,6 +10,7 @@ import android.support.annotation.Nullable;
 
 import com.squareup.otto.Subscribe;
 
+import org.quuux.headspace.data.Playlist;
 import org.quuux.headspace.data.StreamMetaData;
 import org.quuux.headspace.events.EventBus;
 import org.quuux.headspace.events.PlayerError;
@@ -68,20 +69,18 @@ public class PlaybackService extends Service {
         Streamer.getInstance().loadPlaylist(playlistUrl);
     }
 
-    public void playPlayback() {
-        Streamer.getInstance().start();
-    }
-
-    public void pausePlayback() {
-        Streamer.getInstance().pause();
-    }
-
     public void togglePlayback() {
         final Streamer streamer = Streamer.getInstance();
-        if (streamer.isPlaying())
+
+        if (streamer.isStopped()) {
+            final Playlist playlist = streamer.getPlaylist();
+            if (playlist != null)
+                streamer.onPlaylistLoaded(playlist);
+        } else if (streamer.isPlaying()) {
             streamer.pause();
-        else
+        } else {
             streamer.start();
+        }
     }
 
     public void stopPlayback() {
@@ -90,7 +89,6 @@ public class PlaybackService extends Service {
     }
 
     private void updateNotification(final StreamMetaData metaData) {
-
         final NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 
         final Streamer streamer = Streamer.getInstance();
