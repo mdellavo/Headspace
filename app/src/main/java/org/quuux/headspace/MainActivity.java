@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         adapter = new DirectoryAdapter(this);
         directory.setAdapter(adapter);
 
-
         playerView = (PlayerView)findViewById(R.id.player);
         playerView.setOnClickListener(this);
         onPlayerStateChanged(null);
