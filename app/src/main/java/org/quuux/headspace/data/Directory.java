@@ -12,6 +12,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Directory {
@@ -33,6 +35,13 @@ public class Directory {
             List<Station> chunk = gson.fromJson(new InputStreamReader(assetManager.open("stations/" + path), "UTF-8"), listType);
             stations.addAll(chunk);
         }
+
+        Collections.sort(stations, new Comparator<Station>() {
+            @Override
+            public int compare(final Station lhs, final Station rhs) {
+                return lhs.getName().compareTo(rhs.getName());
+            }
+        });
 
         return stations;
     }

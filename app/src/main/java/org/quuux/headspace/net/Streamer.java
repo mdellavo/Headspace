@@ -4,6 +4,7 @@ package org.quuux.headspace.net;
 import android.net.Uri;
 import android.os.Handler;
 import android.os.Looper;
+import android.util.EventLog;
 
 import com.google.android.exoplayer.ExoPlaybackException;
 import com.google.android.exoplayer.ExoPlayer;
@@ -13,16 +14,15 @@ import com.google.android.exoplayer.upstream.Allocator;
 import com.google.android.exoplayer.upstream.DataSource;
 import com.google.android.exoplayer.upstream.DefaultAllocator;
 
+import org.quuux.headspace.data.Station;
 import org.quuux.headspace.data.StreamMetaData;
+import org.quuux.headspace.events.StationUpdate;
 import org.quuux.headspace.util.Log;
 import org.quuux.headspace.data.Playlist;
 import org.quuux.headspace.events.EventBus;
 import org.quuux.headspace.events.PlayerError;
 import org.quuux.headspace.events.PlayerStateChange;
 import org.quuux.headspace.events.StreamMetaDataUpdate;
-import org.quuux.headspace.events.PlaylistUpdate;
-
-import java.util.Map;
 
 public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Playlist.Listener {
 
@@ -36,8 +36,7 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
     private ExoPlayer player;
     private Handler handler;
 
-    private Playlist playlist;
-    private int track;
+    private Station station;
     private StreamMetaData lastMetaData;
 
     protected Streamer() {
@@ -70,12 +69,8 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
     }
 
     private void loadStream(final Playlist playlist) {
-        this.playlist = playlist;
-        // FIXME better track handling
-        track = 1;
-        EventBus.getInstance().post(new PlaylistUpdate(playlist, track));
 
-        final String url = playlist.getTrackFile(track);
+        final String url = playlist.getTrackFile(1);
         if (url == null)
             return;
 
@@ -137,9 +132,17 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
         });
     }
 
-    public void loadPlaylist(final String playlistUrl) {
-        Log.d(TAG, "loading playlist %s", playlistUrl);
-        Playlist.parseAsyc(playlistUrl, this);
+    public void loadStation(final Station station) {
+        this.station = station;
+        if (station.hasPlaylists()) {
+            final String playlistUrl = station.getPlaylists().get(0);
+            Log.d(TAG, "loading playlist %s", playlistUrl);
+            Playlist.parseAsyc(playlistUrl, this);
+        } else if (station.hasStreams()) {
+            loadStream(station.getStreams().get(0));
+        }
+
+        EventBus.getInstance().post(new StationUpdate(station));
     }
 
     @Override
@@ -150,19 +153,15 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
         loadStream(playlist);
     }
 
-    public Playlist getPlaylist() {
-        return playlist;
-    }
-
-    public int getTrack() {
-        return track;
-    }
-
     public StreamMetaData getLastMetaData() {
         return lastMetaData;
     }
 
     public boolean isStopped() {
         return player.getPlaybackState() == ExoPlayer.STATE_IDLE;
+    }
+
+    public Station getStation() {
+        return station;
     }
 }

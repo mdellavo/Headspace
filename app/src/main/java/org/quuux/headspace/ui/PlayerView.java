@@ -13,7 +13,7 @@ import com.squareup.otto.Subscribe;
 import org.quuux.headspace.R;
 import org.quuux.headspace.data.StreamMetaData;
 import org.quuux.headspace.events.PlayerStateChange;
-import org.quuux.headspace.events.PlaylistUpdate;
+import org.quuux.headspace.events.StationUpdate;
 import org.quuux.headspace.events.StreamMetaDataUpdate;
 import org.quuux.headspace.util.Log;
 
@@ -70,9 +70,9 @@ public class PlayerView extends RelativeLayout {
     }
 
     @Subscribe
-    public void onPlaylistLoaded(final PlaylistUpdate update) {
-        Log.d(TAG, "onPlaylistLoaded(playlist=%s)", update.playlist);
-        streamView.setText(update.playlist.getTrackTitle(update.track));
+    public void onPlaylistLoaded(final StationUpdate update) {
+        Log.d(TAG, "onPlaylistLoaded(playlist=%s)", update.station);
+        streamView.setText(update.station.getName());
     }
 
     public void setOnClickListener(final OnClickListener listener) {

@@ -10,12 +10,11 @@ import android.support.annotation.Nullable;
 
 import com.squareup.otto.Subscribe;
 
-import org.quuux.headspace.data.Playlist;
-import org.quuux.headspace.data.StreamMetaData;
+import org.quuux.headspace.data.Station;
 import org.quuux.headspace.events.EventBus;
 import org.quuux.headspace.events.PlayerError;
 import org.quuux.headspace.events.PlayerStateChange;
-import org.quuux.headspace.events.PlaylistUpdate;
+import org.quuux.headspace.events.StationUpdate;
 import org.quuux.headspace.events.StreamMetaDataUpdate;
 import org.quuux.headspace.net.Streamer;
 import org.quuux.headspace.ui.PlaybackNotification;
@@ -65,17 +64,15 @@ public class PlaybackService extends Service {
         return binder;
     }
 
-    public void loadPlaylist(final String playlistUrl) {
-        Streamer.getInstance().loadPlaylist(playlistUrl);
+    public void loadStation(final Station station) {
+        Streamer.getInstance().loadStation(station);
     }
 
     public void togglePlayback() {
         final Streamer streamer = Streamer.getInstance();
 
         if (streamer.isStopped()) {
-            final Playlist playlist = streamer.getPlaylist();
-            if (playlist != null)
-                streamer.onPlaylistLoaded(playlist);
+
         } else if (streamer.isPlaying()) {
             streamer.pause();
         } else {
@@ -88,7 +85,7 @@ public class PlaybackService extends Service {
         streamer.stop();
     }
 
-    private void updateNotification(final StreamMetaData metaData) {
+    private void updateNotification() {
         final NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 
         final Streamer streamer = Streamer.getInstance();
@@ -96,14 +93,10 @@ public class PlaybackService extends Service {
             nm.cancel(NOTIFICATION_ID);
             stopForeground(true);
         } else {
-            final Notification notification = PlaybackNotification.getInstance(this, metaData);
+            final Notification notification = PlaybackNotification.getInstance(this);
             nm.notify(NOTIFICATION_ID, notification);
             startForeground(NOTIFICATION_ID, notification);
         }
-    }
-
-    private void updateNotification() {
-        updateNotification(Streamer.getInstance().getLastMetaData());
     }
 
     public boolean isPlaying() {
@@ -118,7 +111,7 @@ public class PlaybackService extends Service {
 
     @Subscribe
     public void onMetadataUpdated(final StreamMetaDataUpdate update) {
-        updateNotification(update.metadata);
+        updateNotification();
     }
 
     @Subscribe
@@ -132,7 +125,7 @@ public class PlaybackService extends Service {
     }
 
     @Subscribe
-    public void onPlaylistLoaded(final PlaylistUpdate update) {
+    public void onStationUpdate(final StationUpdate update) {
         updateNotification();
     }
 

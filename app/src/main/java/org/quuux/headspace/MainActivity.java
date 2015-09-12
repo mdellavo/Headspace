@@ -145,6 +145,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onItemClick(final AdapterView<?> parent, final View view, final int position, final long id) {
         final Station station = (Station) adapter.getItem(position);
         if (playbackService != null)
-            playbackService.loadPlaylist(station.getStreams().get(0));
+            playbackService.loadStation(station);
     }
 }

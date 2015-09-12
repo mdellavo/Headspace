@@ -7,6 +7,7 @@ public class Station {
 
     private String stationUrl, name, description, iconUrl;
     private List<String> streams = new ArrayList<>();
+    private List<String> playlists = new ArrayList<>();
 
     @Override
     public boolean equals(final Object o) {
@@ -41,5 +42,17 @@ public class Station {
 
     public List<String> getStreams() {
         return streams;
+    }
+
+    public List<String> getPlaylists() {
+        return playlists;
+    }
+
+    public boolean hasPlaylists() {
+        return playlists.size() > 0;
+    }
+
+    public boolean hasStreams() {
+        return streams.size() > 0;
     }
 }

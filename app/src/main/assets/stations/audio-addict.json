@@ -1,0 +1,3907 @@
+[
+    {
+        "commercials": true, 
+        "description": "Instrumental ballads played by great jazz artists", 
+        "iconUrl": "http://static.audioaddict.com/b/d/0/d/4/9/bd0d492ad03f686c3985a1e6a6dac7aa.png", 
+        "name": "Jazz Ballads", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/jazzballads", 
+        "streams": [
+            "http://pub2.jazzradio.com:80/jr_jazzballads_aac", 
+            "http://pub5.jazzradio.com:80/jr_jazzballads_aac", 
+            "http://pub7.jazzradio.com:80/jr_jazzballads_aac", 
+            "http://pub8.jazzradio.com:80/jr_jazzballads_aac", 
+            "http://pub4.jazzradio.com:80/jr_jazzballads_aac", 
+            "http://pub6.jazzradio.com:80/jr_jazzballads_aac", 
+            "http://pub1.jazzradio.com:80/jr_jazzballads_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Explore the modern artists and sounds of jazz", 
+        "iconUrl": "http://static.audioaddict.com/7b9f423bb312b2775fd3678fe6c3d4da.png", 
+        "name": "Current Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/currentjazz", 
+        "streams": [
+            "http://pub1.jazzradio.com:80/jr_currentjazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_currentjazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_currentjazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_currentjazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_currentjazz_aac", 
+            "http://pub8.jazzradio.com:80/jr_currentjazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_currentjazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The world\u2019s best mix of instrumental Smooth Jazz", 
+        "iconUrl": "http://static.audioaddict.com/b7af4587ffcff49c7930ac88fcf9f711.png", 
+        "name": "Smooth Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/smoothjazz", 
+        "streams": [
+            "http://pub8.jazzradio.com:80/jr_smoothjazz_aac", 
+            "http://pub1.jazzradio.com:80/jr_smoothjazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_smoothjazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_smoothjazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_smoothjazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_smoothjazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_smoothjazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Smooth Jazz DJs bring you the best music, 24 hours a day!", 
+        "iconUrl": "http://static.audioaddict.com/911ca46b66b1c50ad6167dd1da183fb3.png", 
+        "name": "Smooth Jazz 24'7", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/smoothjazz247", 
+        "streams": [
+            "http://pub1.jazzradio.com:80/jr_smoothjazz247_aac", 
+            "http://pub4.jazzradio.com:80/jr_smoothjazz247_aac", 
+            "http://pub6.jazzradio.com:80/jr_smoothjazz247_aac", 
+            "http://pub2.jazzradio.com:80/jr_smoothjazz247_aac", 
+            "http://pub8.jazzradio.com:80/jr_smoothjazz247_aac", 
+            "http://pub5.jazzradio.com:80/jr_smoothjazz247_aac", 
+            "http://pub7.jazzradio.com:80/jr_smoothjazz247_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Gypsy Jazz & Hot Club Swing with Django in mind", 
+        "iconUrl": "http://static.audioaddict.com/0c25c18afdee7301a9772a448dbeb24a.png", 
+        "name": "Gypsy Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/gypsyjazz", 
+        "streams": [
+            "http://pub6.jazzradio.com:80/jr_gypsyjazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_gypsyjazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_gypsyjazz_aac", 
+            "http://pub1.jazzradio.com:80/jr_gypsyjazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_gypsyjazz_aac", 
+            "http://pub8.jazzradio.com:80/jr_gypsyjazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_gypsyjazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Watch the world go by & enjoy the music on a sunny Paris day ", 
+        "iconUrl": "http://static.audioaddict.com/a2b045b0147f9125d1b1b9bd8ae6a72e.png", 
+        "name": "Paris Caf\u00e9", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/pariscafe", 
+        "streams": [
+            "http://pub8.jazzradio.com:80/jr_pariscafe_aac", 
+            "http://pub4.jazzradio.com:80/jr_pariscafe_aac", 
+            "http://pub6.jazzradio.com:80/jr_pariscafe_aac", 
+            "http://pub5.jazzradio.com:80/jr_pariscafe_aac", 
+            "http://pub1.jazzradio.com:80/jr_pariscafe_aac", 
+            "http://pub2.jazzradio.com:80/jr_pariscafe_aac", 
+            "http://pub7.jazzradio.com:80/jr_pariscafe_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Bright sounds of jazz\u2019s most exciting horns", 
+        "iconUrl": "http://static.audioaddict.com/420798739106bbacd1c38c931214cee5.png", 
+        "name": "Trumpet Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/trumpetjazz", 
+        "streams": [
+            "http://pub1.jazzradio.com:80/jr_trumpetjazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_trumpetjazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_trumpetjazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_trumpetjazz_aac", 
+            "http://pub8.jazzradio.com:80/jr_trumpetjazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_trumpetjazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_trumpetjazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The signature sound of jazz", 
+        "iconUrl": "http://static.audioaddict.com/d7e929bb8cce04c5fe8062352a20f31c.png", 
+        "name": "Saxophone Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/saxophonejazz", 
+        "streams": [
+            "http://pub1.jazzradio.com:80/jr_saxophonejazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_saxophonejazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_saxophonejazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_saxophonejazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_saxophonejazz_aac", 
+            "http://pub8.jazzradio.com:80/jr_saxophonejazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_saxophonejazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relaxed tempos and lighter tones from the West Coast", 
+        "iconUrl": "http://static.audioaddict.com/7bbe970517a8140c10e2bfcebed0dd8a.png", 
+        "name": "Cool Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/cooljazz", 
+        "streams": [
+            "http://pub1.jazzradio.com:80/jr_cooljazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_cooljazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_cooljazz_aac", 
+            "http://pub8.jazzradio.com:80/jr_cooljazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_cooljazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_cooljazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_cooljazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The artists and music that started it all", 
+        "iconUrl": "http://static.audioaddict.com/6f05681fe275e06e2ce0a5231190b1b4.png", 
+        "name": "Classic Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/classicjazz", 
+        "streams": [
+            "http://pub8.jazzradio.com:80/jr_classicjazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_classicjazz_aac", 
+            "http://pub1.jazzradio.com:80/jr_classicjazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_classicjazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_classicjazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_classicjazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_classicjazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A more relaxed and laid-back selection of jazz", 
+        "iconUrl": "http://static.audioaddict.com/4f62e86dd8514028ade4b204050d6b79.png", 
+        "name": "Mellow Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/mellowjazz", 
+        "streams": [
+            "http://pub8.jazzradio.com:80/jr_mellowjazz_aac", 
+            "http://pub1.jazzradio.com:80/jr_mellowjazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_mellowjazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_mellowjazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_mellowjazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_mellowjazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_mellowjazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Smooth Jazz selected by Dave Koz himself!", 
+        "iconUrl": "http://static.audioaddict.com/1/b/d/b/c/d/1bdbcdda2bcc5f34baa727c6f03334e6.png", 
+        "name": "Dave Koz & Friends", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/davekoz", 
+        "streams": [
+            "http://pub6.jazzradio.com:80/jr_davekoz_aac", 
+            "http://pub2.jazzradio.com:80/jr_davekoz_aac", 
+            "http://pub7.jazzradio.com:80/jr_davekoz_aac", 
+            "http://pub5.jazzradio.com:80/jr_davekoz_aac", 
+            "http://pub4.jazzradio.com:80/jr_davekoz_aac", 
+            "http://pub8.jazzradio.com:80/jr_davekoz_aac", 
+            "http://pub1.jazzradio.com:80/jr_davekoz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relaxing Smooth Jazz for your listening pleasure.", 
+        "iconUrl": "http://static.audioaddict.com/3/b/6/d/9/e/3b6d9e5edaeaac40e071cb63a5e542d4.png", 
+        "name": "Mellow Smooth Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/mellowsmoothjazz", 
+        "streams": [
+            "http://pub2.jazzradio.com:80/jr_mellowsmoothjazz_aac", 
+            "http://pub8.jazzradio.com:80/jr_mellowsmoothjazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_mellowsmoothjazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_mellowsmoothjazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_mellowsmoothjazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_mellowsmoothjazz_aac", 
+            "http://pub1.jazzradio.com:80/jr_mellowsmoothjazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relax and unwind with the smoothest lounge vibes", 
+        "iconUrl": "http://static.audioaddict.com/8a8c05b2da5d78ddaf9e453236e311ff.jpg", 
+        "name": "Smooth Lounge", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/smoothlounge", 
+        "streams": [
+            "http://pub1.jazzradio.com:80/jr_smoothlounge_aac", 
+            "http://pub5.jazzradio.com:80/jr_smoothlounge_aac", 
+            "http://pub6.jazzradio.com:80/jr_smoothlounge_aac", 
+            "http://pub8.jazzradio.com:80/jr_smoothlounge_aac", 
+            "http://pub2.jazzradio.com:80/jr_smoothlounge_aac", 
+            "http://pub7.jazzradio.com:80/jr_smoothlounge_aac", 
+            "http://pub4.jazzradio.com:80/jr_smoothlounge_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Keeping the traditions of classic jazz alive", 
+        "iconUrl": "http://static.audioaddict.com/16b5f5fa7940f687d8003119f6506cdc.png", 
+        "name": "Straight-Ahead", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/straightahead", 
+        "streams": [
+            "http://pub8.jazzradio.com:80/jr_straightahead_aac", 
+            "http://pub4.jazzradio.com:80/jr_straightahead_aac", 
+            "http://pub2.jazzradio.com:80/jr_straightahead_aac", 
+            "http://pub1.jazzradio.com:80/jr_straightahead_aac", 
+            "http://pub5.jazzradio.com:80/jr_straightahead_aac", 
+            "http://pub6.jazzradio.com:80/jr_straightahead_aac", 
+            "http://pub7.jazzradio.com:80/jr_straightahead_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Enjoy the past and present masters of the piano", 
+        "iconUrl": "http://static.audioaddict.com/adad09d59c4f7348b1148cc9791636f8.png", 
+        "name": "Piano Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/pianojazz", 
+        "streams": [
+            "http://pub6.jazzradio.com:80/jr_pianojazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_pianojazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_pianojazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_pianojazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_pianojazz_aac", 
+            "http://pub8.jazzradio.com:80/jr_pianojazz_aac", 
+            "http://pub1.jazzradio.com:80/jr_pianojazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Rhythmic sounds of the double bass", 
+        "iconUrl": "http://static.audioaddict.com/0ecb36a21b56961dc17a4238bdbc8ef4.png", 
+        "name": "Bass Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/bassjazz", 
+        "streams": [
+            "http://pub8.jazzradio.com:80/jr_bassjazz_aac", 
+            "http://pub1.jazzradio.com:80/jr_bassjazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_bassjazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_bassjazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_bassjazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_bassjazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_bassjazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Hear guitar jazz legends and classic compositions", 
+        "iconUrl": "http://static.audioaddict.com/d675746d1d4f83fc54a31a7d21748ea0.png", 
+        "name": "Guitar Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/guitarjazz", 
+        "streams": [
+            "http://pub1.jazzradio.com:80/jr_guitarjazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_guitarjazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_guitarjazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_guitarjazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_guitarjazz_aac", 
+            "http://pub8.jazzradio.com:80/jr_guitarjazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_guitarjazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A perfect blend of flamenco strings with jazz and spanish guitar", 
+        "iconUrl": "http://static.audioaddict.com/f/7/c/6/e/0/f7c6e093e2d8b9e52d565939a2ce66c9.png", 
+        "name": "Flamenco Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/flamencojazz", 
+        "streams": [
+            "http://pub8.jazzradio.com:80/jr_flamencojazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_flamencojazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_flamencojazz_aac", 
+            "http://pub1.jazzradio.com:80/jr_flamencojazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_flamencojazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_flamencojazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_flamencojazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The masters who have made their mark on the vibes", 
+        "iconUrl": "http://static.audioaddict.com/f6ad2772b240e4b7aebe784bef8714dc.png", 
+        "name": "Vibraphone Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/vibraphonejazz", 
+        "streams": [
+            "http://pub4.jazzradio.com:80/jr_vibraphonejazz_aac", 
+            "http://pub1.jazzradio.com:80/jr_vibraphonejazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_vibraphonejazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_vibraphonejazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_vibraphonejazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_vibraphonejazz_aac", 
+            "http://pub8.jazzradio.com:80/jr_vibraphonejazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Enjoy the sounds of fast-tempo improvised jazz", 
+        "iconUrl": "http://static.audioaddict.com/ee8ae50ca460d96b14fe60c06ad4fa76.png", 
+        "name": "Bebop", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/bebop", 
+        "streams": [
+            "http://pub5.jazzradio.com:80/jr_bebop_aac", 
+            "http://pub2.jazzradio.com:80/jr_bebop_aac", 
+            "http://pub8.jazzradio.com:80/jr_bebop_aac", 
+            "http://pub1.jazzradio.com:80/jr_bebop_aac", 
+            "http://pub7.jazzradio.com:80/jr_bebop_aac", 
+            "http://pub4.jazzradio.com:80/jr_bebop_aac", 
+            "http://pub6.jazzradio.com:80/jr_bebop_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A funky combination of Bebop and Soul Jazz", 
+        "iconUrl": "http://static.audioaddict.com/b784b141aff28fa00982295555c5fe1d.png", 
+        "name": "Hard Bop", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/hardbop", 
+        "streams": [
+            "http://pub1.jazzradio.com:80/jr_hardbop_aac", 
+            "http://pub5.jazzradio.com:80/jr_hardbop_aac", 
+            "http://pub2.jazzradio.com:80/jr_hardbop_aac", 
+            "http://pub7.jazzradio.com:80/jr_hardbop_aac", 
+            "http://pub4.jazzradio.com:80/jr_hardbop_aac", 
+            "http://pub8.jazzradio.com:80/jr_hardbop_aac", 
+            "http://pub6.jazzradio.com:80/jr_hardbop_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Piano, bass, and drums - the perfect combination!", 
+        "iconUrl": "http://static.audioaddict.com/7c22f01344d1950da09a0ff8186593cb.png", 
+        "name": "Piano Trios", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/pianotrios", 
+        "streams": [
+            "http://pub8.jazzradio.com:80/jr_pianotrios_aac", 
+            "http://pub1.jazzradio.com:80/jr_pianotrios_aac", 
+            "http://pub6.jazzradio.com:80/jr_pianotrios_aac", 
+            "http://pub5.jazzradio.com:80/jr_pianotrios_aac", 
+            "http://pub2.jazzradio.com:80/jr_pianotrios_aac", 
+            "http://pub7.jazzradio.com:80/jr_pianotrios_aac", 
+            "http://pub4.jazzradio.com:80/jr_pianotrios_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Experience the gently swaying rhythms of Brazil", 
+        "iconUrl": "http://static.audioaddict.com/f37ec4c15239f47cc62f5102102c7926.png", 
+        "name": "Bossa Nova", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/bossanova", 
+        "streams": [
+            "http://pub1.jazzradio.com:80/jr_bossanova_aac", 
+            "http://pub4.jazzradio.com:80/jr_bossanova_aac", 
+            "http://pub2.jazzradio.com:80/jr_bossanova_aac", 
+            "http://pub5.jazzradio.com:80/jr_bossanova_aac", 
+            "http://pub8.jazzradio.com:80/jr_bossanova_aac", 
+            "http://pub6.jazzradio.com:80/jr_bossanova_aac", 
+            "http://pub7.jazzradio.com:80/jr_bossanova_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The smoothest Bossa Nova direct from Brazil.", 
+        "iconUrl": "http://static.audioaddict.com/9/0/4/3/5/3/9043538c481c93174a6a5432b0f58c40.png", 
+        "name": "Smooth Bossa Nova", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/smoothbossanova", 
+        "streams": [
+            "http://pub6.jazzradio.com:80/jr_smoothbossanova_aac", 
+            "http://pub2.jazzradio.com:80/jr_smoothbossanova_aac", 
+            "http://pub5.jazzradio.com:80/jr_smoothbossanova_aac", 
+            "http://pub4.jazzradio.com:80/jr_smoothbossanova_aac", 
+            "http://pub7.jazzradio.com:80/jr_smoothbossanova_aac", 
+            "http://pub8.jazzradio.com:80/jr_smoothbossanova_aac", 
+            "http://pub1.jazzradio.com:80/jr_smoothbossanova_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A unique blend of jazz, lounge, & bossa nova", 
+        "iconUrl": "http://static.audioaddict.com/527213685ef138ca5ea6c3f71bbb8531.png", 
+        "name": "Fusion Lounge", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/fusionlounge", 
+        "streams": [
+            "http://pub1.jazzradio.com:80/jr_fusionlounge_aac", 
+            "http://pub5.jazzradio.com:80/jr_fusionlounge_aac", 
+            "http://pub2.jazzradio.com:80/jr_fusionlounge_aac", 
+            "http://pub4.jazzradio.com:80/jr_fusionlounge_aac", 
+            "http://pub8.jazzradio.com:80/jr_fusionlounge_aac", 
+            "http://pub6.jazzradio.com:80/jr_fusionlounge_aac", 
+            "http://pub7.jazzradio.com:80/jr_fusionlounge_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Modern singers from the new era of jazz", 
+        "iconUrl": "http://static.audioaddict.com/464a58cef2d07a3c19b3cd6d4b540a0a.png", 
+        "name": "Contemporary Vocals", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/vocaljazz", 
+        "streams": [
+            "http://pub1.jazzradio.com:80/jr_vocaljazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_vocaljazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_vocaljazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_vocaljazz_aac", 
+            "http://pub8.jazzradio.com:80/jr_vocaljazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_vocaljazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_vocaljazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Hear only the best in vocal smooth jazz", 
+        "iconUrl": "http://static.audioaddict.com/9df076d503ce55eec902a10e2d852925.png", 
+        "name": "Smooth Vocals", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/smoothvocals", 
+        "streams": [
+            "http://pub8.jazzradio.com:80/jr_smoothvocals_aac", 
+            "http://pub1.jazzradio.com:80/jr_smoothvocals_aac", 
+            "http://pub4.jazzradio.com:80/jr_smoothvocals_aac", 
+            "http://pub5.jazzradio.com:80/jr_smoothvocals_aac", 
+            "http://pub6.jazzradio.com:80/jr_smoothvocals_aac", 
+            "http://pub2.jazzradio.com:80/jr_smoothvocals_aac", 
+            "http://pub7.jazzradio.com:80/jr_smoothvocals_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Unforgettable voices sing the classics", 
+        "iconUrl": "http://static.audioaddict.com/036f741129e25fe38ab82efe6a6ab0e4.png", 
+        "name": "Vocal Legends", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/vocallegends", 
+        "streams": [
+            "http://pub8.jazzradio.com:80/jr_vocallegends_aac", 
+            "http://pub1.jazzradio.com:80/jr_vocallegends_aac", 
+            "http://pub2.jazzradio.com:80/jr_vocallegends_aac", 
+            "http://pub7.jazzradio.com:80/jr_vocallegends_aac", 
+            "http://pub5.jazzradio.com:80/jr_vocallegends_aac", 
+            "http://pub6.jazzradio.com:80/jr_vocallegends_aac", 
+            "http://pub4.jazzradio.com:80/jr_vocallegends_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Upbeat smooth jazz grooves from your favorite artists", 
+        "iconUrl": "http://static.audioaddict.com/9f95e88e85575b2cbdab1c4def14a72d.png", 
+        "name": "Smooth Uptempo", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/smoothuptempo", 
+        "streams": [
+            "http://pub4.jazzradio.com:80/jr_smoothuptempo_aac", 
+            "http://pub2.jazzradio.com:80/jr_smoothuptempo_aac", 
+            "http://pub1.jazzradio.com:80/jr_smoothuptempo_aac", 
+            "http://pub8.jazzradio.com:80/jr_smoothuptempo_aac", 
+            "http://pub5.jazzradio.com:80/jr_smoothuptempo_aac", 
+            "http://pub7.jazzradio.com:80/jr_smoothuptempo_aac", 
+            "http://pub6.jazzradio.com:80/jr_smoothuptempo_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Legendary big bands and star soloists of the swing era", 
+        "iconUrl": "http://static.audioaddict.com/f5b869b49b939ad3d862c4e1c49f956b.png", 
+        "name": "Swing & Big Band", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/swingnbigband", 
+        "streams": [
+            "http://pub8.jazzradio.com:80/jr_swingnbigband_aac", 
+            "http://pub2.jazzradio.com:80/jr_swingnbigband_aac", 
+            "http://pub1.jazzradio.com:80/jr_swingnbigband_aac", 
+            "http://pub5.jazzradio.com:80/jr_swingnbigband_aac", 
+            "http://pub4.jazzradio.com:80/jr_swingnbigband_aac", 
+            "http://pub6.jazzradio.com:80/jr_swingnbigband_aac", 
+            "http://pub7.jazzradio.com:80/jr_swingnbigband_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Where the lively rhythms and spirit of Latin America meet jazz", 
+        "iconUrl": "http://static.audioaddict.com/80189d153dd38df150f98c171f443719.png", 
+        "name": "Latin Jazz", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/latinjazz", 
+        "streams": [
+            "http://pub1.jazzradio.com:80/jr_latinjazz_aac", 
+            "http://pub4.jazzradio.com:80/jr_latinjazz_aac", 
+            "http://pub5.jazzradio.com:80/jr_latinjazz_aac", 
+            "http://pub6.jazzradio.com:80/jr_latinjazz_aac", 
+            "http://pub8.jazzradio.com:80/jr_latinjazz_aac", 
+            "http://pub7.jazzradio.com:80/jr_latinjazz_aac", 
+            "http://pub2.jazzradio.com:80/jr_latinjazz_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A mix of early jazz, swing, big bands, and classic tunes", 
+        "iconUrl": "http://static.audioaddict.com/614b9e8f72ed053e5cac66ee7f9c23b0.png", 
+        "name": "Timeless Classics", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/timelessclassics", 
+        "streams": [
+            "http://pub6.jazzradio.com:80/jr_timelessclassics_aac", 
+            "http://pub1.jazzradio.com:80/jr_timelessclassics_aac", 
+            "http://pub8.jazzradio.com:80/jr_timelessclassics_aac", 
+            "http://pub5.jazzradio.com:80/jr_timelessclassics_aac", 
+            "http://pub7.jazzradio.com:80/jr_timelessclassics_aac", 
+            "http://pub2.jazzradio.com:80/jr_timelessclassics_aac", 
+            "http://pub4.jazzradio.com:80/jr_timelessclassics_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "For fans of Sinatra and the Great American Songbook", 
+        "iconUrl": "http://static.audioaddict.com/2/0/6/5/b/c/2065bc663703060bf60a2d2645a6f2a0.png", 
+        "name": "Sinatra Style", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/sinatrastyle", 
+        "streams": [
+            "http://pub2.jazzradio.com:80/jr_sinatrastyle_aac", 
+            "http://pub1.jazzradio.com:80/jr_sinatrastyle_aac", 
+            "http://pub4.jazzradio.com:80/jr_sinatrastyle_aac", 
+            "http://pub5.jazzradio.com:80/jr_sinatrastyle_aac", 
+            "http://pub6.jazzradio.com:80/jr_sinatrastyle_aac", 
+            "http://pub7.jazzradio.com:80/jr_sinatrastyle_aac", 
+            "http://pub8.jazzradio.com:80/jr_sinatrastyle_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A fusion of blues and rock music", 
+        "iconUrl": "http://static.audioaddict.com/e/f/7/9/0/6/ef7906b4e84160e5c95d165b7426c916.png", 
+        "name": "Blues Rock", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/bluesrock", 
+        "streams": [
+            "http://pub1.jazzradio.com:80/jr_bluesrock_aac", 
+            "http://pub4.jazzradio.com:80/jr_bluesrock_aac", 
+            "http://pub5.jazzradio.com:80/jr_bluesrock_aac", 
+            "http://pub8.jazzradio.com:80/jr_bluesrock_aac", 
+            "http://pub7.jazzradio.com:80/jr_bluesrock_aac", 
+            "http://pub6.jazzradio.com:80/jr_bluesrock_aac", 
+            "http://pub2.jazzradio.com:80/jr_bluesrock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "America\u2019s roots music with guitar and harmonica", 
+        "iconUrl": "http://static.audioaddict.com/7eb6e8f021df91680057969b53a8fac3.png", 
+        "name": "Blues", 
+        "network": "JazzRadio.com", 
+        "stationUrl": "http://www.jazzradio.com/blues", 
+        "streams": [
+            "http://pub4.jazzradio.com:80/jr_blues_aac", 
+            "http://pub2.jazzradio.com:80/jr_blues_aac", 
+            "http://pub5.jazzradio.com:80/jr_blues_aac", 
+            "http://pub1.jazzradio.com:80/jr_blues_aac", 
+            "http://pub6.jazzradio.com:80/jr_blues_aac", 
+            "http://pub8.jazzradio.com:80/jr_blues_aac", 
+            "http://pub7.jazzradio.com:80/jr_blues_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A fusion of Blues and Rock.", 
+        "iconUrl": "http://static.audioaddict.com/e/f/7/9/0/6/ef7906b4e84160e5c95d165b7426c916.png", 
+        "name": "Blues Rock", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/bluesrock", 
+        "streams": [
+            "http://pub7.rockradio.com:80/rr_bluesrock_aac", 
+            "http://pub8.rockradio.com:80/rr_bluesrock_aac", 
+            "http://pub5.rockradio.com:80/rr_bluesrock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Classic rock hits from the 70s and 80s", 
+        "iconUrl": "http://static.audioaddict.com/d26636837f630057d6b21356d36f1fb7.jpg", 
+        "name": "Classic Rock", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/classicrock", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_classicrock_aac", 
+            "http://pub7.rockradio.com:80/rr_classicrock_aac", 
+            "http://pub5.rockradio.com:80/rr_classicrock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Classic Metal hits and artists", 
+        "iconUrl": "http://static.audioaddict.com/9/2/7/b/d/0/927bd088daa1bb63966c497b0a6083d2.png", 
+        "name": "Classic Metal", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/classicmetal", 
+        "streams": [
+            "http://pub7.rockradio.com:80/rr_classicmetal_aac", 
+            "http://pub8.rockradio.com:80/rr_classicmetal_aac", 
+            "http://pub5.rockradio.com:80/rr_classicmetal_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Get your 80s rock nostalgia fix", 
+        "iconUrl": "http://static.audioaddict.com/4f9170a0727efa30e93d1acff3938d1c.jpg", 
+        "name": "80's Rock", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/80srock", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_80srock_aac", 
+            "http://pub7.rockradio.com:80/rr_80srock_aac", 
+            "http://pub5.rockradio.com:80/rr_80srock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The very best in classic 60s Rock!", 
+        "iconUrl": "http://static.audioaddict.com/2/c/d/a/3/1/2cda314915c57288384a8dacd54e8ef6.png", 
+        "name": "60's Rock", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/60srock", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_60srock_aac", 
+            "http://pub7.rockradio.com:80/rr_60srock_aac", 
+            "http://pub5.rockradio.com:80/rr_60srock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Soaring vocals with power riffs ", 
+        "iconUrl": "http://static.audioaddict.com/a581b7cc59cc919a5b546dc82caa097c.jpg", 
+        "name": "Symphonic Metal", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/symphonicmetal", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_symphonicmetal_aac", 
+            "http://pub7.rockradio.com:80/rr_symphonicmetal_aac", 
+            "http://pub5.rockradio.com:80/rr_symphonicmetal_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The best selection of Hard Rock hits anywhere", 
+        "iconUrl": "http://static.audioaddict.com/9f4204eebbd94d8ca53a189d2011a6f7.jpg", 
+        "name": "Hard Rock", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/hardrock", 
+        "streams": [
+            "http://pub7.rockradio.com:80/rr_hardrock_aac", 
+            "http://pub8.rockradio.com:80/rr_hardrock_aac", 
+            "http://pub5.rockradio.com:80/rr_hardrock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The best variety of Soft Rock tracks you know and love", 
+        "iconUrl": "http://static.audioaddict.com/d07fab49394001410fda74e0fd7335cb.jpg", 
+        "name": "Soft Rock", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/softrock", 
+        "streams": [
+            "http://pub7.rockradio.com:80/rr_softrock_aac", 
+            "http://pub8.rockradio.com:80/rr_softrock_aac", 
+            "http://pub5.rockradio.com:80/rr_softrock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Industrialized Rock with heavy machinery", 
+        "iconUrl": "http://static.audioaddict.com/a/3/5/8/c/b/a358cb744f70204d6b62e58ec0732461.jpg", 
+        "name": "Industrial", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/industrial", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_industrial_aac", 
+            "http://pub7.rockradio.com:80/rr_industrial_aac", 
+            "http://pub5.rockradio.com:80/rr_industrial_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "If it ROCKED in the 90s you will hear it here", 
+        "iconUrl": "http://static.audioaddict.com/3fb0f3e50eddd4fe9c89530e209ff959.jpg", 
+        "name": "90's Rock", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/90srock", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_90srock_aac", 
+            "http://pub7.rockradio.com:80/rr_90srock_aac", 
+            "http://pub5.rockradio.com:80/rr_90srock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Modern hits from the greats to the new bands", 
+        "iconUrl": "http://static.audioaddict.com/6ad6bb355bc1e1264c4f617d9a04f125.jpg", 
+        "name": "Modern Rock", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/modernrock", 
+        "streams": [
+            "http://pub7.rockradio.com:80/rr_modernrock_aac", 
+            "http://pub8.rockradio.com:80/rr_modernrock_aac", 
+            "http://pub5.rockradio.com:80/rr_modernrock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Adrenaline fuelled, head-banging Thrash Metal!", 
+        "iconUrl": "http://static.audioaddict.com/5/0/5/4/5/1/5054515721cbb79c97940117ed083395.png", 
+        "name": "Thrash Metal", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/thrashmetal", 
+        "streams": [
+            "http://pub7.rockradio.com:80/rr_thrashmetal_aac", 
+            "http://pub8.rockradio.com:80/rr_thrashmetal_aac", 
+            "http://pub5.rockradio.com:80/rr_thrashmetal_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Hair-flying metal and rock!", 
+        "iconUrl": "http://static.audioaddict.com/3bde74a414c5b001817906338f8fac72.jpg", 
+        "name": "Hair Bands", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/hairbands", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_hairbands_aac", 
+            "http://pub7.rockradio.com:80/rr_hairbands_aac", 
+            "http://pub5.rockradio.com:80/rr_hairbands_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The best in Alternative hits from the 90s.", 
+        "iconUrl": "http://static.audioaddict.com/b/7/6/2/7/3/b76273e5bcdb3a8d595f548951d276e3.png", 
+        "name": "90's Alternative", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/alternative90s", 
+        "streams": [
+            "http://pub7.rockradio.com:80/rr_alternative90s_aac", 
+            "http://pub8.rockradio.com:80/rr_alternative90s_aac", 
+            "http://pub5.rockradio.com:80/rr_alternative90s_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Classic Hard Rock hits from the 70s, 80s, and 90s", 
+        "iconUrl": "http://static.audioaddict.com/f2e7b37880ce298d3396b7b335fbe30b.jpg", 
+        "name": "Classic Hard Rock", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/classichardrock", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_classichardrock_aac", 
+            "http://pub7.rockradio.com:80/rr_classichardrock_aac", 
+            "http://pub5.rockradio.com:80/rr_classichardrock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The catchiest Rock channel on the net", 
+        "iconUrl": "http://static.audioaddict.com/9c537734af32928ca49e4114689e513d.jpg", 
+        "name": "Pop Rock", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/poprock", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_poprock_aac", 
+            "http://pub7.rockradio.com:80/rr_poprock_aac", 
+            "http://pub5.rockradio.com:80/rr_poprock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The best in Alternative hits from the 80s.", 
+        "iconUrl": "http://static.audioaddict.com/a/0/b/0/6/7/a0b0674cf50925b0f9bfb5b40f89a98b.png", 
+        "name": "80's Alternative", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/alternative80s", 
+        "streams": [
+            "http://pub7.rockradio.com:80/rr_alternative80s_aac", 
+            "http://pub8.rockradio.com:80/rr_alternative80s_aac", 
+            "http://pub5.rockradio.com:80/rr_alternative80s_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Progressive Rock inspired by Jazz, Blues and Funk.", 
+        "iconUrl": "http://static.audioaddict.com/6/4/9/b/a/7/649ba7da6e22624dd57d52a6f5bdcfc6.png", 
+        "name": "Progressive Rock", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/progressiverock", 
+        "streams": [
+            "http://pub7.rockradio.com:80/rr_progressiverock_aac", 
+            "http://pub8.rockradio.com:80/rr_progressiverock_aac", 
+            "http://pub5.rockradio.com:80/rr_progressiverock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Hold up your lighters for these Rock Ballads!", 
+        "iconUrl": "http://static.audioaddict.com/8/c/9/a/d/1/8c9ad1046f81bb948c7d36f93206937b.png", 
+        "name": "Rock Ballads", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/rockballads", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_rockballads_aac", 
+            "http://pub7.rockradio.com:80/rr_rockballads_aac", 
+            "http://pub5.rockradio.com:80/rr_rockballads_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The best variety in Punk from its inception until now", 
+        "iconUrl": "http://static.audioaddict.com/823413ff8915d898daea167a52a4dd78.jpg", 
+        "name": "Punk Rock", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/punkrock", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_punkrock_aac", 
+            "http://pub7.rockradio.com:80/rr_punkrock_aac", 
+            "http://pub5.rockradio.com:80/rr_punkrock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Featuring all metal from its inception until today", 
+        "iconUrl": "http://static.audioaddict.com/8dba038dab079236da26ce347b97ed74.jpg", 
+        "name": "Metal", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/metal", 
+        "streams": [
+            "http://pub7.rockradio.com:80/rr_metal_aac", 
+            "http://pub8.rockradio.com:80/rr_metal_aac", 
+            "http://pub5.rockradio.com:80/rr_metal_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Where the heavier side of metal is heard", 
+        "iconUrl": "http://static.audioaddict.com/a7f48428e166b87577b447d3ff75b292.jpg", 
+        "name": "Heavy Metal", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/heavymetal", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_heavymetal_aac", 
+            "http://pub7.rockradio.com:80/rr_heavymetal_aac", 
+            "http://pub5.rockradio.com:80/rr_heavymetal_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A Melodic blend of Heavy and Death Metal.", 
+        "iconUrl": "http://static.audioaddict.com/a/2/0/3/4/1/a2034141cec2ff28a7b78b08a2796226.png", 
+        "name": "Melodic Death Metal", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/melodicdeathmetal", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_melodicdeathmetal_aac", 
+            "http://pub7.rockradio.com:80/rr_melodicdeathmetal_aac", 
+            "http://pub5.rockradio.com:80/rr_melodicdeathmetal_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Hardcore Punk meets Heavy Metal", 
+        "iconUrl": "http://static.audioaddict.com/2/3/2/9/1/7/232917998149c86d37b849d562812c90.jpg", 
+        "name": "Grunge", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/grunge", 
+        "streams": [
+            "http://pub5.rockradio.com:80/rr_grunge_aac", 
+            "http://pub7.rockradio.com:80/rr_grunge_aac", 
+            "http://pub8.rockradio.com:80/rr_grunge_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Get your death fix now", 
+        "iconUrl": "http://static.audioaddict.com/c67fc39c2603300e9e3b14bf09338c86.jpg", 
+        "name": "Death Metal", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/deathmetal", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_deathmetal_aac", 
+            "http://pub7.rockradio.com:80/rr_deathmetal_aac", 
+            "http://pub5.rockradio.com:80/rr_deathmetal_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Non-stop amazing guitar work and grandiose vocals", 
+        "iconUrl": "http://static.audioaddict.com/32fabbbe247e6f9f7b1be441c5e9ea6f.jpg", 
+        "name": "Power Metal", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/powermetal", 
+        "streams": [
+            "http://pub7.rockradio.com:80/rr_powermetal_aac", 
+            "http://pub8.rockradio.com:80/rr_powermetal_aac", 
+            "http://pub5.rockradio.com:80/rr_powermetal_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Nu Metal variety from the beginning to today", 
+        "iconUrl": "http://static.audioaddict.com/81135974cf871e2918ea5125f24aca71.jpg", 
+        "name": "Nu Metal", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/numetal", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_numetal_aac", 
+            "http://pub7.rockradio.com:80/rr_numetal_aac", 
+            "http://pub5.rockradio.com:80/rr_numetal_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Melodic choruses and Hardcore breakdowns", 
+        "iconUrl": "http://static.audioaddict.com/9c6c4055fea238919b208e9afd2d8596.jpg", 
+        "name": "Metalcore", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/metalcore", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_metalcore_aac", 
+            "http://pub7.rockradio.com:80/rr_metalcore_aac", 
+            "http://pub5.rockradio.com:80/rr_metalcore_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Hear the best of Indie Rock", 
+        "iconUrl": "http://static.audioaddict.com/b585c3db95ce5084e573da4db7d94030.jpg", 
+        "name": "Indie Rock", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/indierock", 
+        "streams": [
+            "http://pub7.rockradio.com:80/rr_indierock_aac", 
+            "http://pub8.rockradio.com:80/rr_indierock_aac", 
+            "http://pub5.rockradio.com:80/rr_indierock_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Emotionally charged music", 
+        "iconUrl": "http://static.audioaddict.com/0a39beab4a16aec97325a7da30e0a3b5.jpg", 
+        "name": "Screamo-Emo", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/screamoemo", 
+        "streams": [
+            "http://pub7.rockradio.com:80/rr_screamoemo_aac", 
+            "http://pub8.rockradio.com:80/rr_screamoemo_aac", 
+            "http://pub5.rockradio.com:80/rr_screamoemo_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "From its dark inception until today", 
+        "iconUrl": "http://static.audioaddict.com/7d739d76ebc1fdbae4dadd25bb1965d2.jpg", 
+        "name": "Black Metal", 
+        "network": "RockRadio.com", 
+        "stationUrl": "http://www.rockradio.com/blackmetal", 
+        "streams": [
+            "http://pub8.rockradio.com:80/rr_blackmetal_aac", 
+            "http://pub7.rockradio.com:80/rr_blackmetal_aac", 
+            "http://pub5.rockradio.com:80/rr_blackmetal_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The sounds of Chill & Tropical House are expertly made for lounging and dancing alike with it's deeper house vibes.", 
+        "iconUrl": "http://static.audioaddict.com/4/8/c/5/5/f/48c55f45921a5ba9671612172dce8f38.png", 
+        "name": "Chill & Tropical House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/chillntropicalhouse", 
+        "streams": [
+            "http://pub4.di.fm:80/di_chillntropicalhouse_aac", 
+            "http://pub6.di.fm:80/di_chillntropicalhouse_aac", 
+            "http://pub7.di.fm:80/di_chillntropicalhouse_aac", 
+            "http://pub8.di.fm:80/di_chillntropicalhouse_aac", 
+            "http://pub5.di.fm:80/di_chillntropicalhouse_aac", 
+            "http://pub2.di.fm:80/di_chillntropicalhouse_aac", 
+            "http://pub1.di.fm:80/di_chillntropicalhouse_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The melodic side of progressive house, packed with driving rhythms and forward thinking sounds.", 
+        "iconUrl": "http://static.audioaddict.com/3/d/8/e/b/1/3d8eb1823a29d891b516cc3bf2f539c9.png", 
+        "name": "Melodic Progressive", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/melodicprogressive", 
+        "streams": [
+            "http://pub6.di.fm:80/di_melodicprogressive_aac", 
+            "http://pub2.di.fm:80/di_melodicprogressive_aac", 
+            "http://pub8.di.fm:80/di_melodicprogressive_aac", 
+            "http://pub5.di.fm:80/di_melodicprogressive_aac", 
+            "http://pub7.di.fm:80/di_melodicprogressive_aac", 
+            "http://pub4.di.fm:80/di_melodicprogressive_aac", 
+            "http://pub1.di.fm:80/di_melodicprogressive_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The beloved sounds of deep techno saturated with tape delays, heavy reverb and ice cold atmospherics.", 
+        "iconUrl": "http://static.audioaddict.com/4/6/7/7/d/1/4677d19284fdb4522cd9e60ec4244686.png", 
+        "name": "Dub Techno", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/dubtechno", 
+        "streams": [
+            "http://pub8.di.fm:80/di_dubtechno_aac", 
+            "http://pub5.di.fm:80/di_dubtechno_aac", 
+            "http://pub6.di.fm:80/di_dubtechno_aac", 
+            "http://pub7.di.fm:80/di_dubtechno_aac", 
+            "http://pub4.di.fm:80/di_dubtechno_aac", 
+            "http://pub2.di.fm:80/di_dubtechno_aac", 
+            "http://pub1.di.fm:80/di_dubtechno_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The sound of digital malfunctions, electric hum and bit rate distortions perfectly placed alongside laid-back hip hop beats.", 
+        "iconUrl": "http://static.audioaddict.com/1/5/e/e/a/5/15eea5494b52ec59d8f426eff1a76f20.png", 
+        "name": "Glitch Hop", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/glitchhop", 
+        "streams": [
+            "http://pub6.di.fm:80/di_glitchhop_aac", 
+            "http://pub5.di.fm:80/di_glitchhop_aac", 
+            "http://pub1.di.fm:80/di_glitchhop_aac", 
+            "http://pub2.di.fm:80/di_glitchhop_aac", 
+            "http://pub8.di.fm:80/di_glitchhop_aac", 
+            "http://pub7.di.fm:80/di_glitchhop_aac", 
+            "http://pub4.di.fm:80/di_glitchhop_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Gritty, off-kilter and typically instrumental, the Future Beats sound is perfectly married with modern technology and hip hop idealism.", 
+        "iconUrl": "http://static.audioaddict.com/5/6/0/6/5/9/560659bc59ac29cd9a4eb8a63a469267.png", 
+        "name": "Future Beats", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/futurebeats", 
+        "streams": [
+            "http://pub6.di.fm:80/di_futurebeats_aac", 
+            "http://pub7.di.fm:80/di_futurebeats_aac", 
+            "http://pub4.di.fm:80/di_futurebeats_aac", 
+            "http://pub8.di.fm:80/di_futurebeats_aac", 
+            "http://pub5.di.fm:80/di_futurebeats_aac", 
+            "http://pub2.di.fm:80/di_futurebeats_aac", 
+            "http://pub1.di.fm:80/di_futurebeats_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The spirit of Rock & Roll with an electronic soul. Club culture and live music combined.", 
+        "iconUrl": "http://static.audioaddict.com/2/4/2/5/f/3/2425f3532b9f9e0c2c32ab13889a9aba.png", 
+        "name": "Indie Dance", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/indiedance", 
+        "streams": [
+            "http://pub7.di.fm:80/di_indiedance_aac", 
+            "http://pub8.di.fm:80/di_indiedance_aac", 
+            "http://pub4.di.fm:80/di_indiedance_aac", 
+            "http://pub2.di.fm:80/di_indiedance_aac", 
+            "http://pub5.di.fm:80/di_indiedance_aac", 
+            "http://pub6.di.fm:80/di_indiedance_aac", 
+            "http://pub1.di.fm:80/di_indiedance_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "One of the biggest cultural soundtracks with the infectious thump of house music. Expect sultry saxophones, trumpets, and finger snapping grooves.", 
+        "iconUrl": "http://static.audioaddict.com/4/9/e/1/5/9/49e159ac3b8473eac86af4cc1e24ffd3.png", 
+        "name": "Jazz House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/jazzhouse", 
+        "streams": [
+            "http://pub6.di.fm:80/di_jazzhouse_aac", 
+            "http://pub5.di.fm:80/di_jazzhouse_aac", 
+            "http://pub4.di.fm:80/di_jazzhouse_aac", 
+            "http://pub2.di.fm:80/di_jazzhouse_aac", 
+            "http://pub8.di.fm:80/di_jazzhouse_aac", 
+            "http://pub7.di.fm:80/di_jazzhouse_aac", 
+            "http://pub1.di.fm:80/di_jazzhouse_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The smoother side of Trap but still packed with mechanical grooves and hip hop moods. \r\n", 
+        "iconUrl": "http://static.audioaddict.com/f/3/5/0/f/4/f350f444c8d87b080c08a2abe9b6106f.png", 
+        "name": "Liquid Trap", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/liquidtrap", 
+        "streams": [
+            "http://pub7.di.fm:80/di_liquidtrap_aac", 
+            "http://pub4.di.fm:80/di_liquidtrap_aac", 
+            "http://pub8.di.fm:80/di_liquidtrap_aac", 
+            "http://pub6.di.fm:80/di_liquidtrap_aac", 
+            "http://pub2.di.fm:80/di_liquidtrap_aac", 
+            "http://pub5.di.fm:80/di_liquidtrap_aac", 
+            "http://pub1.di.fm:80/di_liquidtrap_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Experimental, influential and pushing the boundaries of electronic music. Truly a sound to experience. ", 
+        "iconUrl": "http://static.audioaddict.com/9/6/6/d/9/5/966d955e9ffc6124be1d185703a436c4.png", 
+        "name": "IDM", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/idm", 
+        "streams": [
+            "http://pub8.di.fm:80/di_idm_aac", 
+            "http://pub4.di.fm:80/di_idm_aac", 
+            "http://pub2.di.fm:80/di_idm_aac", 
+            "http://pub5.di.fm:80/di_idm_aac", 
+            "http://pub6.di.fm:80/di_idm_aac", 
+            "http://pub7.di.fm:80/di_idm_aac", 
+            "http://pub1.di.fm:80/di_idm_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Where would dance music be without Detroit? The city that started it all continues to inspire and educate. ", 
+        "iconUrl": "http://static.audioaddict.com/5/d/0/8/6/3/5d086388aca22629f80ba7c65bd4a163.png", 
+        "name": "Detroit House & Techno", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/detroithousentechno", 
+        "streams": [
+            "http://pub5.di.fm:80/di_detroithousentechno_aac", 
+            "http://pub4.di.fm:80/di_detroithousentechno_aac", 
+            "http://pub6.di.fm:80/di_detroithousentechno_aac", 
+            "http://pub8.di.fm:80/di_detroithousentechno_aac", 
+            "http://pub7.di.fm:80/di_detroithousentechno_aac", 
+            "http://pub2.di.fm:80/di_detroithousentechno_aac", 
+            "http://pub1.di.fm:80/di_detroithousentechno_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Emotive high energy dance music which embraces melodies, vocals and a true journey of dance music songwriting.", 
+        "iconUrl": "http://static.audioaddict.com/befc1043f0a216128f8570d3664856f7.png", 
+        "name": "Trance", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/trance", 
+        "streams": [
+            "http://pub6.di.fm:80/di_trance_aac", 
+            "http://pub4.di.fm:80/di_trance_aac", 
+            "http://pub1.di.fm:80/di_trance_aac", 
+            "http://pub5.di.fm:80/di_trance_aac", 
+            "http://pub2.di.fm:80/di_trance_aac", 
+            "http://pub8.di.fm:80/di_trance_aac", 
+            "http://pub7.di.fm:80/di_trance_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Lush vocals paired together with emotive dance music. Beautiful melodies and endless energy.", 
+        "iconUrl": "http://static.audioaddict.com/009b4fcdb032cceee6f3da5efd4a86e9.png", 
+        "name": "Vocal Trance", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/vocaltrance", 
+        "streams": [
+            "http://pub5.di.fm:80/di_vocaltrance_aac", 
+            "http://pub7.di.fm:80/di_vocaltrance_aac", 
+            "http://pub4.di.fm:80/di_vocaltrance_aac", 
+            "http://pub2.di.fm:80/di_vocaltrance_aac", 
+            "http://pub8.di.fm:80/di_vocaltrance_aac", 
+            "http://pub1.di.fm:80/di_vocaltrance_aac", 
+            "http://pub6.di.fm:80/di_vocaltrance_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Music to chill to. Music made for when it\u2019s all about kicking off your shoes, laying back, and totally relaxing.", 
+        "iconUrl": "http://static.audioaddict.com/58f7afca5a6883c063f8642bfd2cef80.png", 
+        "name": "Lounge", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/lounge", 
+        "streams": [
+            "http://pub7.di.fm:80/di_lounge_aac", 
+            "http://pub5.di.fm:80/di_lounge_aac", 
+            "http://pub4.di.fm:80/di_lounge_aac", 
+            "http://pub6.di.fm:80/di_lounge_aac", 
+            "http://pub8.di.fm:80/di_lounge_aac", 
+            "http://pub1.di.fm:80/di_lounge_aac", 
+            "http://pub2.di.fm:80/di_lounge_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Electronic sounds, mellow mid-tempo rhythms, and a groove meant to calm the senses and ease the mind.", 
+        "iconUrl": "http://static.audioaddict.com/8f7ce44aa749a97563c98dc5b69053aa.png", 
+        "name": "Chillout", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/chillout", 
+        "streams": [
+            "http://pub4.di.fm:80/di_chillout_aac", 
+            "http://pub6.di.fm:80/di_chillout_aac", 
+            "http://pub5.di.fm:80/di_chillout_aac", 
+            "http://pub1.di.fm:80/di_chillout_aac", 
+            "http://pub7.di.fm:80/di_chillout_aac", 
+            "http://pub8.di.fm:80/di_chillout_aac", 
+            "http://pub2.di.fm:80/di_chillout_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relaxing vibes and a collection of vocal songs providing the laid back soundtrack to your day.", 
+        "iconUrl": "http://static.audioaddict.com/a5b0bd27de43d04e1da9acf5b8883e85.png", 
+        "name": "Vocal Chillout", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/vocalchillout", 
+        "streams": [
+            "http://pub8.di.fm:80/di_vocalchillout_aac", 
+            "http://pub1.di.fm:80/di_vocalchillout_aac", 
+            "http://pub6.di.fm:80/di_vocalchillout_aac", 
+            "http://pub5.di.fm:80/di_vocalchillout_aac", 
+            "http://pub4.di.fm:80/di_vocalchillout_aac", 
+            "http://pub7.di.fm:80/di_vocalchillout_aac", 
+            "http://pub2.di.fm:80/di_vocalchillout_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Hip hop, trip hop, downtempo beats and jazz, blended together in a mellow, laid back style for perfect listening.", 
+        "iconUrl": "http://static.audioaddict.com/2/b/c/a/1/5/2bca153955723e44b5ef9ab9e9fcba8d.png", 
+        "name": "ChillHop", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/chillhop", 
+        "streams": [
+            "http://pub8.di.fm:80/di_chillhop_aac", 
+            "http://pub2.di.fm:80/di_chillhop_aac", 
+            "http://pub6.di.fm:80/di_chillhop_aac", 
+            "http://pub1.di.fm:80/di_chillhop_aac", 
+            "http://pub7.di.fm:80/di_chillhop_aac", 
+            "http://pub4.di.fm:80/di_chillhop_aac", 
+            "http://pub5.di.fm:80/di_chillhop_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The brilliant combination of dubstep rhythms with the mellow grooves of chillout. A unique sound all its own.", 
+        "iconUrl": "http://static.audioaddict.com/7/2/5/1/6/8/7251688497a15b6a27a8e6952a3318fc.png", 
+        "name": "Chillstep", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/chillstep", 
+        "streams": [
+            "http://pub5.di.fm:80/di_chillstep_aac", 
+            "http://pub6.di.fm:80/di_chillstep_aac", 
+            "http://pub7.di.fm:80/di_chillstep_aac", 
+            "http://pub2.di.fm:80/di_chillstep_aac", 
+            "http://pub4.di.fm:80/di_chillstep_aac", 
+            "http://pub8.di.fm:80/di_chillstep_aac", 
+            "http://pub1.di.fm:80/di_chillstep_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Always moving forward, progressive continues to reinvent itself into new sounds and styles made for the floor.", 
+        "iconUrl": "http://static.audioaddict.com/fcea7c9d9a16314103a41f66bd6dfd15.png", 
+        "name": "Progressive", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/progressive", 
+        "streams": [
+            "http://pub6.di.fm:80/di_progressive_aac", 
+            "http://pub7.di.fm:80/di_progressive_aac", 
+            "http://pub8.di.fm:80/di_progressive_aac", 
+            "http://pub5.di.fm:80/di_progressive_aac", 
+            "http://pub4.di.fm:80/di_progressive_aac", 
+            "http://pub1.di.fm:80/di_progressive_aac", 
+            "http://pub2.di.fm:80/di_progressive_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Born in Chicago and now global, house music is always evolving but remains true to it\u2019s pure 4/4 structure.", 
+        "iconUrl": "http://static.audioaddict.com/6f8a0b3279c24b1c5fa1c6c1397b9b56.png", 
+        "name": "House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/house", 
+        "streams": [
+            "http://pub5.di.fm:80/di_house_aac", 
+            "http://pub6.di.fm:80/di_house_aac", 
+            "http://pub4.di.fm:80/di_house_aac", 
+            "http://pub1.di.fm:80/di_house_aac", 
+            "http://pub8.di.fm:80/di_house_aac", 
+            "http://pub7.di.fm:80/di_house_aac", 
+            "http://pub2.di.fm:80/di_house_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The sound of the largest events. From the gargantuan festivals, the huge main rooms and the biggest DJs.", 
+        "iconUrl": "http://static.audioaddict.com/5/b/a/f/e/3/5bafe3802484d479d77b21aa34f537fe.png", 
+        "name": "Mainstage", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/mainstage", 
+        "streams": [
+            "http://pub7.di.fm:80/di_mainstage_aac", 
+            "http://pub2.di.fm:80/di_mainstage_aac", 
+            "http://pub5.di.fm:80/di_mainstage_aac", 
+            "http://pub6.di.fm:80/di_mainstage_aac", 
+            "http://pub4.di.fm:80/di_mainstage_aac", 
+            "http://pub8.di.fm:80/di_mainstage_aac", 
+            "http://pub1.di.fm:80/di_mainstage_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Minimal fuses elements of house, techno and electronica and strips it back to focus on the spaces between the sound.", 
+        "iconUrl": "http://static.audioaddict.com/5c29e3063f748d156260fb874634b602.png", 
+        "name": "Minimal", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/minimal", 
+        "streams": [
+            "http://pub2.di.fm:80/di_minimal_aac", 
+            "http://pub6.di.fm:80/di_minimal_aac", 
+            "http://pub5.di.fm:80/di_minimal_aac", 
+            "http://pub8.di.fm:80/di_minimal_aac", 
+            "http://pub4.di.fm:80/di_minimal_aac", 
+            "http://pub1.di.fm:80/di_minimal_aac", 
+            "http://pub7.di.fm:80/di_minimal_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Concrete kicks and punching rhythms, hard dance is a tougher side of music with sharp edges and aggressive power.", 
+        "iconUrl": "http://static.audioaddict.com/a67b19cab6cdb97ec77f8264f9c4c562.png", 
+        "name": "Hard Dance", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/harddance", 
+        "streams": [
+            "http://pub4.di.fm:80/di_harddance_aac", 
+            "http://pub8.di.fm:80/di_harddance_aac", 
+            "http://pub5.di.fm:80/di_harddance_aac", 
+            "http://pub6.di.fm:80/di_harddance_aac", 
+            "http://pub1.di.fm:80/di_harddance_aac", 
+            "http://pub7.di.fm:80/di_harddance_aac", 
+            "http://pub2.di.fm:80/di_harddance_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Pop music infused with a high energy 4/4 pulse. Heavy on the synthesizers, the melodies and the vocals.", 
+        "iconUrl": "http://static.audioaddict.com/a42ae2b9810acb81c6003915113c7d9d.png", 
+        "name": "EuroDance", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/eurodance", 
+        "streams": [
+            "http://pub5.di.fm:80/di_eurodance_aac", 
+            "http://pub4.di.fm:80/di_eurodance_aac", 
+            "http://pub6.di.fm:80/di_eurodance_aac", 
+            "http://pub1.di.fm:80/di_eurodance_aac", 
+            "http://pub7.di.fm:80/di_eurodance_aac", 
+            "http://pub8.di.fm:80/di_eurodance_aac", 
+            "http://pub2.di.fm:80/di_eurodance_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Laid back grooves and a collection of smooth vocals soothe the ears and relax the mind.", 
+        "iconUrl": "http://static.audioaddict.com/5/3/8/1/3/7/5381371e7ebab35aaa3b8f3f290f31ca.png", 
+        "name": "Vocal Lounge", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/vocallounge", 
+        "streams": [
+            "http://pub6.di.fm:80/di_vocallounge_aac", 
+            "http://pub1.di.fm:80/di_vocallounge_aac", 
+            "http://pub2.di.fm:80/di_vocallounge_aac", 
+            "http://pub8.di.fm:80/di_vocallounge_aac", 
+            "http://pub7.di.fm:80/di_vocallounge_aac", 
+            "http://pub5.di.fm:80/di_vocallounge_aac", 
+            "http://pub4.di.fm:80/di_vocallounge_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "UMF Radio 24/7", 
+        "iconUrl": "http://static.audioaddict.com/2/c/9/1/e/9/2c91e9bbb77821106c9905653a5ade9e.png", 
+        "name": "UMF Radio", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/umfradio", 
+        "streams": [
+            "http://pub6.di.fm:80/di_umfradio_aac", 
+            "http://pub2.di.fm:80/di_umfradio_aac", 
+            "http://pub7.di.fm:80/di_umfradio_aac", 
+            "http://pub8.di.fm:80/di_umfradio_aac", 
+            "http://pub5.di.fm:80/di_umfradio_aac", 
+            "http://pub4.di.fm:80/di_umfradio_aac", 
+            "http://pub1.di.fm:80/di_umfradio_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Blending the warmth of house music with the cold structural precision of techno, tech house bridges the divide.", 
+        "iconUrl": "http://static.audioaddict.com/a1cb226c2170a74ed0fdb4839dafe869.png", 
+        "name": "Tech House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/techhouse", 
+        "streams": [
+            "http://pub5.di.fm:80/di_techhouse_aac", 
+            "http://pub4.di.fm:80/di_techhouse_aac", 
+            "http://pub1.di.fm:80/di_techhouse_aac", 
+            "http://pub2.di.fm:80/di_techhouse_aac", 
+            "http://pub8.di.fm:80/di_techhouse_aac", 
+            "http://pub7.di.fm:80/di_techhouse_aac", 
+            "http://pub6.di.fm:80/di_techhouse_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Jungle keeps the breakbeat tempos high and celebrates the diverse ideas found within urban and rave music.", 
+        "iconUrl": "http://static.audioaddict.com/1/5/0/1/2/8/1501288819231087619e6e659f122830.png", 
+        "name": "Jungle", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/jungle", 
+        "streams": [
+            "http://pub8.di.fm:80/di_jungle_aac", 
+            "http://pub4.di.fm:80/di_jungle_aac", 
+            "http://pub5.di.fm:80/di_jungle_aac", 
+            "http://pub6.di.fm:80/di_jungle_aac", 
+            "http://pub2.di.fm:80/di_jungle_aac", 
+            "http://pub7.di.fm:80/di_jungle_aac", 
+            "http://pub1.di.fm:80/di_jungle_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "2step Garage rhythms, chunky bass line driven grooves and plenty of forward thinking innovation.", 
+        "iconUrl": "http://static.audioaddict.com/d/6/a/a/1/e/d6aa1e9b4c48141fa573d498eba41a2a.png", 
+        "name": "Future Garage", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/futuregarage", 
+        "streams": [
+            "http://pub6.di.fm:80/di_futuregarage_aac", 
+            "http://pub1.di.fm:80/di_futuregarage_aac", 
+            "http://pub4.di.fm:80/di_futuregarage_aac", 
+            "http://pub5.di.fm:80/di_futuregarage_aac", 
+            "http://pub7.di.fm:80/di_futuregarage_aac", 
+            "http://pub8.di.fm:80/di_futuregarage_aac", 
+            "http://pub2.di.fm:80/di_futuregarage_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "From the funkiest grooves to the dirtiest beats. Hard-hitting, high energy 4/4 club cuts to move the masses.", 
+        "iconUrl": "http://static.audioaddict.com/8/9/b/0/d/f/89b0dfb93cb7eba4d345d116f7fc00e7.png", 
+        "name": "Bass & Jackin' House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/bassnjackinhouse", 
+        "streams": [
+            "http://pub4.di.fm:80/di_bassnjackinhouse_aac", 
+            "http://pub2.di.fm:80/di_bassnjackinhouse_aac", 
+            "http://pub5.di.fm:80/di_bassnjackinhouse_aac", 
+            "http://pub6.di.fm:80/di_bassnjackinhouse_aac", 
+            "http://pub8.di.fm:80/di_bassnjackinhouse_aac", 
+            "http://pub7.di.fm:80/di_bassnjackinhouse_aac", 
+            "http://pub1.di.fm:80/di_bassnjackinhouse_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Buzzing basslines, huge kicks, party rocking drops. House music packed full of gigantic bass and massive synths.", 
+        "iconUrl": "http://static.audioaddict.com/387bfe3c7d50b4edd1408135596a03df.png", 
+        "name": "Electro House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/electro", 
+        "streams": [
+            "http://pub5.di.fm:80/di_electrohouse_aac", 
+            "http://pub4.di.fm:80/di_electrohouse_aac", 
+            "http://pub1.di.fm:80/di_electrohouse_aac", 
+            "http://pub2.di.fm:80/di_electrohouse_aac", 
+            "http://pub6.di.fm:80/di_electrohouse_aac", 
+            "http://pub7.di.fm:80/di_electrohouse_aac", 
+            "http://pub8.di.fm:80/di_electrohouse_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Fusing together house elements from the past and the present - prime time music full of uplifting high energy.", 
+        "iconUrl": "http://static.audioaddict.com/5/b/7/f/5/d/5b7f5db07bd3bc6e8097ea33bbea7552.png", 
+        "name": "Big Room House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/bigroomhouse", 
+        "streams": [
+            "http://pub6.di.fm:80/di_bigroomhouse_aac", 
+            "http://pub4.di.fm:80/di_bigroomhouse_aac", 
+            "http://pub7.di.fm:80/di_bigroomhouse_aac", 
+            "http://pub1.di.fm:80/di_bigroomhouse_aac", 
+            "http://pub5.di.fm:80/di_bigroomhouse_aac", 
+            "http://pub8.di.fm:80/di_bigroomhouse_aac", 
+            "http://pub2.di.fm:80/di_bigroomhouse_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Pitched up vocals, happy hardcore beats, and high energy music non-stop.", 
+        "iconUrl": "http://static.audioaddict.com/2/2/0/0/1/3/2200134b0c655a3cd40e0fbf7380c9a0.png", 
+        "name": "Nightcore", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/nightcore", 
+        "streams": [
+            "http://pub8.di.fm:80/di_nightcore_aac", 
+            "http://pub5.di.fm:80/di_nightcore_aac", 
+            "http://pub7.di.fm:80/di_nightcore_aac", 
+            "http://pub4.di.fm:80/di_nightcore_aac", 
+            "http://pub1.di.fm:80/di_nightcore_aac", 
+            "http://pub6.di.fm:80/di_nightcore_aac", 
+            "http://pub2.di.fm:80/di_nightcore_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Born out of Southern Hip-Hop and influenced by techno, trap is analogue drum machines with hip-hop aesthetics.", 
+        "iconUrl": "http://static.audioaddict.com/a/7/9/f/c/1/a79fc1acd04100c12f7b55c17c72a23e.png", 
+        "name": "Trap", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/trap", 
+        "streams": [
+            "http://pub8.di.fm:80/di_trap_aac", 
+            "http://pub1.di.fm:80/di_trap_aac", 
+            "http://pub2.di.fm:80/di_trap_aac", 
+            "http://pub7.di.fm:80/di_trap_aac", 
+            "http://pub4.di.fm:80/di_trap_aac", 
+            "http://pub6.di.fm:80/di_trap_aac", 
+            "http://pub5.di.fm:80/di_trap_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Downtempo psychedelic dub grooves, goa ambient, and world beats.", 
+        "iconUrl": "http://static.audioaddict.com/f301e3e597472b3edbf50a770a52c087.png", 
+        "name": "PsyChill", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/psychill", 
+        "streams": [
+            "http://pub8.di.fm:80/di_psychill_aac", 
+            "http://pub4.di.fm:80/di_psychill_aac", 
+            "http://pub6.di.fm:80/di_psychill_aac", 
+            "http://pub7.di.fm:80/di_psychill_aac", 
+            "http://pub5.di.fm:80/di_psychill_aac", 
+            "http://pub1.di.fm:80/di_psychill_aac", 
+            "http://pub2.di.fm:80/di_psychill_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A very psychedelic form of trance, Goa-Psy Trance is a sound full of arpeggiated synths and trippy effects.", 
+        "iconUrl": "http://static.audioaddict.com/b5b22bf5232f246bf63b25914bd369e3.png", 
+        "name": "Goa-Psy Trance", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/goapsy", 
+        "streams": [
+            "http://pub7.di.fm:80/di_goapsy_aac", 
+            "http://pub5.di.fm:80/di_goapsy_aac", 
+            "http://pub4.di.fm:80/di_goapsy_aac", 
+            "http://pub6.di.fm:80/di_goapsy_aac", 
+            "http://pub1.di.fm:80/di_goapsy_aac", 
+            "http://pub2.di.fm:80/di_goapsy_aac", 
+            "http://pub8.di.fm:80/di_goapsy_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Progress your mind to undiscovered psychedelic dimensions.", 
+        "iconUrl": "http://static.audioaddict.com/4aeae25360c3792e8e9fd6f2e5cdf39e.jpg", 
+        "name": "Progressive Psy", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/progressivepsy", 
+        "streams": [
+            "http://pub7.di.fm:80/di_progressivepsy_aac", 
+            "http://pub6.di.fm:80/di_progressivepsy_aac", 
+            "http://pub5.di.fm:80/di_progressivepsy_aac", 
+            "http://pub4.di.fm:80/di_progressivepsy_aac", 
+            "http://pub8.di.fm:80/di_progressivepsy_aac", 
+            "http://pub2.di.fm:80/di_progressivepsy_aac", 
+            "http://pub1.di.fm:80/di_progressivepsy_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Blending together elements of house music, speed garage, and techno \u2013 it\u2019s all about the low end frequencies.", 
+        "iconUrl": "http://static.audioaddict.com/9/8/b/b/d/b/98bbdb73486e5c0431a44117af617576.png", 
+        "name": "Bassline", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/bassline", 
+        "streams": [
+            "http://pub6.di.fm:80/di_bassline_aac", 
+            "http://pub4.di.fm:80/di_bassline_aac", 
+            "http://pub2.di.fm:80/di_bassline_aac", 
+            "http://pub7.di.fm:80/di_bassline_aac", 
+            "http://pub8.di.fm:80/di_bassline_aac", 
+            "http://pub5.di.fm:80/di_bassline_aac", 
+            "http://pub1.di.fm:80/di_bassline_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Strictly for the hardcore. These are the biggest and boldest bangers, and the hardest hitting tracks.", 
+        "iconUrl": "http://static.audioaddict.com/14f1a4484dc88e0df006e9cd71407bcb.png", 
+        "name": "Hardcore", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/hardcore", 
+        "streams": [
+            "http://pub7.di.fm:80/di_hardcore_aac", 
+            "http://pub5.di.fm:80/di_hardcore_aac", 
+            "http://pub4.di.fm:80/di_hardcore_aac", 
+            "http://pub6.di.fm:80/di_hardcore_aac", 
+            "http://pub1.di.fm:80/di_hardcore_aac", 
+            "http://pub2.di.fm:80/di_hardcore_aac", 
+            "http://pub8.di.fm:80/di_hardcore_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Head nodding beats, chilled vocals, and lush soundscapes to bring down the sun and start the night.", 
+        "iconUrl": "http://static.audioaddict.com/6/d/a/8/3/f/6da83f72080cb225acf608e54f992cf2.png", 
+        "name": "Downtempo Lounge", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/downtempolounge", 
+        "streams": [
+            "http://pub6.di.fm:80/di_downtempolounge_aac", 
+            "http://pub2.di.fm:80/di_downtempolounge_aac", 
+            "http://pub7.di.fm:80/di_downtempolounge_aac", 
+            "http://pub4.di.fm:80/di_downtempolounge_aac", 
+            "http://pub5.di.fm:80/di_downtempolounge_aac", 
+            "http://pub8.di.fm:80/di_downtempolounge_aac", 
+            "http://pub1.di.fm:80/di_downtempolounge_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "From techno, deep house, progressive and trance \u2013 check out the sounds of the DJ deep in the mix.", 
+        "iconUrl": "http://static.audioaddict.com/5a0a6603d9a3f151b9eced1629e77d66.png", 
+        "name": "DJ Mixes", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/djmixes", 
+        "streams": [
+            "http://pub8.di.fm:80/di_djmixes_aac", 
+            "http://pub4.di.fm:80/di_djmixes_aac", 
+            "http://pub1.di.fm:80/di_djmixes_aac", 
+            "http://pub2.di.fm:80/di_djmixes_aac", 
+            "http://pub5.di.fm:80/di_djmixes_aac", 
+            "http://pub7.di.fm:80/di_djmixes_aac", 
+            "http://pub6.di.fm:80/di_djmixes_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Russia's hottest club hits.", 
+        "iconUrl": "http://static.audioaddict.com/3/b/2/e/1/3/3b2e1348eb2ded04b1b97e1791001bf8.png", 
+        "name": "Russian Club Hits", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/russianclubhits", 
+        "streams": [
+            "http://pub4.di.fm:80/di_russianclubhits_aac", 
+            "http://pub5.di.fm:80/di_russianclubhits_aac", 
+            "http://pub6.di.fm:80/di_russianclubhits_aac", 
+            "http://pub2.di.fm:80/di_russianclubhits_aac", 
+            "http://pub8.di.fm:80/di_russianclubhits_aac", 
+            "http://pub7.di.fm:80/di_russianclubhits_aac", 
+            "http://pub1.di.fm:80/di_russianclubhits_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Electronic sounds and atmospheric textures create a genre to enhance your state of mind and take you deeper.", 
+        "iconUrl": "http://static.audioaddict.com/c/4/9/3/9/b/c4939b4e0129cd9abada597e35332db3.png", 
+        "name": "Ambient", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/ambient", 
+        "streams": [
+            "http://pub7.di.fm:80/di_ambient_aac", 
+            "http://pub4.di.fm:80/di_ambient_aac", 
+            "http://pub5.di.fm:80/di_ambient_aac", 
+            "http://pub8.di.fm:80/di_ambient_aac", 
+            "http://pub6.di.fm:80/di_ambient_aac", 
+            "http://pub1.di.fm:80/di_ambient_aac", 
+            "http://pub2.di.fm:80/di_ambient_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The psychedelic side of ambient.", 
+        "iconUrl": "http://static.audioaddict.com/1/7/8/8/0/2/178802e0d43b3d42f2476a183541d652.jpg", 
+        "name": "Psybient", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/psybient", 
+        "streams": [
+            "http://pub5.di.fm:80/di_psybient_aac", 
+            "http://pub7.di.fm:80/di_psybient_aac", 
+            "http://pub8.di.fm:80/di_psybient_aac", 
+            "http://pub6.di.fm:80/di_psybient_aac", 
+            "http://pub2.di.fm:80/di_psybient_aac", 
+            "http://pub4.di.fm:80/di_psybient_aac", 
+            "http://pub1.di.fm:80/di_psybient_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Born in the mid 90s, drum and bass is all about fast breakbeats, urban vibes, and rib rattling basslines.", 
+        "iconUrl": "http://static.audioaddict.com/f2ed26a932bdb5cd0a0eac576aebfa3f.png", 
+        "name": "Drum and Bass", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/drumandbass", 
+        "streams": [
+            "http://pub7.di.fm:80/di_drumandbass_aac", 
+            "http://pub5.di.fm:80/di_drumandbass_aac", 
+            "http://pub4.di.fm:80/di_drumandbass_aac", 
+            "http://pub1.di.fm:80/di_drumandbass_aac", 
+            "http://pub2.di.fm:80/di_drumandbass_aac", 
+            "http://pub8.di.fm:80/di_drumandbass_aac", 
+            "http://pub6.di.fm:80/di_drumandbass_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Modern disco music blending the familiar funk of the 70s and 80s with futuristic beats and up to date grooves.", 
+        "iconUrl": "http://static.audioaddict.com/4/b/a/0/6/8/4ba0684daed5c3c422b8ad3aa59c7eaf.png", 
+        "name": "Nu Disco", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/nudisco", 
+        "streams": [
+            "http://pub7.di.fm:80/di_nudisco_aac", 
+            "http://pub4.di.fm:80/di_nudisco_aac", 
+            "http://pub1.di.fm:80/di_nudisco_aac", 
+            "http://pub5.di.fm:80/di_nudisco_aac", 
+            "http://pub6.di.fm:80/di_nudisco_aac", 
+            "http://pub8.di.fm:80/di_nudisco_aac", 
+            "http://pub2.di.fm:80/di_nudisco_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Heavily focused on breakbeats and dusty samples. A defining 90s musical movement still going strong today.", 
+        "iconUrl": "http://static.audioaddict.com/9/4/9/e/f/b/949efba54329d6d9264dfd54eeebbc31.png", 
+        "name": "Big Beat", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/bigbeat", 
+        "streams": [
+            "http://pub7.di.fm:80/di_bigbeat_aac", 
+            "http://pub8.di.fm:80/di_bigbeat_aac", 
+            "http://pub6.di.fm:80/di_bigbeat_aac", 
+            "http://pub5.di.fm:80/di_bigbeat_aac", 
+            "http://pub4.di.fm:80/di_bigbeat_aac", 
+            "http://pub2.di.fm:80/di_bigbeat_aac", 
+            "http://pub1.di.fm:80/di_bigbeat_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "An emphasis on the bass and drums, delayed effects, sampled vocals and smokey Reggae inspired vibes.", 
+        "iconUrl": "http://static.audioaddict.com/e/4/b/3/4/6/e4b346b193c1adec01f8489b98a2bf3f.png", 
+        "name": "Dub", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/dub", 
+        "streams": [
+            "http://pub5.di.fm:80/di_dub_aac", 
+            "http://pub4.di.fm:80/di_dub_aac", 
+            "http://pub2.di.fm:80/di_dub_aac", 
+            "http://pub7.di.fm:80/di_dub_aac", 
+            "http://pub6.di.fm:80/di_dub_aac", 
+            "http://pub8.di.fm:80/di_dub_aac", 
+            "http://pub1.di.fm:80/di_dub_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Creative music influenced from techno to chill out, indie to IDM \u2013 a unique and undefinable listening experience.", 
+        "iconUrl": "http://static.audioaddict.com/2/5/f/5/5/9/25f559a97855d8107e7cdc63f2acb345.png", 
+        "name": "EcLectronica", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/eclectronica", 
+        "streams": [
+            "http://pub2.di.fm:80/di_eclectronica_aac", 
+            "http://pub7.di.fm:80/di_eclectronica_aac", 
+            "http://pub6.di.fm:80/di_eclectronica_aac", 
+            "http://pub8.di.fm:80/di_eclectronica_aac", 
+            "http://pub1.di.fm:80/di_eclectronica_aac", 
+            "http://pub4.di.fm:80/di_eclectronica_aac", 
+            "http://pub5.di.fm:80/di_eclectronica_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Go back in time and hear the biggest and best tracks within techno and trance that defined a decade of dance culture.", 
+        "iconUrl": "http://static.audioaddict.com/ad112b71e9682c79343a4df45d419297.png", 
+        "name": "Oldschool Techno & Trance ", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/classictechno", 
+        "streams": [
+            "http://pub7.di.fm:80/di_oldschoolelectronica_aac", 
+            "http://pub6.di.fm:80/di_oldschoolelectronica_aac", 
+            "http://pub5.di.fm:80/di_oldschoolelectronica_aac", 
+            "http://pub1.di.fm:80/di_oldschoolelectronica_aac", 
+            "http://pub4.di.fm:80/di_oldschoolelectronica_aac", 
+            "http://pub8.di.fm:80/di_oldschoolelectronica_aac", 
+            "http://pub2.di.fm:80/di_oldschoolelectronica_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Trance in its most boisterous form. Uplifting melodies on top of high energy beats create these euphoric anthems.", 
+        "iconUrl": "http://static.audioaddict.com/5a76739725cd2106a3e2f30a1461a9bd.jpg", 
+        "name": "Epic Trance", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/epictrance", 
+        "streams": [
+            "http://pub8.di.fm:80/di_epictrance_aac", 
+            "http://pub6.di.fm:80/di_epictrance_aac", 
+            "http://pub5.di.fm:80/di_epictrance_aac", 
+            "http://pub4.di.fm:80/di_epictrance_aac", 
+            "http://pub2.di.fm:80/di_epictrance_aac", 
+            "http://pub1.di.fm:80/di_epictrance_aac", 
+            "http://pub7.di.fm:80/di_epictrance_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Your favorite dance tunes from the start of the decade. Familiar hits and overlooked classics in abundance.", 
+        "iconUrl": "http://static.audioaddict.com/1/f/2/1/8/9/1f2189badb0bb9ccba20e54163afff69.png", 
+        "name": "00's Club Hits", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/00sclubhits", 
+        "streams": [
+            "http://pub7.di.fm:80/di_00sclubhits_aac", 
+            "http://pub8.di.fm:80/di_00sclubhits_aac", 
+            "http://pub6.di.fm:80/di_00sclubhits_aac", 
+            "http://pub5.di.fm:80/di_00sclubhits_aac", 
+            "http://pub4.di.fm:80/di_00sclubhits_aac", 
+            "http://pub2.di.fm:80/di_00sclubhits_aac", 
+            "http://pub1.di.fm:80/di_00sclubhits_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Inspired by hip hop and UK rave music, breaks features broken up drum loops and creative samples, synths and fx.", 
+        "iconUrl": "http://static.audioaddict.com/5fe8da68c08afeba771f1c0a5ba6bc2f.png", 
+        "name": "Breaks", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/breaks", 
+        "streams": [
+            "http://pub8.di.fm:80/di_breaks_aac", 
+            "http://pub4.di.fm:80/di_breaks_aac", 
+            "http://pub5.di.fm:80/di_breaks_aac", 
+            "http://pub1.di.fm:80/di_breaks_aac", 
+            "http://pub2.di.fm:80/di_breaks_aac", 
+            "http://pub6.di.fm:80/di_breaks_aac", 
+            "http://pub7.di.fm:80/di_breaks_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The hardest form of techno with punishing tracks designed to drive the crowds into a sweaty frenzy.", 
+        "iconUrl": "http://static.audioaddict.com/83b92cbe5cdc692fb0c8871135e98c55.png", 
+        "name": "Gabber", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/gabber", 
+        "streams": [
+            "http://pub8.di.fm:80/di_gabber_aac", 
+            "http://pub2.di.fm:80/di_gabber_aac", 
+            "http://pub5.di.fm:80/di_gabber_aac", 
+            "http://pub4.di.fm:80/di_gabber_aac", 
+            "http://pub6.di.fm:80/di_gabber_aac", 
+            "http://pub7.di.fm:80/di_gabber_aac", 
+            "http://pub1.di.fm:80/di_gabber_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "30+ years of open-genre electronic music. From spatial ambient sounds to experimental techno and more.\r\n", 
+        "iconUrl": "http://static.audioaddict.com/7/5/2/8/8/a/75288a5811df82a782718253222e8154.png", 
+        "name": "Electronics", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/electronics", 
+        "streams": [
+            "http://pub7.di.fm:80/di_electronics_aac", 
+            "http://pub2.di.fm:80/di_electronics_aac", 
+            "http://pub4.di.fm:80/di_electronics_aac", 
+            "http://pub6.di.fm:80/di_electronics_aac", 
+            "http://pub8.di.fm:80/di_electronics_aac", 
+            "http://pub5.di.fm:80/di_electronics_aac", 
+            "http://pub1.di.fm:80/di_electronics_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Originating in the early 80s as a mix of industrial, punk and electropop, EBM changed the landscape of dance music and is still going strong today. ", 
+        "iconUrl": "http://static.audioaddict.com/9/6/9/d/1/a/969d1a4840606786752ebb02bad71a8a.png", 
+        "name": "EBM", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/ebm", 
+        "streams": [
+            "http://pub7.di.fm:80/di_ebm_aac", 
+            "http://pub8.di.fm:80/di_ebm_aac", 
+            "http://pub6.di.fm:80/di_ebm_aac", 
+            "http://pub5.di.fm:80/di_ebm_aac", 
+            "http://pub4.di.fm:80/di_ebm_aac", 
+            "http://pub2.di.fm:80/di_ebm_aac", 
+            "http://pub1.di.fm:80/di_ebm_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Tough as nails warehouse jams full of cold aggression, sinister structures and pounding rhythms that hit hard.", 
+        "iconUrl": "http://static.audioaddict.com/6/4/2/4/9/a/64249abcb7fcfb5b790953632dc6c779.png", 
+        "name": "Hard Techno", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/hardtechno", 
+        "streams": [
+            "http://pub1.di.fm:80/di_hardtechno_aac", 
+            "http://pub5.di.fm:80/di_hardtechno_aac", 
+            "http://pub8.di.fm:80/di_hardtechno_aac", 
+            "http://pub7.di.fm:80/di_hardtechno_aac", 
+            "http://pub4.di.fm:80/di_hardtechno_aac", 
+            "http://pub6.di.fm:80/di_hardtechno_aac", 
+            "http://pub2.di.fm:80/di_hardtechno_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A hybrid of half-time dubstep and intense drum 'n bass.", 
+        "iconUrl": "http://static.audioaddict.com/e/d/6/a/0/7/ed6a072e2ee5db23ceed7136fa2db72b.png", 
+        "name": "Drumstep", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/drumstep", 
+        "streams": [
+            "http://pub1.di.fm:80/di_drumstep_aac", 
+            "http://pub4.di.fm:80/di_drumstep_aac", 
+            "http://pub6.di.fm:80/di_drumstep_aac", 
+            "http://pub5.di.fm:80/di_drumstep_aac", 
+            "http://pub7.di.fm:80/di_drumstep_aac", 
+            "http://pub8.di.fm:80/di_drumstep_aac", 
+            "http://pub2.di.fm:80/di_drumstep_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Techno is a true musical force full of structure and style. Robotic, mechanical and full of soul, always facing the future.", 
+        "iconUrl": "http://static.audioaddict.com/cedaa3b495a451bdd6ee4b21311e155c.png", 
+        "name": "Techno", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/techno", 
+        "streams": [
+            "http://pub5.di.fm:80/di_techno_aac", 
+            "http://pub4.di.fm:80/di_techno_aac", 
+            "http://pub1.di.fm:80/di_techno_aac", 
+            "http://pub2.di.fm:80/di_techno_aac", 
+            "http://pub6.di.fm:80/di_techno_aac", 
+            "http://pub7.di.fm:80/di_techno_aac", 
+            "http://pub8.di.fm:80/di_techno_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The combination of 1920s-1940s jazz and swing music, big band horns and modern day electro house.\r\n", 
+        "iconUrl": "http://static.audioaddict.com/f/3/7/d/d/e/f37dde025f56dee1631102fc3ad9d2b0.png", 
+        "name": "Electro Swing", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/electroswing", 
+        "streams": [
+            "http://pub8.di.fm:80/di_electroswing_aac", 
+            "http://pub7.di.fm:80/di_electroswing_aac", 
+            "http://pub5.di.fm:80/di_electroswing_aac", 
+            "http://pub6.di.fm:80/di_electroswing_aac", 
+            "http://pub1.di.fm:80/di_electroswing_aac", 
+            "http://pub2.di.fm:80/di_electroswing_aac", 
+            "http://pub4.di.fm:80/di_electroswing_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The trailblazers, the renegades and the experimental musicians who gave early inspiration with electronic instruments.", 
+        "iconUrl": "http://static.audioaddict.com/6/c/c/1/6/8/6cc168f2893ea542fc02fa32e32dd27a.png", 
+        "name": "Electronic Pioneers", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/electronicpioneers", 
+        "streams": [
+            "http://pub6.di.fm:80/di_electronicpioneers_aac", 
+            "http://pub8.di.fm:80/di_electronicpioneers_aac", 
+            "http://pub1.di.fm:80/di_electronicpioneers_aac", 
+            "http://pub7.di.fm:80/di_electronicpioneers_aac", 
+            "http://pub2.di.fm:80/di_electronicpioneers_aac", 
+            "http://pub4.di.fm:80/di_electronicpioneers_aac", 
+            "http://pub5.di.fm:80/di_electronicpioneers_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "House music saturated with feeling \u2013 full of melodies, vocals and true soul. Steady warm 4/4 vibes.", 
+        "iconUrl": "http://static.audioaddict.com/950ff823b9989f18f19ba65fb149fcad.png", 
+        "name": "Soulful House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/soulfulhouse", 
+        "streams": [
+            "http://pub5.di.fm:80/di_soulfulhouse_aac", 
+            "http://pub4.di.fm:80/di_soulfulhouse_aac", 
+            "http://pub6.di.fm:80/di_soulfulhouse_aac", 
+            "http://pub7.di.fm:80/di_soulfulhouse_aac", 
+            "http://pub1.di.fm:80/di_soulfulhouse_aac", 
+            "http://pub2.di.fm:80/di_soulfulhouse_aac", 
+            "http://pub8.di.fm:80/di_soulfulhouse_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "House music crafted for the smaller and mid-sized rooms - deeper tracks full of silky, smooth grooves.", 
+        "iconUrl": "http://static.audioaddict.com/8dd90c88b4ee5399e6182204a2ede8ed.jpg", 
+        "name": "Deep House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/deephouse", 
+        "streams": [
+            "http://pub7.di.fm:80/di_deephouse_aac", 
+            "http://pub6.di.fm:80/di_deephouse_aac", 
+            "http://pub5.di.fm:80/di_deephouse_aac", 
+            "http://pub4.di.fm:80/di_deephouse_aac", 
+            "http://pub8.di.fm:80/di_deephouse_aac", 
+            "http://pub1.di.fm:80/di_deephouse_aac", 
+            "http://pub2.di.fm:80/di_deephouse_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A fusion of deep house & techno. Punchy grooves, spaced out sounds and forward thinking productions.", 
+        "iconUrl": "http://static.audioaddict.com/8/7/d/3/b/2/87d3b2ee913e6ac75882329971d58be4.png", 
+        "name": "Deep Tech", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/deeptech", 
+        "streams": [
+            "http://pub7.di.fm:80/di_deeptech_aac", 
+            "http://pub5.di.fm:80/di_deeptech_aac", 
+            "http://pub6.di.fm:80/di_deeptech_aac", 
+            "http://pub4.di.fm:80/di_deeptech_aac", 
+            "http://pub8.di.fm:80/di_deeptech_aac", 
+            "http://pub1.di.fm:80/di_deeptech_aac", 
+            "http://pub2.di.fm:80/di_deeptech_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The percussive side of the house and tech house scene, tribal house takes drums and puts them in the forefront.", 
+        "iconUrl": "http://static.audioaddict.com/4af36061eb3e97a0aa21b746b51317dd.png", 
+        "name": "Tribal House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/tribalhouse", 
+        "streams": [
+            "http://pub5.di.fm:80/di_tribalhouse_aac", 
+            "http://pub7.di.fm:80/di_tribalhouse_aac", 
+            "http://pub4.di.fm:80/di_tribalhouse_aac", 
+            "http://pub8.di.fm:80/di_tribalhouse_aac", 
+            "http://pub6.di.fm:80/di_tribalhouse_aac", 
+            "http://pub1.di.fm:80/di_tribalhouse_aac", 
+            "http://pub2.di.fm:80/di_tribalhouse_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Focused on the funkiest grooves, with plenty of the guitar licks and clever samples placed around a 4/4 swing.", 
+        "iconUrl": "http://static.audioaddict.com/45d5aa9e246fd59fe03e601171059581.png", 
+        "name": "Funky House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/funkyhouse", 
+        "streams": [
+            "http://pub7.di.fm:80/di_funkyhouse_aac", 
+            "http://pub4.di.fm:80/di_funkyhouse_aac", 
+            "http://pub1.di.fm:80/di_funkyhouse_aac", 
+            "http://pub8.di.fm:80/di_funkyhouse_aac", 
+            "http://pub2.di.fm:80/di_funkyhouse_aac", 
+            "http://pub5.di.fm:80/di_funkyhouse_aac", 
+            "http://pub6.di.fm:80/di_funkyhouse_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Elements of house, funk, and disco. Mid-tempo beats, soulful grooves and head nodding selections.", 
+        "iconUrl": "http://static.audioaddict.com/3896ecff86795302304c64386ff2c5db.png", 
+        "name": "Deep Nu-Disco", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/deepnudisco", 
+        "streams": [
+            "http://pub5.di.fm:80/di_deepnudisco_aac", 
+            "http://pub4.di.fm:80/di_deepnudisco_aac", 
+            "http://pub2.di.fm:80/di_deepnudisco_aac", 
+            "http://pub1.di.fm:80/di_deepnudisco_aac", 
+            "http://pub6.di.fm:80/di_deepnudisco_aac", 
+            "http://pub7.di.fm:80/di_deepnudisco_aac", 
+            "http://pub8.di.fm:80/di_deepnudisco_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "From gritty Berlin streets to dark corners of Brooklyn, this is techno made by artists pushing the genre further. ", 
+        "iconUrl": "http://static.audioaddict.com/c/f/a/e/e/9/cfaee945340928dd2250e731efda8e6c.png", 
+        "name": "Underground Techno", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/undergroundtechno", 
+        "streams": [
+            "http://pub5.di.fm:80/di_undergroundtechno_aac", 
+            "http://pub8.di.fm:80/di_undergroundtechno_aac", 
+            "http://pub6.di.fm:80/di_undergroundtechno_aac", 
+            "http://pub7.di.fm:80/di_undergroundtechno_aac", 
+            "http://pub2.di.fm:80/di_undergroundtechno_aac", 
+            "http://pub4.di.fm:80/di_undergroundtechno_aac", 
+            "http://pub1.di.fm:80/di_undergroundtechno_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Grab your whistles, white gloves and reach for the laser beams. This is the sound of raving when raving was new.", 
+        "iconUrl": "http://static.audioaddict.com/8/c/4/e/c/9/8c4ec9353361ef5fd6c9cbc4999e2fd1.png", 
+        "name": "Oldschool Rave", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/oldschoolrave", 
+        "streams": [
+            "http://pub7.di.fm:80/di_oldschoolrave_aac", 
+            "http://pub6.di.fm:80/di_oldschoolrave_aac", 
+            "http://pub8.di.fm:80/di_oldschoolrave_aac", 
+            "http://pub5.di.fm:80/di_oldschoolrave_aac", 
+            "http://pub4.di.fm:80/di_oldschoolrave_aac", 
+            "http://pub1.di.fm:80/di_oldschoolrave_aac", 
+            "http://pub2.di.fm:80/di_oldschoolrave_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The biggest classics and secret weapons \u2013 this is a true treasure chest of house tracks from back in the day.", 
+        "iconUrl": "http://static.audioaddict.com/503959f01400b6ecf59379d9c6844d11.png", 
+        "name": "Oldschool House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/oldschoolhouse", 
+        "streams": [
+            "http://pub4.di.fm:80/di_oldschoolhouse_aac", 
+            "http://pub6.di.fm:80/di_oldschoolhouse_aac", 
+            "http://pub5.di.fm:80/di_oldschoolhouse_aac", 
+            "http://pub8.di.fm:80/di_oldschoolhouse_aac", 
+            "http://pub7.di.fm:80/di_oldschoolhouse_aac", 
+            "http://pub1.di.fm:80/di_oldschoolhouse_aac", 
+            "http://pub2.di.fm:80/di_oldschoolhouse_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Ambient space music for expanding minds.", 
+        "iconUrl": "http://static.audioaddict.com/4531d1656bc302d4f1898f779a988c17.png", 
+        "name": "Space Dreams", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/spacemusic", 
+        "streams": [
+            "http://pub7.di.fm:80/di_spacemusic_aac", 
+            "http://pub5.di.fm:80/di_spacemusic_aac", 
+            "http://pub4.di.fm:80/di_spacemusic_aac", 
+            "http://pub6.di.fm:80/di_spacemusic_aac", 
+            "http://pub1.di.fm:80/di_spacemusic_aac", 
+            "http://pub2.di.fm:80/di_spacemusic_aac", 
+            "http://pub8.di.fm:80/di_spacemusic_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Hard techno & hardcore. A global phenomenon with powerful kicks, distorted effects and infectious melodies.", 
+        "iconUrl": "http://static.audioaddict.com/b27a7b020806ce4428307b30b44734ec.png", 
+        "name": "Hardstyle", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/hardstyle", 
+        "streams": [
+            "http://pub6.di.fm:80/di_hardstyle_aac", 
+            "http://pub5.di.fm:80/di_hardstyle_aac", 
+            "http://pub4.di.fm:80/di_hardstyle_aac", 
+            "http://pub1.di.fm:80/di_hardstyle_aac", 
+            "http://pub7.di.fm:80/di_hardstyle_aac", 
+            "http://pub8.di.fm:80/di_hardstyle_aac", 
+            "http://pub2.di.fm:80/di_hardstyle_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The perfect musical soundtrack for when you want to close your eyes, get truly comfortable, and drift away.", 
+        "iconUrl": "http://static.audioaddict.com/7a0a070cca01976ea62c9e1c5a19e9b1.png", 
+        "name": "Chillout Dreams", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/chilloutdreams", 
+        "streams": [
+            "http://pub4.di.fm:80/di_chilloutdreams_aac", 
+            "http://pub1.di.fm:80/di_chilloutdreams_aac", 
+            "http://pub5.di.fm:80/di_chilloutdreams_aac", 
+            "http://pub2.di.fm:80/di_chilloutdreams_aac", 
+            "http://pub6.di.fm:80/di_chilloutdreams_aac", 
+            "http://pub8.di.fm:80/di_chilloutdreams_aac", 
+            "http://pub7.di.fm:80/di_chilloutdreams_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Smooth as water, with the fast paced rhythms, liquid DNB flows with rolling ease without losing momentum.", 
+        "iconUrl": "http://static.audioaddict.com/75b2b5e697e7948f5fcd64a1c54f3f72.png", 
+        "name": "Liquid DnB", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/liquiddnb", 
+        "streams": [
+            "http://pub8.di.fm:80/di_liquiddnb_aac", 
+            "http://pub4.di.fm:80/di_liquiddnb_aac", 
+            "http://pub5.di.fm:80/di_liquiddnb_aac", 
+            "http://pub6.di.fm:80/di_liquiddnb_aac", 
+            "http://pub1.di.fm:80/di_liquiddnb_aac", 
+            "http://pub7.di.fm:80/di_liquiddnb_aac", 
+            "http://pub2.di.fm:80/di_liquiddnb_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Evil, gritty and twisted Drum & Bass. at 160+ BPM, hear the darkest basslines and the hardest hitting percussion.", 
+        "iconUrl": "http://static.audioaddict.com/1/5/6/1/b/a/1561ba009eb79c68b9de141f8685c927.png", 
+        "name": "Dark DnB", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/darkdnb", 
+        "streams": [
+            "http://pub8.di.fm:80/di_darkdnb_aac", 
+            "http://pub2.di.fm:80/di_darkdnb_aac", 
+            "http://pub4.di.fm:80/di_darkdnb_aac", 
+            "http://pub1.di.fm:80/di_darkdnb_aac", 
+            "http://pub5.di.fm:80/di_darkdnb_aac", 
+            "http://pub7.di.fm:80/di_darkdnb_aac", 
+            "http://pub6.di.fm:80/di_darkdnb_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "European pop music born in the 90s full of high energy sounds and big hooks \u2013 now heard in gyms and malls worldwide.", 
+        "iconUrl": "http://static.audioaddict.com/a272766a55dc1d3c5b63e688d7a3d0de.png", 
+        "name": "Classic EuroDance", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/classiceurodance", 
+        "streams": [
+            "http://pub8.di.fm:80/di_classiceurodance_aac", 
+            "http://pub4.di.fm:80/di_classiceurodance_aac", 
+            "http://pub5.di.fm:80/di_classiceurodance_aac", 
+            "http://pub1.di.fm:80/di_classiceurodance_aac", 
+            "http://pub2.di.fm:80/di_classiceurodance_aac", 
+            "http://pub6.di.fm:80/di_classiceurodance_aac", 
+            "http://pub7.di.fm:80/di_classiceurodance_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The darker form of PsyTrance, which is a sound all its own \u2013 direct from Goa to your headphones.", 
+        "iconUrl": "http://static.audioaddict.com/7/a/d/d/f/6/7addf6ec30967ceec317dc46c861f0d1.png", 
+        "name": "Dark PsyTrance", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/darkpsytrance", 
+        "streams": [
+            "http://pub2.di.fm:80/di_darkpsytrance_aac", 
+            "http://pub5.di.fm:80/di_darkpsytrance_aac", 
+            "http://pub4.di.fm:80/di_darkpsytrance_aac", 
+            "http://pub7.di.fm:80/di_darkpsytrance_aac", 
+            "http://pub8.di.fm:80/di_darkpsytrance_aac", 
+            "http://pub6.di.fm:80/di_darkpsytrance_aac", 
+            "http://pub1.di.fm:80/di_darkpsytrance_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A channel showcasing everything from hard dance, trance and happy hardcore to lift the spirits (and the arms).", 
+        "iconUrl": "http://static.audioaddict.com/9d04d9b20de5378994fa8653a1dc69f3.jpg", 
+        "name": "Hands Up", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/handsup", 
+        "streams": [
+            "http://pub7.di.fm:80/di_handsup_aac", 
+            "http://pub5.di.fm:80/di_handsup_aac", 
+            "http://pub4.di.fm:80/di_handsup_aac", 
+            "http://pub6.di.fm:80/di_handsup_aac", 
+            "http://pub1.di.fm:80/di_handsup_aac", 
+            "http://pub8.di.fm:80/di_handsup_aac", 
+            "http://pub2.di.fm:80/di_handsup_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The music heard in the biggest venues worldwide. From prime time pushers to deeper house shakers - the sounds of now.", 
+        "iconUrl": "http://static.audioaddict.com/6620a82bb6a6d0bc281260645b996b0a.png", 
+        "name": "Club Sounds", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/club", 
+        "streams": [
+            "http://pub8.di.fm:80/di_clubsounds_aac", 
+            "http://pub1.di.fm:80/di_clubsounds_aac", 
+            "http://pub5.di.fm:80/di_clubsounds_aac", 
+            "http://pub4.di.fm:80/di_clubsounds_aac", 
+            "http://pub6.di.fm:80/di_clubsounds_aac", 
+            "http://pub7.di.fm:80/di_clubsounds_aac", 
+            "http://pub2.di.fm:80/di_clubsounds_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The classic melodies, the epic breakdowns and gigantic builds. Re-experience Trance music in her prime.", 
+        "iconUrl": "http://static.audioaddict.com/53906dc786e7f3d55536defca56a4b5f.png", 
+        "name": "Classic Trance", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/classictrance", 
+        "streams": [
+            "http://pub5.di.fm:80/di_classictrance_aac", 
+            "http://pub4.di.fm:80/di_classictrance_aac", 
+            "http://pub6.di.fm:80/di_classictrance_aac", 
+            "http://pub8.di.fm:80/di_classictrance_aac", 
+            "http://pub1.di.fm:80/di_classictrance_aac", 
+            "http://pub2.di.fm:80/di_classictrance_aac", 
+            "http://pub7.di.fm:80/di_classictrance_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Classic sounds of Vocal Trance", 
+        "iconUrl": "http://static.audioaddict.com/6c59bb5709a2e2ecae99765d64ce57e6.png", 
+        "name": "Classic Vocal Trance", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/classicvocaltrance", 
+        "streams": [
+            "http://pub7.di.fm:80/di_classicvocaltrance_aac", 
+            "http://pub5.di.fm:80/di_classicvocaltrance_aac", 
+            "http://pub4.di.fm:80/di_classicvocaltrance_aac", 
+            "http://pub6.di.fm:80/di_classicvocaltrance_aac", 
+            "http://pub1.di.fm:80/di_classicvocaltrance_aac", 
+            "http://pub8.di.fm:80/di_classicvocaltrance_aac", 
+            "http://pub2.di.fm:80/di_classicvocaltrance_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The bassbin rattling, speaker-freaking hits of Dubstep \u2013 all tried, tested and approved to work in the clubs.", 
+        "iconUrl": "http://static.audioaddict.com/29b1b727e81f9dc1c6ca40926ac8ae34.jpg", 
+        "name": "Club Dubstep", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/clubdubstep", 
+        "streams": [
+            "http://pub5.di.fm:80/di_clubdubstep_aac", 
+            "http://pub4.di.fm:80/di_clubdubstep_aac", 
+            "http://pub6.di.fm:80/di_clubdubstep_aac", 
+            "http://pub1.di.fm:80/di_clubdubstep_aac", 
+            "http://pub8.di.fm:80/di_clubdubstep_aac", 
+            "http://pub7.di.fm:80/di_clubdubstep_aac", 
+            "http://pub2.di.fm:80/di_clubdubstep_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The wobbles of the bass, the party rocking beats, and the biggest crowd destroying drops.", 
+        "iconUrl": "http://static.audioaddict.com/e0614d304c8fd5879a1278dd626d8769.png", 
+        "name": "Dubstep", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/dubstep", 
+        "streams": [
+            "http://pub5.di.fm:80/di_dubstep_aac", 
+            "http://pub1.di.fm:80/di_dubstep_aac", 
+            "http://pub6.di.fm:80/di_dubstep_aac", 
+            "http://pub4.di.fm:80/di_dubstep_aac", 
+            "http://pub7.di.fm:80/di_dubstep_aac", 
+            "http://pub8.di.fm:80/di_dubstep_aac", 
+            "http://pub2.di.fm:80/di_dubstep_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Smooth, rolling and steady \u2013 this fresh formation of Dubstep keeps the sounds you love with a flowing groove.", 
+        "iconUrl": "http://static.audioaddict.com/d/f/2/5/8/a/df258a92e9d5152cb182b439f1d0eb2b.png", 
+        "name": "Liquid Dubstep", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/liquiddubstep", 
+        "streams": [
+            "http://pub8.di.fm:80/di_liquiddubstep_aac", 
+            "http://pub1.di.fm:80/di_liquiddubstep_aac", 
+            "http://pub5.di.fm:80/di_liquiddubstep_aac", 
+            "http://pub6.di.fm:80/di_liquiddubstep_aac", 
+            "http://pub7.di.fm:80/di_liquiddubstep_aac", 
+            "http://pub4.di.fm:80/di_liquiddubstep_aac", 
+            "http://pub2.di.fm:80/di_liquiddubstep_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Catchy pop music blended together with vintage synthesizers and electronic instrumentation. ", 
+        "iconUrl": "http://static.audioaddict.com/7/2/8/5/2/e/72852e54a50b903aa0a726f87c0050c2.jpg", 
+        "name": "Electropop", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/electropop", 
+        "streams": [
+            "http://pub5.di.fm:80/di_electropop_aac", 
+            "http://pub7.di.fm:80/di_electropop_aac", 
+            "http://pub8.di.fm:80/di_electropop_aac", 
+            "http://pub2.di.fm:80/di_electropop_aac", 
+            "http://pub6.di.fm:80/di_electropop_aac", 
+            "http://pub4.di.fm:80/di_electropop_aac", 
+            "http://pub1.di.fm:80/di_electropop_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The feel good sound inspired from 70s disco combined with the warm kick drum of modern house music.", 
+        "iconUrl": "http://static.audioaddict.com/0ea9396414430256ffb76cd6148bf88a.png", 
+        "name": "Disco House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/discohouse", 
+        "streams": [
+            "http://pub2.di.fm:80/di_discohouse_aac", 
+            "http://pub4.di.fm:80/di_discohouse_aac", 
+            "http://pub5.di.fm:80/di_discohouse_aac", 
+            "http://pub8.di.fm:80/di_discohouse_aac", 
+            "http://pub6.di.fm:80/di_discohouse_aac", 
+            "http://pub1.di.fm:80/di_discohouse_aac", 
+            "http://pub7.di.fm:80/di_discohouse_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Conceived in the European discos  in the 70s, evolving through the decades into modern electronic masterpieces.", 
+        "iconUrl": "http://static.audioaddict.com/f/9/c/6/c/d/f9c6cdb880da74aa74ec581dc3f09dbd.png", 
+        "name": "Classic EuroDisco", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/classiceurodisco", 
+        "streams": [
+            "http://pub8.di.fm:80/di_classiceurodisco_aac", 
+            "http://pub1.di.fm:80/di_classiceurodisco_aac", 
+            "http://pub2.di.fm:80/di_classiceurodisco_aac", 
+            "http://pub6.di.fm:80/di_classiceurodisco_aac", 
+            "http://pub5.di.fm:80/di_classiceurodisco_aac", 
+            "http://pub7.di.fm:80/di_classiceurodisco_aac", 
+            "http://pub4.di.fm:80/di_classiceurodisco_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Finest selection of futurepop and synthpop.", 
+        "iconUrl": "http://static.audioaddict.com/f4b0f3c30b34cf76de0955652ae5664a.png", 
+        "name": "Future Synthpop", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/futuresynthpop", 
+        "streams": [
+            "http://pub5.di.fm:80/di_futuresynthpop_aac", 
+            "http://pub4.di.fm:80/di_futuresynthpop_aac", 
+            "http://pub1.di.fm:80/di_futuresynthpop_aac", 
+            "http://pub7.di.fm:80/di_futuresynthpop_aac", 
+            "http://pub6.di.fm:80/di_futuresynthpop_aac", 
+            "http://pub8.di.fm:80/di_futuresynthpop_aac", 
+            "http://pub2.di.fm:80/di_futuresynthpop_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The sounds of Salsa, Brazilian beats and Latin Jazz with the steady grooves of modern East Coast dance music.", 
+        "iconUrl": "http://static.audioaddict.com/c/b/f/4/e/a/cbf4ea080e36bf804f12710114dc3fff.png", 
+        "name": "Latin House", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/latinhouse", 
+        "streams": [
+            "http://pub7.di.fm:80/di_latinhouse_aac", 
+            "http://pub5.di.fm:80/di_latinhouse_aac", 
+            "http://pub4.di.fm:80/di_latinhouse_aac", 
+            "http://pub1.di.fm:80/di_latinhouse_aac", 
+            "http://pub2.di.fm:80/di_latinhouse_aac", 
+            "http://pub8.di.fm:80/di_latinhouse_aac", 
+            "http://pub6.di.fm:80/di_latinhouse_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Acid, one of the characteristics of the TB-303, is celebrated here with the best tracks from house, techno and trance.", 
+        "iconUrl": "http://static.audioaddict.com/7edf76e784f740c1a20904309bbc7080.png", 
+        "name": "Oldschool Acid", 
+        "network": "Digitally Imported", 
+        "stationUrl": "http://www.di.fm/oldschoolacid", 
+        "streams": [
+            "http://pub5.di.fm:80/di_oldschoolacid_aac", 
+            "http://pub4.di.fm:80/di_oldschoolacid_aac", 
+            "http://pub8.di.fm:80/di_oldschoolacid_aac", 
+            "http://pub6.di.fm:80/di_oldschoolacid_aac", 
+            "http://pub2.di.fm:80/di_oldschoolacid_aac", 
+            "http://pub7.di.fm:80/di_oldschoolacid_aac", 
+            "http://pub1.di.fm:80/di_oldschoolacid_aac"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Who cares about the chart order, less rap & more hits!", 
+        "iconUrl": "http://static.audioaddict.com/a9778d4dec931485c25f5ac182ac71e2.png", 
+        "name": "Top Hits", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/tophits", 
+        "streams": [
+            "http://pub8.radiotunes.com:80/radiotunes_tophits", 
+            "http://pub5.radiotunes.com:80/radiotunes_tophits", 
+            "http://pub7.radiotunes.com:80/radiotunes_tophits", 
+            "http://pub6.radiotunes.com:80/radiotunes_tophits", 
+            "http://pub2.radiotunes.com:80/radiotunes_tophits", 
+            "http://pub1.radiotunes.com:80/radiotunes_tophits", 
+            "http://pub4.radiotunes.com:80/radiotunes_tophits"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The worlds smoothest jazz 24 hours a day", 
+        "iconUrl": "http://static.audioaddict.com/ea944543ab6247d58e1703d84e451e4f.png", 
+        "name": "Smooth Jazz", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/smoothjazz", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_smoothjazz", 
+            "http://pub7.radiotunes.com:80/radiotunes_smoothjazz", 
+            "http://pub8.radiotunes.com:80/radiotunes_smoothjazz", 
+            "http://pub1.radiotunes.com:80/radiotunes_smoothjazz", 
+            "http://pub4.radiotunes.com:80/radiotunes_smoothjazz", 
+            "http://pub6.radiotunes.com:80/radiotunes_smoothjazz", 
+            "http://pub2.radiotunes.com:80/radiotunes_smoothjazz"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Easy listening and Romantic hits from the heart!!", 
+        "iconUrl": "http://static.audioaddict.com/9feee3db11b67dee318c8f36a99adb9b.png", 
+        "name": "Love Music", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/lovemusic", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_lovemusic", 
+            "http://pub7.radiotunes.com:80/radiotunes_lovemusic", 
+            "http://pub6.radiotunes.com:80/radiotunes_lovemusic", 
+            "http://pub2.radiotunes.com:80/radiotunes_lovemusic", 
+            "http://pub4.radiotunes.com:80/radiotunes_lovemusic", 
+            "http://pub1.radiotunes.com:80/radiotunes_lovemusic", 
+            "http://pub8.radiotunes.com:80/radiotunes_lovemusic"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Hear your classic favorites right here!", 
+        "iconUrl": "http://static.audioaddict.com/e/7/8/3/9/b/e7839be1803a7734a554b55537b62968.png", 
+        "name": "Best of the 80's", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/the80s", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_the80s", 
+            "http://pub4.radiotunes.com:80/radiotunes_the80s", 
+            "http://pub2.radiotunes.com:80/radiotunes_the80s", 
+            "http://pub5.radiotunes.com:80/radiotunes_the80s", 
+            "http://pub8.radiotunes.com:80/radiotunes_the80s", 
+            "http://pub6.radiotunes.com:80/radiotunes_the80s", 
+            "http://pub1.radiotunes.com:80/radiotunes_the80s"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Musical journeys with piano masters and talented undiscovered pianists", 
+        "iconUrl": "http://static.audioaddict.com/657f189ce01b74b7734063154775ca31.png", 
+        "name": "Solo Piano", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/solopiano", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_solopiano", 
+            "http://pub7.radiotunes.com:80/radiotunes_solopiano", 
+            "http://pub8.radiotunes.com:80/radiotunes_solopiano", 
+            "http://pub1.radiotunes.com:80/radiotunes_solopiano", 
+            "http://pub4.radiotunes.com:80/radiotunes_solopiano", 
+            "http://pub6.radiotunes.com:80/radiotunes_solopiano", 
+            "http://pub2.radiotunes.com:80/radiotunes_solopiano"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "relaxing music for the mind and soul", 
+        "iconUrl": "http://static.audioaddict.com/df99e575070665e78685364ce35a26b8.png", 
+        "name": "Relaxation", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/relaxation", 
+        "streams": [
+            "http://pub8.radiotunes.com:80/radiotunes_relaxation", 
+            "http://pub1.radiotunes.com:80/radiotunes_relaxation", 
+            "http://pub5.radiotunes.com:80/radiotunes_relaxation", 
+            "http://pub4.radiotunes.com:80/radiotunes_relaxation", 
+            "http://pub6.radiotunes.com:80/radiotunes_relaxation", 
+            "http://pub7.radiotunes.com:80/radiotunes_relaxation", 
+            "http://pub2.radiotunes.com:80/radiotunes_relaxation"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Soothing sounds of new age and world music!", 
+        "iconUrl": "http://static.audioaddict.com/ee90d885488f0d224c9cabe5d2ea770b.png", 
+        "name": "New Age", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/newage", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_newage", 
+            "http://pub7.radiotunes.com:80/radiotunes_newage", 
+            "http://pub1.radiotunes.com:80/radiotunes_newage", 
+            "http://pub4.radiotunes.com:80/radiotunes_newage", 
+            "http://pub6.radiotunes.com:80/radiotunes_newage", 
+            "http://pub8.radiotunes.com:80/radiotunes_newage", 
+            "http://pub2.radiotunes.com:80/radiotunes_newage"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Three decades of great oldies on RadioTunes.com", 
+        "iconUrl": "http://static.audioaddict.com/b2f77e0f416e1396721b44f9f4b73374.png", 
+        "name": "Oldies", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/oldies", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_oldies", 
+            "http://pub7.radiotunes.com:80/radiotunes_oldies", 
+            "http://pub8.radiotunes.com:80/radiotunes_oldies", 
+            "http://pub5.radiotunes.com:80/radiotunes_oldies", 
+            "http://pub4.radiotunes.com:80/radiotunes_oldies", 
+            "http://pub1.radiotunes.com:80/radiotunes_oldies", 
+            "http://pub2.radiotunes.com:80/radiotunes_oldies"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "All Hits, All The Time!", 
+        "iconUrl": "http://static.audioaddict.com/6fe772afcb2ea44eab2048f1f60af18d.png", 
+        "name": "Hit 70's", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/hit70s", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_hit70s", 
+            "http://pub2.radiotunes.com:80/radiotunes_hit70s", 
+            "http://pub7.radiotunes.com:80/radiotunes_hit70s", 
+            "http://pub1.radiotunes.com:80/radiotunes_hit70s", 
+            "http://pub5.radiotunes.com:80/radiotunes_hit70s", 
+            "http://pub8.radiotunes.com:80/radiotunes_hit70s", 
+            "http://pub4.radiotunes.com:80/radiotunes_hit70s"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Smooth Jazz DJs bring you the best music, 24 hours a day!", 
+        "iconUrl": "http://static.audioaddict.com/4cb303531bcbff5ef8b61dbfe995568c.png", 
+        "name": "Smooth Jazz 24'7", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/smoothjazz247", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_smoothjazz247", 
+            "http://pub8.radiotunes.com:80/radiotunes_smoothjazz247", 
+            "http://pub1.radiotunes.com:80/radiotunes_smoothjazz247", 
+            "http://pub4.radiotunes.com:80/radiotunes_smoothjazz247", 
+            "http://pub6.radiotunes.com:80/radiotunes_smoothjazz247", 
+            "http://pub5.radiotunes.com:80/radiotunes_smoothjazz247", 
+            "http://pub2.radiotunes.com:80/radiotunes_smoothjazz247"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The best of vocal smooth jazz!!", 
+        "iconUrl": "http://static.audioaddict.com/beb3e04b65b282052419bd15c81e1be4.png", 
+        "name": "Vocal Smooth Jazz", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/vocalsmoothjazz", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_vocalsmoothjazz", 
+            "http://pub7.radiotunes.com:80/radiotunes_vocalsmoothjazz", 
+            "http://pub8.radiotunes.com:80/radiotunes_vocalsmoothjazz", 
+            "http://pub2.radiotunes.com:80/radiotunes_vocalsmoothjazz", 
+            "http://pub4.radiotunes.com:80/radiotunes_vocalsmoothjazz", 
+            "http://pub5.radiotunes.com:80/radiotunes_vocalsmoothjazz", 
+            "http://pub1.radiotunes.com:80/radiotunes_vocalsmoothjazz"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Soothing vocal sounds of new age music!", 
+        "iconUrl": "http://static.audioaddict.com/09885117eb43050f5a64e790a684426d.png", 
+        "name": "Vocal New Age", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/vocalnewage", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_vocalnewage", 
+            "http://pub7.radiotunes.com:80/radiotunes_vocalnewage", 
+            "http://pub8.radiotunes.com:80/radiotunes_vocalnewage", 
+            "http://pub2.radiotunes.com:80/radiotunes_vocalnewage", 
+            "http://pub1.radiotunes.com:80/radiotunes_vocalnewage", 
+            "http://pub4.radiotunes.com:80/radiotunes_vocalnewage", 
+            "http://pub5.radiotunes.com:80/radiotunes_vocalnewage"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Listen and Relax, it's good for you!", 
+        "iconUrl": "http://static.audioaddict.com/e3302f3ef1f85c53f3a13d0209102b26.png", 
+        "name": "Mostly Classical", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/classical", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_classical", 
+            "http://pub8.radiotunes.com:80/radiotunes_classical", 
+            "http://pub2.radiotunes.com:80/radiotunes_classical", 
+            "http://pub1.radiotunes.com:80/radiotunes_classical", 
+            "http://pub4.radiotunes.com:80/radiotunes_classical", 
+            "http://pub7.radiotunes.com:80/radiotunes_classical", 
+            "http://pub5.radiotunes.com:80/radiotunes_classical"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relive the classic rock sounds of the 70s and 80s", 
+        "iconUrl": "http://static.audioaddict.com/243efc74a39092c1b2c1f5eb3b6ee0e2.png", 
+        "name": "Classic Rock", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/classicrock", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_classicrock", 
+            "http://pub2.radiotunes.com:80/radiotunes_classicrock", 
+            "http://pub5.radiotunes.com:80/radiotunes_classicrock", 
+            "http://pub4.radiotunes.com:80/radiotunes_classicrock", 
+            "http://pub6.radiotunes.com:80/radiotunes_classicrock", 
+            "http://pub8.radiotunes.com:80/radiotunes_classicrock", 
+            "http://pub1.radiotunes.com:80/radiotunes_classicrock"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relaxing Smooth Jazz for your listening pleasure.", 
+        "iconUrl": "http://static.audioaddict.com/3/b/6/d/9/e/3b6d9e5edaeaac40e071cb63a5e542d4.png", 
+        "name": "Mellow Smooth Jazz", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/mellowsmoothjazz", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_mellowsmoothjazz", 
+            "http://pub4.radiotunes.com:80/radiotunes_mellowsmoothjazz", 
+            "http://pub8.radiotunes.com:80/radiotunes_mellowsmoothjazz", 
+            "http://pub2.radiotunes.com:80/radiotunes_mellowsmoothjazz", 
+            "http://pub7.radiotunes.com:80/radiotunes_mellowsmoothjazz", 
+            "http://pub6.radiotunes.com:80/radiotunes_mellowsmoothjazz", 
+            "http://pub1.radiotunes.com:80/radiotunes_mellowsmoothjazz"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relax and unwind with the smoothest lounge vibes.", 
+        "iconUrl": "http://static.audioaddict.com/8a8c05b2da5d78ddaf9e453236e311ff.jpg", 
+        "name": "Smooth Lounge", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/smoothlounge", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_smoothlounge", 
+            "http://pub7.radiotunes.com:80/radiotunes_smoothlounge", 
+            "http://pub8.radiotunes.com:80/radiotunes_smoothlounge", 
+            "http://pub6.radiotunes.com:80/radiotunes_smoothlounge", 
+            "http://pub4.radiotunes.com:80/radiotunes_smoothlounge", 
+            "http://pub1.radiotunes.com:80/radiotunes_smoothlounge", 
+            "http://pub2.radiotunes.com:80/radiotunes_smoothlounge"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relax to the sounds of dream and Ibiza style chillout", 
+        "iconUrl": "http://static.audioaddict.com/8ca99e36c4854358d1ce76c30ccae16a.png", 
+        "name": "Dreamscapes", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/dreamscapes", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_dreamscapes", 
+            "http://pub8.radiotunes.com:80/radiotunes_dreamscapes", 
+            "http://pub6.radiotunes.com:80/radiotunes_dreamscapes", 
+            "http://pub2.radiotunes.com:80/radiotunes_dreamscapes", 
+            "http://pub4.radiotunes.com:80/radiotunes_dreamscapes", 
+            "http://pub5.radiotunes.com:80/radiotunes_dreamscapes", 
+            "http://pub1.radiotunes.com:80/radiotunes_dreamscapes"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The world's smoothest jazz, grooving 24 hours a day", 
+        "iconUrl": "http://static.audioaddict.com/16f9c144baa98176ab4f98dc3538adf4.png", 
+        "name": "Uptempo Smooth Jazz", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/uptemposmoothjazz", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_uptemposmoothjazz", 
+            "http://pub5.radiotunes.com:80/radiotunes_uptemposmoothjazz", 
+            "http://pub7.radiotunes.com:80/radiotunes_uptemposmoothjazz", 
+            "http://pub8.radiotunes.com:80/radiotunes_uptemposmoothjazz", 
+            "http://pub4.radiotunes.com:80/radiotunes_uptemposmoothjazz", 
+            "http://pub2.radiotunes.com:80/radiotunes_uptemposmoothjazz", 
+            "http://pub1.radiotunes.com:80/radiotunes_uptemposmoothjazz"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "soothing sounds of nature music!", 
+        "iconUrl": "http://static.audioaddict.com/7501be44c9536cbd48968b2d7a2f4d81.png", 
+        "name": "Nature", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/nature", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_nature", 
+            "http://pub2.radiotunes.com:80/radiotunes_nature", 
+            "http://pub4.radiotunes.com:80/radiotunes_nature", 
+            "http://pub1.radiotunes.com:80/radiotunes_nature", 
+            "http://pub8.radiotunes.com:80/radiotunes_nature", 
+            "http://pub7.radiotunes.com:80/radiotunes_nature", 
+            "http://pub6.radiotunes.com:80/radiotunes_nature"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Watch the world go by on a sunny Paris day.", 
+        "iconUrl": "http://static.audioaddict.com/3/0/6/2/3/4/3062348e97fe268f62ba94ccbcfdcc57.png", 
+        "name": "Caf\u00e9 de Paris", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/cafedeparis", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_cafedeparis", 
+            "http://pub2.radiotunes.com:80/radiotunes_cafedeparis", 
+            "http://pub4.radiotunes.com:80/radiotunes_cafedeparis", 
+            "http://pub6.radiotunes.com:80/radiotunes_cafedeparis", 
+            "http://pub7.radiotunes.com:80/radiotunes_cafedeparis", 
+            "http://pub8.radiotunes.com:80/radiotunes_cafedeparis", 
+            "http://pub1.radiotunes.com:80/radiotunes_cafedeparis"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The best 80s Dance Party on the web!", 
+        "iconUrl": "http://static.audioaddict.com/3/2/3/6/5/a/32365acb3fc314b7752994c566c546d0.png", 
+        "name": "80's Dance", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/80sdance", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_80sdance", 
+            "http://pub6.radiotunes.com:80/radiotunes_80sdance", 
+            "http://pub8.radiotunes.com:80/radiotunes_80sdance", 
+            "http://pub4.radiotunes.com:80/radiotunes_80sdance", 
+            "http://pub2.radiotunes.com:80/radiotunes_80sdance", 
+            "http://pub5.radiotunes.com:80/radiotunes_80sdance", 
+            "http://pub1.radiotunes.com:80/radiotunes_80sdance"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The best of classic and modern Roots Reggae ", 
+        "iconUrl": "http://static.audioaddict.com/cbf2c683fa84e16f6a03a178070d32cb.png", 
+        "name": "Roots Reggae", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/rootsreggae", 
+        "streams": [
+            "http://pub8.radiotunes.com:80/radiotunes_rootsreggae", 
+            "http://pub2.radiotunes.com:80/radiotunes_rootsreggae", 
+            "http://pub4.radiotunes.com:80/radiotunes_rootsreggae", 
+            "http://pub5.radiotunes.com:80/radiotunes_rootsreggae", 
+            "http://pub6.radiotunes.com:80/radiotunes_rootsreggae", 
+            "http://pub7.radiotunes.com:80/radiotunes_rootsreggae", 
+            "http://pub1.radiotunes.com:80/radiotunes_rootsreggae"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "100% pure bossa nova channel, enjoy the sweet flavors of Brazil!", 
+        "iconUrl": "http://static.audioaddict.com/42b7913c019bbe47ee258d13a7dbf5bb.png", 
+        "name": "Bossa Nova", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/bossanova", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_bossanova", 
+            "http://pub7.radiotunes.com:80/radiotunes_bossanova", 
+            "http://pub2.radiotunes.com:80/radiotunes_bossanova", 
+            "http://pub1.radiotunes.com:80/radiotunes_bossanova", 
+            "http://pub4.radiotunes.com:80/radiotunes_bossanova", 
+            "http://pub5.radiotunes.com:80/radiotunes_bossanova", 
+            "http://pub8.radiotunes.com:80/radiotunes_bossanova"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The best in Soft Rock music!", 
+        "iconUrl": "http://static.audioaddict.com/3d79cb01a53e1795728d112c1bb00e0b.jpg", 
+        "name": "Soft Rock", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/softrock", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_softrock", 
+            "http://pub7.radiotunes.com:80/radiotunes_softrock", 
+            "http://pub8.radiotunes.com:80/radiotunes_softrock", 
+            "http://pub4.radiotunes.com:80/radiotunes_softrock", 
+            "http://pub2.radiotunes.com:80/radiotunes_softrock", 
+            "http://pub6.radiotunes.com:80/radiotunes_softrock", 
+            "http://pub1.radiotunes.com:80/radiotunes_softrock"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The hottest dance tunes 24/7", 
+        "iconUrl": "http://static.audioaddict.com/cdb89061045f4207b909558ca01b8637.png", 
+        "name": "Dance Hits", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/dancehits", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_dancehits", 
+            "http://pub1.radiotunes.com:80/radiotunes_dancehits", 
+            "http://pub5.radiotunes.com:80/radiotunes_dancehits", 
+            "http://pub2.radiotunes.com:80/radiotunes_dancehits", 
+            "http://pub4.radiotunes.com:80/radiotunes_dancehits", 
+            "http://pub8.radiotunes.com:80/radiotunes_dancehits", 
+            "http://pub6.radiotunes.com:80/radiotunes_dancehits"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Amazing combination of jazz, lounge, bossa, and much more!", 
+        "iconUrl": "http://static.audioaddict.com/9145b6ea36ca63b0911dc6c537de89cb.png", 
+        "name": "DaTempo Lounge", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/datempolounge", 
+        "streams": [
+            "http://pub2.radiotunes.com:80/radiotunes_datempolounge", 
+            "http://pub6.radiotunes.com:80/radiotunes_datempolounge", 
+            "http://pub5.radiotunes.com:80/radiotunes_datempolounge", 
+            "http://pub4.radiotunes.com:80/radiotunes_datempolounge", 
+            "http://pub1.radiotunes.com:80/radiotunes_datempolounge", 
+            "http://pub7.radiotunes.com:80/radiotunes_datempolounge", 
+            "http://pub8.radiotunes.com:80/radiotunes_datempolounge"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The best in R&B from the noughties!", 
+        "iconUrl": "http://static.audioaddict.com/7/6/3/d/c/3/763dc3ccb478c6b9f62512cdc00508fe.png", 
+        "name": "00's R&B", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/00srnb", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_00srnb", 
+            "http://pub2.radiotunes.com:80/radiotunes_00srnb", 
+            "http://pub8.radiotunes.com:80/radiotunes_00srnb", 
+            "http://pub7.radiotunes.com:80/radiotunes_00srnb", 
+            "http://pub4.radiotunes.com:80/radiotunes_00srnb", 
+            "http://pub6.radiotunes.com:80/radiotunes_00srnb", 
+            "http://pub1.radiotunes.com:80/radiotunes_00srnb"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The hottest 90s R&B hits and jams!", 
+        "iconUrl": "http://static.audioaddict.com/0/f/2/2/5/9/0f2259b1e91d45b967e9963c761adf5e.png", 
+        "name": "90's R&B", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/90srnb", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_90srnb", 
+            "http://pub6.radiotunes.com:80/radiotunes_90srnb", 
+            "http://pub8.radiotunes.com:80/radiotunes_90srnb", 
+            "http://pub4.radiotunes.com:80/radiotunes_90srnb", 
+            "http://pub2.radiotunes.com:80/radiotunes_90srnb", 
+            "http://pub5.radiotunes.com:80/radiotunes_90srnb", 
+            "http://pub1.radiotunes.com:80/radiotunes_90srnb"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relax and unwind to the Mellow side of Jazz.", 
+        "iconUrl": "http://static.audioaddict.com/c/4/a/7/e/c/c4a7ec91601ac6ce18859c2edeff9c80.png", 
+        "name": "Mellow Jazz", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/mellowjazz", 
+        "streams": [
+            "http://pub2.radiotunes.com:80/radiotunes_mellowjazz", 
+            "http://pub5.radiotunes.com:80/radiotunes_mellowjazz", 
+            "http://pub4.radiotunes.com:80/radiotunes_mellowjazz", 
+            "http://pub6.radiotunes.com:80/radiotunes_mellowjazz", 
+            "http://pub7.radiotunes.com:80/radiotunes_mellowjazz", 
+            "http://pub8.radiotunes.com:80/radiotunes_mellowjazz", 
+            "http://pub1.radiotunes.com:80/radiotunes_mellowjazz"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relive the memories of the 60\u2019s greatest hits.", 
+        "iconUrl": "http://static.audioaddict.com/0/c/0/f/7/3/0c0f73e059ff0f6150a23a0bb3ece5a0.png", 
+        "name": "Best of the 60's", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/hit60s", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_hit60s", 
+            "http://pub8.radiotunes.com:80/radiotunes_hit60s", 
+            "http://pub5.radiotunes.com:80/radiotunes_hit60s", 
+            "http://pub1.radiotunes.com:80/radiotunes_hit60s", 
+            "http://pub4.radiotunes.com:80/radiotunes_hit60s", 
+            "http://pub6.radiotunes.com:80/radiotunes_hit60s", 
+            "http://pub2.radiotunes.com:80/radiotunes_hit60s"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Reminisce and relive the hits of the 90s!", 
+        "iconUrl": "http://static.audioaddict.com/2/4/8/7/d/6/2487d65f7b584e92c73f5fbb3d6cb979.png", 
+        "name": "90's Hits", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/hit90s", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_hit90s", 
+            "http://pub5.radiotunes.com:80/radiotunes_hit90s", 
+            "http://pub2.radiotunes.com:80/radiotunes_hit90s", 
+            "http://pub4.radiotunes.com:80/radiotunes_hit90s", 
+            "http://pub8.radiotunes.com:80/radiotunes_hit90s", 
+            "http://pub7.radiotunes.com:80/radiotunes_hit90s", 
+            "http://pub1.radiotunes.com:80/radiotunes_hit90s"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "All your favorites from the beginning of the century. Expect familiar favorites and hidden gems. ", 
+        "iconUrl": "http://static.audioaddict.com/d/9/c/0/6/0/d9c060393b8e606a8b124edeec6b28f0.png", 
+        "name": "00's Hits", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/hit00s", 
+        "streams": [
+            "http://pub1.radiotunes.com:80/radiotunes_hit00s", 
+            "http://pub2.radiotunes.com:80/radiotunes_hit00s", 
+            "http://pub5.radiotunes.com:80/radiotunes_hit00s", 
+            "http://pub4.radiotunes.com:80/radiotunes_hit00s", 
+            "http://pub7.radiotunes.com:80/radiotunes_hit00s", 
+            "http://pub8.radiotunes.com:80/radiotunes_hit00s", 
+            "http://pub6.radiotunes.com:80/radiotunes_hit00s"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A mix of classical, spanish, and flamenco guitar", 
+        "iconUrl": "http://static.audioaddict.com/47e1f6acc1b1fd8947eb63053389c228.png", 
+        "name": "Classical Guitar", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/guitar", 
+        "streams": [
+            "http://pub8.radiotunes.com:80/radiotunes_guitar", 
+            "http://pub5.radiotunes.com:80/radiotunes_guitar", 
+            "http://pub4.radiotunes.com:80/radiotunes_guitar", 
+            "http://pub1.radiotunes.com:80/radiotunes_guitar", 
+            "http://pub2.radiotunes.com:80/radiotunes_guitar", 
+            "http://pub6.radiotunes.com:80/radiotunes_guitar", 
+            "http://pub7.radiotunes.com:80/radiotunes_guitar"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Your favorite rock hits from the 80's!", 
+        "iconUrl": "http://static.audioaddict.com/3318d27fbfcf6c699fe235e6f1ceb467.png", 
+        "name": "80's Rock Hits", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/80srock", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_80srock", 
+            "http://pub5.radiotunes.com:80/radiotunes_80srock", 
+            "http://pub2.radiotunes.com:80/radiotunes_80srock", 
+            "http://pub4.radiotunes.com:80/radiotunes_80srock", 
+            "http://pub8.radiotunes.com:80/radiotunes_80srock", 
+            "http://pub6.radiotunes.com:80/radiotunes_80srock", 
+            "http://pub1.radiotunes.com:80/radiotunes_80srock"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Classic Funky rhythms and Soulful grooves!", 
+        "iconUrl": "http://static.audioaddict.com/e/d/0/f/8/e/ed0f8e974f6e137aefab8429f1a21999.png", 
+        "name": "Old School Funk & Soul", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/oldschoolfunknsoul", 
+        "streams": [
+            "http://pub2.radiotunes.com:80/radiotunes_oldschoolfunknsoul", 
+            "http://pub6.radiotunes.com:80/radiotunes_oldschoolfunknsoul", 
+            "http://pub4.radiotunes.com:80/radiotunes_oldschoolfunknsoul", 
+            "http://pub8.radiotunes.com:80/radiotunes_oldschoolfunknsoul", 
+            "http://pub7.radiotunes.com:80/radiotunes_oldschoolfunknsoul", 
+            "http://pub5.radiotunes.com:80/radiotunes_oldschoolfunknsoul", 
+            "http://pub1.radiotunes.com:80/radiotunes_oldschoolfunknsoul"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Listen to the best in Modern Blues!", 
+        "iconUrl": "http://static.audioaddict.com/61457ec9c9b71e483c67b8482c010403.png", 
+        "name": "Modern Blues", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/modernblues", 
+        "streams": [
+            "http://pub2.radiotunes.com:80/radiotunes_modernblues", 
+            "http://pub4.radiotunes.com:80/radiotunes_modernblues", 
+            "http://pub5.radiotunes.com:80/radiotunes_modernblues", 
+            "http://pub6.radiotunes.com:80/radiotunes_modernblues", 
+            "http://pub7.radiotunes.com:80/radiotunes_modernblues", 
+            "http://pub8.radiotunes.com:80/radiotunes_modernblues", 
+            "http://pub1.radiotunes.com:80/radiotunes_modernblues"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Today's Hit Country with a mix of your favorites", 
+        "iconUrl": "http://static.audioaddict.com/25bc8f07c1cfd7d90eea968724105082.png", 
+        "name": "Country", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/country", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_country", 
+            "http://pub8.radiotunes.com:80/radiotunes_country", 
+            "http://pub2.radiotunes.com:80/radiotunes_country", 
+            "http://pub4.radiotunes.com:80/radiotunes_country", 
+            "http://pub6.radiotunes.com:80/radiotunes_country", 
+            "http://pub1.radiotunes.com:80/radiotunes_country", 
+            "http://pub5.radiotunes.com:80/radiotunes_country"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Best Salsa Collection now on RadioTunes.com", 
+        "iconUrl": "http://static.audioaddict.com/01e8dabaa5c29e58b7f6515d309481f5.png", 
+        "name": "Salsa", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/salsa", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_salsa", 
+            "http://pub7.radiotunes.com:80/radiotunes_salsa", 
+            "http://pub8.radiotunes.com:80/radiotunes_salsa", 
+            "http://pub1.radiotunes.com:80/radiotunes_salsa", 
+            "http://pub6.radiotunes.com:80/radiotunes_salsa", 
+            "http://pub4.radiotunes.com:80/radiotunes_salsa", 
+            "http://pub2.radiotunes.com:80/radiotunes_salsa"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The smoothest Bossa Nova direct from Brazil.", 
+        "iconUrl": "http://static.audioaddict.com/9/0/4/3/5/3/9043538c481c93174a6a5432b0f58c40.png", 
+        "name": "Smooth Bossa Nova", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/smoothbossanova", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_smoothbossanova", 
+            "http://pub7.radiotunes.com:80/radiotunes_smoothbossanova", 
+            "http://pub8.radiotunes.com:80/radiotunes_smoothbossanova", 
+            "http://pub1.radiotunes.com:80/radiotunes_smoothbossanova", 
+            "http://pub4.radiotunes.com:80/radiotunes_smoothbossanova", 
+            "http://pub6.radiotunes.com:80/radiotunes_smoothbossanova", 
+            "http://pub2.radiotunes.com:80/radiotunes_smoothbossanova"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Smooth Jazz selected by Dave Koz himself!", 
+        "iconUrl": "http://static.audioaddict.com/1/b/d/b/c/d/1bdbcdda2bcc5f34baa727c6f03334e6.png", 
+        "name": "Dave Koz & Friends", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/davekoz", 
+        "streams": [
+            "http://pub2.radiotunes.com:80/radiotunes_davekoz", 
+            "http://pub8.radiotunes.com:80/radiotunes_davekoz", 
+            "http://pub7.radiotunes.com:80/radiotunes_davekoz", 
+            "http://pub5.radiotunes.com:80/radiotunes_davekoz", 
+            "http://pub6.radiotunes.com:80/radiotunes_davekoz", 
+            "http://pub4.radiotunes.com:80/radiotunes_davekoz", 
+            "http://pub1.radiotunes.com:80/radiotunes_davekoz"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Enjoy the sounds of piano jazz from historic and modern masters.", 
+        "iconUrl": "http://static.audioaddict.com/3a78648bbc729bd4dc9ca944ce89d0df.png", 
+        "name": "Piano Jazz", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/pianojazz", 
+        "streams": [
+            "http://pub8.radiotunes.com:80/radiotunes_pianojazz", 
+            "http://pub7.radiotunes.com:80/radiotunes_pianojazz", 
+            "http://pub1.radiotunes.com:80/radiotunes_pianojazz", 
+            "http://pub4.radiotunes.com:80/radiotunes_pianojazz", 
+            "http://pub6.radiotunes.com:80/radiotunes_pianojazz", 
+            "http://pub5.radiotunes.com:80/radiotunes_pianojazz", 
+            "http://pub2.radiotunes.com:80/radiotunes_pianojazz"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The very best in classic 60s Rock!", 
+        "iconUrl": "http://static.audioaddict.com/2/c/d/a/3/1/2cda314915c57288384a8dacd54e8ef6.png", 
+        "name": "60's Rock", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/60srock", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_60srock", 
+            "http://pub8.radiotunes.com:80/radiotunes_60srock", 
+            "http://pub2.radiotunes.com:80/radiotunes_60srock", 
+            "http://pub4.radiotunes.com:80/radiotunes_60srock", 
+            "http://pub5.radiotunes.com:80/radiotunes_60srock", 
+            "http://pub6.radiotunes.com:80/radiotunes_60srock", 
+            "http://pub1.radiotunes.com:80/radiotunes_60srock"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A wide variety of Soundtracks from Movies, show themes, & more!", 
+        "iconUrl": "http://static.audioaddict.com/7b648b3c6789173a12666a63d421aa96.png", 
+        "name": "Movie Soundtracks", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/soundtracks", 
+        "streams": [
+            "http://pub4.radiotunes.com:80/radiotunes_soundtracks", 
+            "http://pub2.radiotunes.com:80/radiotunes_soundtracks", 
+            "http://pub1.radiotunes.com:80/radiotunes_soundtracks", 
+            "http://pub6.radiotunes.com:80/radiotunes_soundtracks", 
+            "http://pub7.radiotunes.com:80/radiotunes_soundtracks", 
+            "http://pub8.radiotunes.com:80/radiotunes_soundtracks", 
+            "http://pub5.radiotunes.com:80/radiotunes_soundtracks"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Music for the mind and body", 
+        "iconUrl": "http://static.audioaddict.com/2/1/0/0/c/5/2100c502ffe38ee9710194ab0bdc6846.png", 
+        "name": "Meditation", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/meditation", 
+        "streams": [
+            "http://pub2.radiotunes.com:80/radiotunes_meditation", 
+            "http://pub5.radiotunes.com:80/radiotunes_meditation", 
+            "http://pub7.radiotunes.com:80/radiotunes_meditation", 
+            "http://pub6.radiotunes.com:80/radiotunes_meditation", 
+            "http://pub4.radiotunes.com:80/radiotunes_meditation", 
+            "http://pub8.radiotunes.com:80/radiotunes_meditation", 
+            "http://pub1.radiotunes.com:80/radiotunes_meditation"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Timeless pop classical voices!", 
+        "iconUrl": "http://static.audioaddict.com/7e66489ebd3e3229d3fdfd10e950d262.png", 
+        "name": "Romantica", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/romantica", 
+        "streams": [
+            "http://pub8.radiotunes.com:80/radiotunes_romantica", 
+            "http://pub1.radiotunes.com:80/radiotunes_romantica", 
+            "http://pub6.radiotunes.com:80/radiotunes_romantica", 
+            "http://pub5.radiotunes.com:80/radiotunes_romantica", 
+            "http://pub7.radiotunes.com:80/radiotunes_romantica", 
+            "http://pub4.radiotunes.com:80/radiotunes_romantica", 
+            "http://pub2.radiotunes.com:80/radiotunes_romantica"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The best in classic hip-hop!!", 
+        "iconUrl": "http://static.audioaddict.com/c54b89c96b6917acf4ec3ddd9d8e5f7c.png", 
+        "name": "Classic Hip-Hop", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/classicrap", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_classicrap", 
+            "http://pub6.radiotunes.com:80/radiotunes_classicrap", 
+            "http://pub2.radiotunes.com:80/radiotunes_classicrap", 
+            "http://pub4.radiotunes.com:80/radiotunes_classicrap", 
+            "http://pub7.radiotunes.com:80/radiotunes_classicrap", 
+            "http://pub8.radiotunes.com:80/radiotunes_classicrap", 
+            "http://pub1.radiotunes.com:80/radiotunes_classicrap"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Sit back and enjoy the lounge grooves!", 
+        "iconUrl": "http://static.audioaddict.com/b/4/f/2/b/0/b4f2b0c2ffa8e06a9e05de5cdd0bcfe5.png", 
+        "name": "Lounge", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/lounge", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_rtlounge", 
+            "http://pub4.radiotunes.com:80/radiotunes_rtlounge", 
+            "http://pub5.radiotunes.com:80/radiotunes_rtlounge", 
+            "http://pub2.radiotunes.com:80/radiotunes_rtlounge", 
+            "http://pub7.radiotunes.com:80/radiotunes_rtlounge", 
+            "http://pub8.radiotunes.com:80/radiotunes_rtlounge", 
+            "http://pub1.radiotunes.com:80/radiotunes_rtlounge"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Take time to relax to the sounds of ambient piano", 
+        "iconUrl": "http://static.audioaddict.com/3/e/1/e/0/a/3e1e0acfbfd342ebe7c0fda2dc4df0b0.png", 
+        "name": "Relaxing Ambient Piano", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/relaxingambientpiano", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_relaxingambientpiano", 
+            "http://pub6.radiotunes.com:80/radiotunes_relaxingambientpiano", 
+            "http://pub4.radiotunes.com:80/radiotunes_relaxingambientpiano", 
+            "http://pub7.radiotunes.com:80/radiotunes_relaxingambientpiano", 
+            "http://pub2.radiotunes.com:80/radiotunes_relaxingambientpiano", 
+            "http://pub8.radiotunes.com:80/radiotunes_relaxingambientpiano", 
+            "http://pub1.radiotunes.com:80/radiotunes_relaxingambientpiano"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Today's Christian favorites and undiscovered hits", 
+        "iconUrl": "http://static.audioaddict.com/9ed827ddee44c35e34b9de2bdf425048.png", 
+        "name": "Contemporary Christian", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/christian", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_christian", 
+            "http://pub1.radiotunes.com:80/radiotunes_christian", 
+            "http://pub5.radiotunes.com:80/radiotunes_christian", 
+            "http://pub2.radiotunes.com:80/radiotunes_christian", 
+            "http://pub4.radiotunes.com:80/radiotunes_christian", 
+            "http://pub7.radiotunes.com:80/radiotunes_christian", 
+            "http://pub8.radiotunes.com:80/radiotunes_christian"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Enjoy the relaxing vocal sounds of Ibiza chillout", 
+        "iconUrl": "http://static.audioaddict.com/1/c/c/8/b/5/1cc8b5c256d603302446b51cc242b9fd.png", 
+        "name": "Vocal Chillout", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/vocalchillout", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_rtvocalchillout", 
+            "http://pub2.radiotunes.com:80/radiotunes_rtvocalchillout", 
+            "http://pub5.radiotunes.com:80/radiotunes_rtvocalchillout", 
+            "http://pub8.radiotunes.com:80/radiotunes_rtvocalchillout", 
+            "http://pub7.radiotunes.com:80/radiotunes_rtvocalchillout", 
+            "http://pub4.radiotunes.com:80/radiotunes_rtvocalchillout", 
+            "http://pub1.radiotunes.com:80/radiotunes_rtvocalchillout"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "New Age influenced world music", 
+        "iconUrl": "http://static.audioaddict.com/a2ffcb17080207ca578d00f5c7eff1f0.png", 
+        "name": "World", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/world", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_world", 
+            "http://pub7.radiotunes.com:80/radiotunes_world", 
+            "http://pub8.radiotunes.com:80/radiotunes_world", 
+            "http://pub4.radiotunes.com:80/radiotunes_world", 
+            "http://pub2.radiotunes.com:80/radiotunes_world", 
+            "http://pub1.radiotunes.com:80/radiotunes_world", 
+            "http://pub5.radiotunes.com:80/radiotunes_world"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The sounds of the 80s underground. Synths, quirky ideas and pioneering musicians. ", 
+        "iconUrl": "http://static.audioaddict.com/e/5/c/0/2/a/e5c02aa3d79950dff491a470a36ebf8d.png", 
+        "name": "80's Alt & New Wave", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/80saltnnewwave", 
+        "streams": [
+            "http://pub8.radiotunes.com:80/radiotunes_80saltnnewwave", 
+            "http://pub6.radiotunes.com:80/radiotunes_80saltnnewwave", 
+            "http://pub1.radiotunes.com:80/radiotunes_80saltnnewwave", 
+            "http://pub2.radiotunes.com:80/radiotunes_80saltnnewwave", 
+            "http://pub5.radiotunes.com:80/radiotunes_80saltnnewwave", 
+            "http://pub4.radiotunes.com:80/radiotunes_80saltnnewwave", 
+            "http://pub7.radiotunes.com:80/radiotunes_80saltnnewwave"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Alternative rock hits You want to hear!!", 
+        "iconUrl": "http://static.audioaddict.com/4c1e38925a1d195686c180d7fdd355bb.png", 
+        "name": "Alternative Rock", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/altrock", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_altrock", 
+            "http://pub7.radiotunes.com:80/radiotunes_altrock", 
+            "http://pub4.radiotunes.com:80/radiotunes_altrock", 
+            "http://pub2.radiotunes.com:80/radiotunes_altrock", 
+            "http://pub6.radiotunes.com:80/radiotunes_altrock", 
+            "http://pub1.radiotunes.com:80/radiotunes_altrock", 
+            "http://pub8.radiotunes.com:80/radiotunes_altrock"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relaxing Vocals and Lounge Grooves", 
+        "iconUrl": "http://static.audioaddict.com/a/c/c/c/4/9/accc49b2d1b70feb5b21603d67cc444f.png", 
+        "name": "Vocal Lounge", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/vocallounge", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_rtvocallounge", 
+            "http://pub6.radiotunes.com:80/radiotunes_rtvocallounge", 
+            "http://pub8.radiotunes.com:80/radiotunes_rtvocallounge", 
+            "http://pub4.radiotunes.com:80/radiotunes_rtvocallounge", 
+            "http://pub7.radiotunes.com:80/radiotunes_rtvocallounge", 
+            "http://pub2.radiotunes.com:80/radiotunes_rtvocallounge", 
+            "http://pub1.radiotunes.com:80/radiotunes_rtvocallounge"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Classic standard voices from the likes of Mel Torme & Nat King Cole", 
+        "iconUrl": "http://static.audioaddict.com/3fbd5add268ebd2aff68bf963ea59660.png", 
+        "name": "American Songbook", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/americansongbook", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_americansongbook", 
+            "http://pub4.radiotunes.com:80/radiotunes_americansongbook", 
+            "http://pub6.radiotunes.com:80/radiotunes_americansongbook", 
+            "http://pub2.radiotunes.com:80/radiotunes_americansongbook", 
+            "http://pub5.radiotunes.com:80/radiotunes_americansongbook", 
+            "http://pub8.radiotunes.com:80/radiotunes_americansongbook", 
+            "http://pub1.radiotunes.com:80/radiotunes_americansongbook"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Pop & rock hits!", 
+        "iconUrl": "http://static.audioaddict.com/c2bf1bfc843db7bc6ccf7563bd5ade7f.png", 
+        "name": "Pop Rock", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/poprock", 
+        "streams": [
+            "http://pub8.radiotunes.com:80/radiotunes_poprock", 
+            "http://pub4.radiotunes.com:80/radiotunes_poprock", 
+            "http://pub1.radiotunes.com:80/radiotunes_poprock", 
+            "http://pub2.radiotunes.com:80/radiotunes_poprock", 
+            "http://pub7.radiotunes.com:80/radiotunes_poprock", 
+            "http://pub6.radiotunes.com:80/radiotunes_poprock", 
+            "http://pub5.radiotunes.com:80/radiotunes_poprock"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A fusion of Blues and Rock.", 
+        "iconUrl": "http://static.audioaddict.com/9/a/b/4/0/1/9ab401f69096e40747d0a6c5a8ccf6d2.png", 
+        "name": "Blues Rock", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/bluesrock", 
+        "streams": [
+            "http://pub4.radiotunes.com:80/radiotunes_bluesrock", 
+            "http://pub2.radiotunes.com:80/radiotunes_bluesrock", 
+            "http://pub6.radiotunes.com:80/radiotunes_bluesrock", 
+            "http://pub5.radiotunes.com:80/radiotunes_bluesrock", 
+            "http://pub8.radiotunes.com:80/radiotunes_bluesrock", 
+            "http://pub7.radiotunes.com:80/radiotunes_bluesrock", 
+            "http://pub1.radiotunes.com:80/radiotunes_bluesrock"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The ultimate Disco Party of all time!", 
+        "iconUrl": "http://static.audioaddict.com/c/c/d/d/b/6/ccddb6f390a0401e7bc4088afa5fbaff.png", 
+        "name": "Disco Party", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/discoparty", 
+        "streams": [
+            "http://pub2.radiotunes.com:80/radiotunes_discoparty", 
+            "http://pub6.radiotunes.com:80/radiotunes_discoparty", 
+            "http://pub8.radiotunes.com:80/radiotunes_discoparty", 
+            "http://pub4.radiotunes.com:80/radiotunes_discoparty", 
+            "http://pub5.radiotunes.com:80/radiotunes_discoparty", 
+            "http://pub7.radiotunes.com:80/radiotunes_discoparty", 
+            "http://pub1.radiotunes.com:80/radiotunes_discoparty"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Bang along with the best Hard Rock tracks anywhere", 
+        "iconUrl": "http://static.audioaddict.com/7d3e6634592359e2a0c1d6e5f3f5ddaf.jpg", 
+        "name": "Hard Rock", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/hardrock", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_hardrock", 
+            "http://pub4.radiotunes.com:80/radiotunes_hardrock", 
+            "http://pub2.radiotunes.com:80/radiotunes_hardrock", 
+            "http://pub5.radiotunes.com:80/radiotunes_hardrock", 
+            "http://pub8.radiotunes.com:80/radiotunes_hardrock", 
+            "http://pub7.radiotunes.com:80/radiotunes_hardrock", 
+            "http://pub1.radiotunes.com:80/radiotunes_hardrock"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The best in Urban crossover hits", 
+        "iconUrl": "http://static.audioaddict.com/c/1/1/7/b/8/c117b8cea21df06b15bd86d8b810f8d2.png", 
+        "name": "Urban Pop Hits", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/urbanpophits", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_urbanpophits", 
+            "http://pub8.radiotunes.com:80/radiotunes_urbanpophits", 
+            "http://pub2.radiotunes.com:80/radiotunes_urbanpophits", 
+            "http://pub7.radiotunes.com:80/radiotunes_urbanpophits", 
+            "http://pub4.radiotunes.com:80/radiotunes_urbanpophits", 
+            "http://pub5.radiotunes.com:80/radiotunes_urbanpophits", 
+            "http://pub1.radiotunes.com:80/radiotunes_urbanpophits"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Soulful R&B jams and ballads.", 
+        "iconUrl": "http://static.audioaddict.com/0/b/e/f/3/4/0bef34a4e4cc5dd4b4ee16c78427133f.png", 
+        "name": "Slow Jams", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/slowjams", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_slowjams", 
+            "http://pub2.radiotunes.com:80/radiotunes_slowjams", 
+            "http://pub4.radiotunes.com:80/radiotunes_slowjams", 
+            "http://pub8.radiotunes.com:80/radiotunes_slowjams", 
+            "http://pub6.radiotunes.com:80/radiotunes_slowjams", 
+            "http://pub5.radiotunes.com:80/radiotunes_slowjams", 
+            "http://pub1.radiotunes.com:80/radiotunes_slowjams"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Kickin' with the baddest beats on the 'net", 
+        "iconUrl": "http://static.audioaddict.com/05f8add3c89ba75d1b1dfca9cc8e5df9.png", 
+        "name": "Urban Hits", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/urbanjamz", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_urbanjamz", 
+            "http://pub7.radiotunes.com:80/radiotunes_urbanjamz", 
+            "http://pub8.radiotunes.com:80/radiotunes_urbanjamz", 
+            "http://pub1.radiotunes.com:80/radiotunes_urbanjamz", 
+            "http://pub6.radiotunes.com:80/radiotunes_urbanjamz", 
+            "http://pub4.radiotunes.com:80/radiotunes_urbanjamz", 
+            "http://pub2.radiotunes.com:80/radiotunes_urbanjamz"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Listen to delightful classical music from the Baroque Period (1600-1760)", 
+        "iconUrl": "http://static.audioaddict.com/b/7/b/0/c/2/b7b0c26558f5d6a5b77d71117008c2ae.png", 
+        "name": "Baroque Period", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/baroque", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_baroque", 
+            "http://pub5.radiotunes.com:80/radiotunes_baroque", 
+            "http://pub8.radiotunes.com:80/radiotunes_baroque", 
+            "http://pub4.radiotunes.com:80/radiotunes_baroque", 
+            "http://pub6.radiotunes.com:80/radiotunes_baroque", 
+            "http://pub2.radiotunes.com:80/radiotunes_baroque", 
+            "http://pub1.radiotunes.com:80/radiotunes_baroque"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relax to the wonderful works of classical composer Wolfgang Amadeus Mozart (1756-1791).", 
+        "iconUrl": "http://static.audioaddict.com/b/0/5/5/c/4/b055c4c2f8fd947e7e417b58b4663dd0.png", 
+        "name": "Mozart", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/mozart", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_mozart", 
+            "http://pub5.radiotunes.com:80/radiotunes_mozart", 
+            "http://pub7.radiotunes.com:80/radiotunes_mozart", 
+            "http://pub4.radiotunes.com:80/radiotunes_mozart", 
+            "http://pub8.radiotunes.com:80/radiotunes_mozart", 
+            "http://pub2.radiotunes.com:80/radiotunes_mozart", 
+            "http://pub1.radiotunes.com:80/radiotunes_mozart"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Swinging to the sounds of bebop and straight ahead jazz", 
+        "iconUrl": "http://static.audioaddict.com/3df6292d6a6cbc2b04d007703ab2f7b2.png", 
+        "name": "Bebop Jazz", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/bebop", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_bebop", 
+            "http://pub5.radiotunes.com:80/radiotunes_bebop", 
+            "http://pub4.radiotunes.com:80/radiotunes_bebop", 
+            "http://pub7.radiotunes.com:80/radiotunes_bebop", 
+            "http://pub8.radiotunes.com:80/radiotunes_bebop", 
+            "http://pub1.radiotunes.com:80/radiotunes_bebop", 
+            "http://pub2.radiotunes.com:80/radiotunes_bebop"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Dance Hits from Bollywood!!", 
+        "iconUrl": "http://static.audioaddict.com/ac488cfbc1ddcf62947b71bc51a7b808.png", 
+        "name": "Club Bollywood", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/clubbollywood", 
+        "streams": [
+            "http://pub2.radiotunes.com:80/radiotunes_clubbollywood", 
+            "http://pub5.radiotunes.com:80/radiotunes_clubbollywood", 
+            "http://pub4.radiotunes.com:80/radiotunes_clubbollywood", 
+            "http://pub6.radiotunes.com:80/radiotunes_clubbollywood", 
+            "http://pub8.radiotunes.com:80/radiotunes_clubbollywood", 
+            "http://pub7.radiotunes.com:80/radiotunes_clubbollywood", 
+            "http://pub1.radiotunes.com:80/radiotunes_clubbollywood"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Classical Piano Trios hits!", 
+        "iconUrl": "http://static.audioaddict.com/ae73ffca4235946a6bc958609b3632da.png", 
+        "name": "Classical Piano Trios", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/classicalpianotrios", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_classicalpianotrios", 
+            "http://pub2.radiotunes.com:80/radiotunes_classicalpianotrios", 
+            "http://pub6.radiotunes.com:80/radiotunes_classicalpianotrios", 
+            "http://pub1.radiotunes.com:80/radiotunes_classicalpianotrios", 
+            "http://pub4.radiotunes.com:80/radiotunes_classicalpianotrios", 
+            "http://pub7.radiotunes.com:80/radiotunes_classicalpianotrios", 
+            "http://pub8.radiotunes.com:80/radiotunes_classicalpianotrios"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Classic Jazz hits from the golden age", 
+        "iconUrl": "http://static.audioaddict.com/30b34af272931d0e032f148a013439dd.png", 
+        "name": "Jazz Classics", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/jazzclassics", 
+        "streams": [
+            "http://pub8.radiotunes.com:80/radiotunes_jazzclassics", 
+            "http://pub2.radiotunes.com:80/radiotunes_jazzclassics", 
+            "http://pub5.radiotunes.com:80/radiotunes_jazzclassics", 
+            "http://pub1.radiotunes.com:80/radiotunes_jazzclassics", 
+            "http://pub4.radiotunes.com:80/radiotunes_jazzclassics", 
+            "http://pub6.radiotunes.com:80/radiotunes_jazzclassics", 
+            "http://pub7.radiotunes.com:80/radiotunes_jazzclassics"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A blend of ambient, downtempo, and chillout", 
+        "iconUrl": "http://static.audioaddict.com/a/b/7/8/9/a/ab789a23f774577306847150dc425297.png", 
+        "name": "Ambient", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/ambient", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_rtambient", 
+            "http://pub4.radiotunes.com:80/radiotunes_rtambient", 
+            "http://pub5.radiotunes.com:80/radiotunes_rtambient", 
+            "http://pub7.radiotunes.com:80/radiotunes_rtambient", 
+            "http://pub2.radiotunes.com:80/radiotunes_rtambient", 
+            "http://pub8.radiotunes.com:80/radiotunes_rtambient", 
+            "http://pub1.radiotunes.com:80/radiotunes_rtambient"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Full of trippy flavors, this channel is just what you need to relax.", 
+        "iconUrl": "http://static.audioaddict.com/0/a/c/5/a/9/0ac5a9ce5b258e16fec514722b92d580.png", 
+        "name": "Chillout", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/chillout", 
+        "streams": [
+            "http://pub8.radiotunes.com:80/radiotunes_rtchillout", 
+            "http://pub2.radiotunes.com:80/radiotunes_rtchillout", 
+            "http://pub7.radiotunes.com:80/radiotunes_rtchillout", 
+            "http://pub4.radiotunes.com:80/radiotunes_rtchillout", 
+            "http://pub6.radiotunes.com:80/radiotunes_rtchillout", 
+            "http://pub5.radiotunes.com:80/radiotunes_rtchillout", 
+            "http://pub1.radiotunes.com:80/radiotunes_rtchillout"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Enjoy musical compositions from masters of the Classical Period (1730-1820).", 
+        "iconUrl": "http://static.audioaddict.com/8/e/b/d/f/8/8ebdf87f34ee623c96b26086d2e248c7.png", 
+        "name": "Classical Period", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/classicalperiod", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_classicalperiod", 
+            "http://pub5.radiotunes.com:80/radiotunes_classicalperiod", 
+            "http://pub4.radiotunes.com:80/radiotunes_classicalperiod", 
+            "http://pub8.radiotunes.com:80/radiotunes_classicalperiod", 
+            "http://pub2.radiotunes.com:80/radiotunes_classicalperiod", 
+            "http://pub6.radiotunes.com:80/radiotunes_classicalperiod", 
+            "http://pub1.radiotunes.com:80/radiotunes_classicalperiod"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Indie, Alternative, and Underground Rock!", 
+        "iconUrl": "http://static.audioaddict.com/3c1d60925ae8dac00ef4da3beaa7d371.png", 
+        "name": "Indie Rock", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/indierock", 
+        "streams": [
+            "http://pub2.radiotunes.com:80/radiotunes_indierock", 
+            "http://pub5.radiotunes.com:80/radiotunes_indierock", 
+            "http://pub4.radiotunes.com:80/radiotunes_indierock", 
+            "http://pub6.radiotunes.com:80/radiotunes_indierock", 
+            "http://pub1.radiotunes.com:80/radiotunes_indierock", 
+            "http://pub8.radiotunes.com:80/radiotunes_indierock", 
+            "http://pub7.radiotunes.com:80/radiotunes_indierock"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relax with some Downtempo grooves.", 
+        "iconUrl": "http://static.audioaddict.com/c/9/1/b/3/6/c91b36a066ec8a69606fe9857ee529d6.png", 
+        "name": "Downtempo Lounge", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/downtempolounge", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_rtdowntempolounge", 
+            "http://pub8.radiotunes.com:80/radiotunes_rtdowntempolounge", 
+            "http://pub5.radiotunes.com:80/radiotunes_rtdowntempolounge", 
+            "http://pub7.radiotunes.com:80/radiotunes_rtdowntempolounge", 
+            "http://pub4.radiotunes.com:80/radiotunes_rtdowntempolounge", 
+            "http://pub2.radiotunes.com:80/radiotunes_rtdowntempolounge", 
+            "http://pub1.radiotunes.com:80/radiotunes_rtdowntempolounge"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Where Modern rock lives on the net.", 
+        "iconUrl": "http://static.audioaddict.com/cdcf2c3754d96c41b8bcd81414451770.jpg", 
+        "name": "Modern Rock", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/modernrock", 
+        "streams": [
+            "http://pub1.radiotunes.com:80/radiotunes_modernrock", 
+            "http://pub4.radiotunes.com:80/radiotunes_modernrock", 
+            "http://pub5.radiotunes.com:80/radiotunes_modernrock", 
+            "http://pub6.radiotunes.com:80/radiotunes_modernrock", 
+            "http://pub7.radiotunes.com:80/radiotunes_modernrock", 
+            "http://pub8.radiotunes.com:80/radiotunes_modernrock", 
+            "http://pub2.radiotunes.com:80/radiotunes_modernrock"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The best DJs from the biggest festivals around the world!", 
+        "iconUrl": "http://static.audioaddict.com/4/8/7/2/1/0/4872108c77039672e7f4054cc728a820.png", 
+        "name": "EDM Fest", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/edmfest", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_edmfest", 
+            "http://pub2.radiotunes.com:80/radiotunes_edmfest", 
+            "http://pub7.radiotunes.com:80/radiotunes_edmfest", 
+            "http://pub6.radiotunes.com:80/radiotunes_edmfest", 
+            "http://pub8.radiotunes.com:80/radiotunes_edmfest", 
+            "http://pub4.radiotunes.com:80/radiotunes_edmfest", 
+            "http://pub1.radiotunes.com:80/radiotunes_edmfest"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "A fine assortment of fresh Jpop hits!!", 
+        "iconUrl": "http://static.audioaddict.com/61251c16fe02215ab58207577efd71d0.png", 
+        "name": "Jpop", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/jpop", 
+        "streams": [
+            "http://pub2.radiotunes.com:80/radiotunes_jpop", 
+            "http://pub6.radiotunes.com:80/radiotunes_jpop", 
+            "http://pub1.radiotunes.com:80/radiotunes_jpop", 
+            "http://pub4.radiotunes.com:80/radiotunes_jpop", 
+            "http://pub7.radiotunes.com:80/radiotunes_jpop", 
+            "http://pub5.radiotunes.com:80/radiotunes_jpop", 
+            "http://pub8.radiotunes.com:80/radiotunes_jpop"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "The newest and best of Eurodance hits", 
+        "iconUrl": "http://static.audioaddict.com/7/e/3/d/b/0/7e3db0459654142b8409e913f40fc95b.png", 
+        "name": "EuroDance", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/eurodance", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_rteurodance", 
+            "http://pub6.radiotunes.com:80/radiotunes_rteurodance", 
+            "http://pub5.radiotunes.com:80/radiotunes_rteurodance", 
+            "http://pub2.radiotunes.com:80/radiotunes_rteurodance", 
+            "http://pub8.radiotunes.com:80/radiotunes_rteurodance", 
+            "http://pub4.radiotunes.com:80/radiotunes_rteurodance", 
+            "http://pub1.radiotunes.com:80/radiotunes_rteurodance"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Reggae rhythms with Latin and Caribbean flavors!", 
+        "iconUrl": "http://static.audioaddict.com/a/5/5/9/a/7/a559a793e4870517f42bd0eb7642cfa2.png", 
+        "name": "Reggaeton", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/reggaeton", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_reggaeton", 
+            "http://pub5.radiotunes.com:80/radiotunes_reggaeton", 
+            "http://pub8.radiotunes.com:80/radiotunes_reggaeton", 
+            "http://pub4.radiotunes.com:80/radiotunes_reggaeton", 
+            "http://pub2.radiotunes.com:80/radiotunes_reggaeton", 
+            "http://pub7.radiotunes.com:80/radiotunes_reggaeton", 
+            "http://pub1.radiotunes.com:80/radiotunes_reggaeton"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Enjoy the best of classical music from the Romantic Period (1780-1910).", 
+        "iconUrl": "http://static.audioaddict.com/0/d/9/c/4/7/0d9c47e55b7fb9807b9ed9dd375d5cd5.png", 
+        "name": "Romantic Period", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/romantic", 
+        "streams": [
+            "http://pub7.radiotunes.com:80/radiotunes_romantic", 
+            "http://pub5.radiotunes.com:80/radiotunes_romantic", 
+            "http://pub4.radiotunes.com:80/radiotunes_romantic", 
+            "http://pub8.radiotunes.com:80/radiotunes_romantic", 
+            "http://pub6.radiotunes.com:80/radiotunes_romantic", 
+            "http://pub2.radiotunes.com:80/radiotunes_romantic", 
+            "http://pub1.radiotunes.com:80/radiotunes_romantic"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Best Place for your METAL fix on the net", 
+        "iconUrl": "http://static.audioaddict.com/9be3c5b65f9274df72b78b6ecddf5bb2.png", 
+        "name": "Metal", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/metal", 
+        "streams": [
+            "http://pub5.radiotunes.com:80/radiotunes_metal", 
+            "http://pub1.radiotunes.com:80/radiotunes_metal", 
+            "http://pub8.radiotunes.com:80/radiotunes_metal", 
+            "http://pub4.radiotunes.com:80/radiotunes_metal", 
+            "http://pub6.radiotunes.com:80/radiotunes_metal", 
+            "http://pub7.radiotunes.com:80/radiotunes_metal", 
+            "http://pub2.radiotunes.com:80/radiotunes_metal"
+        ]
+    }, 
+    {
+        "commercials": true, 
+        "description": "Relive the hits and discover the early sounds of Motown.", 
+        "iconUrl": "http://static.audioaddict.com/5/1/a/f/a/9/51afa9fce9927303d8e45a8158133048.png", 
+        "name": "Classic Motown", 
+        "network": "RadioTunes.com", 
+        "stationUrl": "http://www.radiotunes.com/classicmotown", 
+        "streams": [
+            "http://pub6.radiotunes.com:80/radiotunes_classicmotown", 
+            "http://pub2.radiotunes.com:80/radiotunes_classicmotown", 
+            "http://pub4.radiotunes.com:80/radiotunes_classicmotown", 
+            "http://pub7.radiotunes.com:80/radiotunes_classicmotown", 
+            "http://pub5.radiotunes.com:80/radiotunes_classicmotown", 
+            "http://pub8.radiotunes.com:80/radiotunes_classicmotown", 
+            "http://pub1.radiotunes.com:80/radiotunes_classicmotown"
+        ]
+    }
+]

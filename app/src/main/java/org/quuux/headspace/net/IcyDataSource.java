@@ -82,7 +82,8 @@ public class IcyDataSource implements HttpDataSource {
     @Override
     public void close() throws HttpDataSourceException {
         try {
-            contents.close();
+            if (contents != null)
+                contents.close();
         } catch (IOException e) {
             throw new HttpDataSourceException(e, dataSpec);
         }

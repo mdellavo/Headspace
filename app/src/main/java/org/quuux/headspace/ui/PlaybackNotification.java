@@ -10,33 +10,28 @@ import android.text.TextUtils;
 import org.quuux.headspace.MainActivity;
 import org.quuux.headspace.PlaybackService;
 import org.quuux.headspace.R;
-import org.quuux.headspace.data.Playlist;
+import org.quuux.headspace.data.Station;
 import org.quuux.headspace.data.StreamMetaData;
 import org.quuux.headspace.net.Streamer;
 
 public class PlaybackNotification {
 
-    public static Notification getInstance(final Context context, final StreamMetaData metaData) {
+    public static Notification getInstance(final Context context) {
         final NotificationCompat.Builder builder = new NotificationCompat.Builder(context);
 
         final Streamer stream = Streamer.getInstance();
-        final Playlist playlist = stream.getPlaylist();
-        final int track = stream.getTrack();
+        final Station station = stream.getStation();
+        final StreamMetaData metadata = stream.getLastMetaData();
 
-        final String streamTitle = metaData != null ? metaData.get("StreamTitle") : null;
-        final String streamUrl = metaData != null ? metaData.get("StreamUrl") : null;
-
-        String title = playlist.getTrackTitle(track);
-        if (TextUtils.isEmpty(title))
-            title = streamUrl;
-        if (TextUtils.isEmpty(title))
-            title = playlist.getTrackFile(1);
+        String text = metadata != null ? metadata.get("StreamTitle") : null;
+        if (TextUtils.isEmpty(text))
+            text = station.getDescription();
 
         builder.setAutoCancel(false);
         builder.setOngoing(true);
         builder.setSmallIcon(R.mipmap.ic_play);
-        builder.setContentTitle(title);
-        builder.setContentText(streamTitle);
+        builder.setContentTitle(station.getName());
+        builder.setContentText(text);
         builder.setContentInfo("Headspace");
 
         final int playbackIcon = stream.isPlaying() ? R.mipmap.ic_pause : R.mipmap.ic_play;
