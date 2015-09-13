@@ -20,6 +20,11 @@
             </intent-filter>
         </activity>
         <service android:name=".PlaybackService"/>
+        <receiver android:name=".PlaybackReceiver">
+            <intent-filter>
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

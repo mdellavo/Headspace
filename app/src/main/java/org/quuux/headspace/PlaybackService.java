@@ -34,6 +34,7 @@ public class PlaybackService extends Service implements AudioManager.OnAudioFocu
 
     public static final String ACTION_TOGGLE_PLAYBACK = "org.quuux.headspace.actions.TOGGLE_PLAYBACK";
     public static final String ACTION_STOP_PLAYBACK = "org.quuux.headspace.actions.STOP_PLAYBACK";
+    public static final String ACTION_PAUSE_PLAYBACK = "org.quuux.headspace.actions.PAUSE_PLAYBACK";
 
     private static final int NOTIFICATION_ID = 1231231;
     private static final String MEDIA_SESSION_TAG = "headspace";
@@ -62,6 +63,8 @@ public class PlaybackService extends Service implements AudioManager.OnAudioFocu
         } else if (ACTION_STOP_PLAYBACK.equals(action)) {
             stopPlayback();
             stopSelf();
+        } else if (ACTION_PAUSE_PLAYBACK.equals(action)) {
+            setPlaying(false);
         } else {
             return super.onStartCommand(intent, flags, startId);
         }
