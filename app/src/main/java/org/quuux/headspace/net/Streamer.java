@@ -4,7 +4,6 @@ package org.quuux.headspace.net;
 import android.net.Uri;
 import android.os.Handler;
 import android.os.Looper;
-import android.util.EventLog;
 
 import com.google.android.exoplayer.ExoPlaybackException;
 import com.google.android.exoplayer.ExoPlayer;
@@ -38,6 +37,7 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
 
     private Station station;
     private StreamMetaData lastMetaData;
+    private MediaCodecAudioTrackRenderer audioRenderer;
 
     protected Streamer() {
         handler = new Handler(Looper.getMainLooper());
@@ -62,7 +62,7 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
         final Allocator allocator = new DefaultAllocator(BUFFER_SEGMENT_SIZE);
         final DataSource dataSource = new IcyDataSource(this);
         final ExtractorSampleSource sampleSource = new ExtractorSampleSource(uri, dataSource, allocator, BUFFER_SEGMENT_COUNT * BUFFER_SEGMENT_SIZE);
-        final MediaCodecAudioTrackRenderer audioRenderer = new MediaCodecAudioTrackRenderer(sampleSource);
+        audioRenderer = new MediaCodecAudioTrackRenderer(sampleSource);
         player.prepare(audioRenderer);
 
         start();
@@ -96,6 +96,10 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
         Log.d(TAG, "stop");
         player.stop();
         player.seekTo(0);
+    }
+
+    public void setVolume(final float volume){
+        player.sendMessage(audioRenderer, MediaCodecAudioTrackRenderer.MSG_SET_VOLUME, volume);
     }
 
     public boolean isPlaying() {
@@ -133,6 +137,9 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
     }
 
     public void loadStation(final Station station) {
+        if (station == null)
+            return;
+
         this.station = station;
         if (station.hasPlaylists()) {
             final String playlistUrl = station.getPlaylists().get(0);

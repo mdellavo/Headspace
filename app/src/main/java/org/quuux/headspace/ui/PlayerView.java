@@ -5,10 +5,12 @@ import android.content.Context;
 import android.os.Build;
 import android.util.AttributeSet;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.squareup.otto.Subscribe;
+import com.squareup.picasso.Picasso;
 
 import org.quuux.headspace.R;
 import org.quuux.headspace.data.StreamMetaData;
@@ -24,6 +26,7 @@ public class PlayerView extends RelativeLayout {
 
     private TextView streamView, titleView, urlView;
     private ImageButton playbackButton;
+    private ImageView iconView;
 
     public PlayerView(final Context context) {
         super(context);
@@ -52,6 +55,7 @@ public class PlayerView extends RelativeLayout {
         titleView = (TextView) findViewById(R.id.title);
         urlView = (TextView) findViewById(R.id.url);
         playbackButton = (ImageButton) findViewById(R.id.playback);
+        iconView = (ImageView) findViewById(R.id.icon);
     }
 
     public void updateStreamInfo(final StreamMetaData metadata) {
@@ -70,9 +74,12 @@ public class PlayerView extends RelativeLayout {
     }
 
     @Subscribe
-    public void onPlaylistLoaded(final StationUpdate update) {
+    public void onStationChanged(final StationUpdate update) {
         Log.d(TAG, "onPlaylistLoaded(playlist=%s)", update.station);
         streamView.setText(update.station.getName());
+        urlView.setText(update.station.getDescription());
+        Picasso.with(iconView.getContext()).load(update.station.getIconUrl()).fit().centerCrop().into(iconView);
+
     }
 
     public void setOnClickListener(final OnClickListener listener) {

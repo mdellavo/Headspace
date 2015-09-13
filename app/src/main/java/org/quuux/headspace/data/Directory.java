@@ -39,7 +39,7 @@ public class Directory {
         Collections.sort(stations, new Comparator<Station>() {
             @Override
             public int compare(final Station lhs, final Station rhs) {
-                return lhs.getName().compareTo(rhs.getName());
+                return lhs.getName().compareToIgnoreCase(rhs.getName());
             }
         });
 

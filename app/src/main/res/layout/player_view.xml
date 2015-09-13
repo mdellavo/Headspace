@@ -9,13 +9,24 @@
         android:layout_height="75dp"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
         />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        />
+
 
     <TextView
         android:id="@+id/stream"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/playback"
+        android:layout_toLeftOf="@id/icon"
         />
 
     <TextView
@@ -24,6 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/stream"
         android:layout_toRightOf="@id/playback"
+        android:layout_toLeftOf="@id/icon"
         />
 
     <TextView
@@ -32,6 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/title"
         android:layout_toRightOf="@id/playback"
+        android:layout_toLeftOf="@id/icon"
         />
+
 
 </RelativeLayout>

@@ -60,7 +60,7 @@ public class DirectoryAdapter extends BaseAdapter {
         final Holder holder = (Holder) view.getTag();
         holder.nameView.setText(station.getName());
         holder.descriptionView.setText(station.getDescription());
-        Picasso.with(view.getContext()).load(station.getIconUrl()).into(holder.iconView);
+        Picasso.with(view.getContext()).load(station.getIconUrl()).fit().centerCrop().into(holder.iconView);
     }
 
     private View newView(final ViewGroup parent) {
