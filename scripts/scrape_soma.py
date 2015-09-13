@@ -13,7 +13,7 @@ def scrape_stations():
         desc = station.find(class_="descr").text
         playlists = sorted([stream.get("href") for stream in station.find_all("a") if stream.get("href", "").endswith(".pls")])
         icon_url = "http://somafm.com" + station.find("img")["src"]
-        station_url = "http://somafm.com" + station.find(class_="playing").find("a")["href"][:-len("songhistory.html")]
+        station_url = "http://somafm.com" + station.find(class_="playing").find("¡a")["href"][:-len("songhistory.html")]
 
         yield dict(network="SomaFM",
                    stationUrl=station_url,

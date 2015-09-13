@@ -1,0 +1,1432 @@
+[
+    {
+        "commercials": true, 
+        "description": "Orlando's News - Weather - Traffic", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/589/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/589.png", 
+        "name": "FM 102.5 / AM 540 WFLA", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Augusta's Most Music & Best Variety", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/757/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/757.png", 
+        "name": "104.3 WBBQ", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Atlanta\u2019s #1 Hit Music Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/741/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/741.png", 
+        "name": "Power 96.1", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Orlando's Rock Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/593/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/593.png", 
+        "name": "101one WJRR", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Augusta's R&B & Old School", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/769/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/769.png", 
+        "name": "96.3 Kiss-FM", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "More Variety from the 80s to Now", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/597/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/47db557b-f25e-401f-bd1a-8af96ed53c2e.png", 
+        "name": "Magic 107.7 \u2013 Orlando", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Everything that Rocks Columbus", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/785/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/785.png", 
+        "name": "Rock 103", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Orlando\u2019s #1 Hit Music Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/613/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/613.png", 
+        "name": "XL 106.7", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The Gulf Coast's Rock Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/617/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/new_assets/e34b653b-85c8-470f-92fb-67d7f4d5a0e1", 
+        "name": "TK101 Mobile / Pensacola", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Savannah's #1 Hit Music Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/809/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/809.png", 
+        "name": "97.3 KISSFM", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Savannah's Best R&B and Old School", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/813/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/813.png", 
+        "name": "LOVE 101.1", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "News Talk  Hawkeye Sports", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/917/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/917.png", 
+        "name": "600 WMT", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Honolulu, Hawaii\u2019s True Old School", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/825/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/825.png", 
+        "name": "93.9 Jamz", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Honolulu, Hawaii\u2019s #1 Radio Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/829/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/829.png", 
+        "name": "KSSK Radio", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Variety from the 80s Through Today", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/633/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/new_assets/03e8a874-b881-49cc-94ec-698690300949", 
+        "name": "92.1 the COAST Sarasota", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Music of Power and Praise: Chicago", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/845/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/845.png", 
+        "name": "Inspiration 1390", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Suncoast's Greatest Hits: Sarasota", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/641/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/641.png", 
+        "name": "107.9 WSRZ", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Chicago\u2019s Hit Country", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/857/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/d5774891-8f5c-4175-a175-318833ce3c5d.png", 
+        "name": "BIG 95.5 FM", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "It Just Rocks: Sarasota", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/645/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/645.png", 
+        "name": "105.9 The Buzz", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Tallahassee's #1 Hit Music Station ", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/657/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/4f82fcbe-1ba7-4f77-8f36-c55262198dbc.png", 
+        "name": "107-1 Kiss FM", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Des Moines' Sports Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/921/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/921.png", 
+        "name": "1460 KXNO", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Your Variety Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/933/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/933.png", 
+        "name": "KG95", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Fox Sports Radio", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/937/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/937.png", 
+        "name": "620 KMNS", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Sioux City's Best Rock", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/941/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1c2f0e83-457c-4cb2-a52e-938f908f8ab9.png", 
+        "name": "Z-98", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Tampa Bay's Hip Hop and R&B", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/669/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/669.png", 
+        "name": "95.7 The Beat", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "#1 At Work. Wichita\u2019s Variety Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/945/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/62b6cb6e-4098-4bd0-b76c-2537d2f1f434.png", 
+        "name": "97.9 B98", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Wichita\u2019s Alternative", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/949/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/f026bd38-6802-42e6-9f83-60263e686062.png", 
+        "name": "Alt 107.3", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Lexington's Better Country ", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/961/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/961.png", 
+        "name": "98.1 The Bull", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Louisville\u2019s Best Variety", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/973/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/f1433a3b-fbe8-4124-a730-46d01ffee42a.png", 
+        "name": "100.5 MYfm", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Louisville's Best Country", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/977/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/d94b42d5-6565-472e-a48a-b3fe48cf248e.png", 
+        "name": "97.5 WAMZ", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Tampa Bay's #1 Hit Music Channel", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/681/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/7bb8a805-3566-4a1f-8a60-44df7d5b6151.png", 
+        "name": "93.3 FLZ", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Hawaiian Reggae from Honolulu", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/821/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/821.png", 
+        "name": "Island 98.5", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Today's Hit Country, Baton Rouge", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1021/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1021.png", 
+        "name": "101.5 WYNK", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Tampa Bay's New Country Leader", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/693/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/5fb915ce-2936-4b8a-a9df-e7eb270e1126.png", 
+        "name": "US 103-5", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Tampa Bay's Rock Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/697/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/697.png", 
+        "name": "98ROCK", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The Palm Beaches' News/Traffic/Weather", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/701/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/f6c62b5f-0aa9-426c-8b30-04cbe1bc6028.png", 
+        "name": "1230 am WBZT", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The News and Talk of New Orleans", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1033/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/c70e97f1-b5e2-4d73-8744-960ebd9d2440.png", 
+        "name": "News Talk 99.5 WRNO", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "New Orleans 90's to Now ", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1041/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1041.png", 
+        "name": "Voodoo 104", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Love Doctors: The Palm Beaches\u2019", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/725/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/4c41bf13-b86b-4a91-a227-59d9714088ab.png", 
+        "name": "Real Radio 94.3 WZZR", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Baltimore's Good News Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1069/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/9df917c0-9da9-4cd9-bccb-a60ba43fab7f.png", 
+        "name": "Heaven600", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Baltimore\u2019s New Country", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1073/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1073.png", 
+        "name": "WPOC", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Boston\u2019s #1 for Hip-Hop", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/1089/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1089.png", 
+        "name": "JAM'N 94.5", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Baton Rouge's Fox Sports Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1017/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/b6b31efb-4311-4489-b673-fd48812b6aa8.png", 
+        "name": "1210 The Score", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Boston's Hit Music Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/1097/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1097.png", 
+        "name": "KISS 108", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The Pioneer Valley\u2019s Hit Music  ", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/1101/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1101.png", 
+        "name": "MIX 931", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The Voice of the Northern Plains", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/1661/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1661.png", 
+        "name": "KFYR 550", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The Forks Best Country", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/1673/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1673.png", 
+        "name": "100.3 Cat Country", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The Forks #1 For Today's Best Music", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/1677/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1677.png", 
+        "name": "XL93", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Lake Cumberland\u2019s World Class Talk", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/5233/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/637850fc-8e1f-484b-9b3f-33c68aa8aee6.png", 
+        "name": "World Class Talk AM 910", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Worcester\u2019s 80\u2019s to Now Station ", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1109/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1109.png", 
+        "name": "96.1 WSRS", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Akron's Hit Music", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/1685/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/a379a1dd-2f1d-414d-ac47-f8d09d0bb9be.png", 
+        "name": "98.1 WKDD", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Man Up \u2013 Oklahoma", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1901/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/c9c381d9-c762-4b61-a941-2e580c73e60c.png", 
+        "name": "947 the Brew", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The Lunatic Fringe - Cincinnati", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/1701/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1701.png", 
+        "name": "WEBN", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Man Up Greenville!", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/2093/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/new_assets/7fee34d5-56e6-457b-8afd-7130cff52f03", 
+        "name": "Real Rock 104.9 - Man Up", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Cincinnati's Place For Talk ", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/1709/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1709.png", 
+        "name": "55KRC", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Cincinnati-The Big One ", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/1713/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1713.png", 
+        "name": "700WLW", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Detroit Sports Talk", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1129/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1129.png", 
+        "name": "WDFN", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Cleveland\u2019s Hit Music Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/1729/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1729.png", 
+        "name": "96.5 KISS FM", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Tulsa's Rock Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/1929/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1929.png", 
+        "name": "97-5 KMOD", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Cleveland's Rock Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/1741/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1741.png", 
+        "name": "100.7 WMMS - The Buzzard", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Cleveland's Newsradio", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/1749/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1749.png", 
+        "name": "WTAM 1100", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "All the Hits", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/1753/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/a2bb4586-048b-4732-a463-02007c12cf5a.png", 
+        "name": "WNCI Columbus, Ohio", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Cincinnati's Home For ESPN Radio WCKY-AM", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/1697/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1697.png", 
+        "name": "ESPN 1530", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Detroit's Hit Music", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1145/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/5a3b0ce9-a995-4b3e-903c-74773af72c3b.png", 
+        "name": "Channel 955", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Dayton's Hit Music Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1769/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/dc73226d-aae7-4165-9cf9-07f0cae83def.png", 
+        "name": "Channel 99.9", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Dayton's 70s & 80s Hits", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1773/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/cf2fa505-7044-49b6-8fa6-1d24a66c2630.png", 
+        "name": "BIG 106.5", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Today's R&B & Old School Jams", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1149/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1149.png", 
+        "name": "Mix 92.3", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Central PA\u2019s New Country! ", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/2041/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/f6ad2060-bad4-4dd2-9f49-4dd3a913ceb0.png", 
+        "name": "BILL 95 FM", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Michigan's Country Station - B93", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1157/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1157.png", 
+        "name": "B-93", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Dayton's Variety Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1781/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/8c5f9c8e-6dea-4bfc-88fa-e9249bf07ea3.png", 
+        "name": "MIX 107.7", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Dayton's Rock Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1785/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1785.png", 
+        "name": "104.7 WTUE Rocks", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The Brew Rocks West Michigan!", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1161/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1161.png", 
+        "name": "101-3 The Brew", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "West MI's Newsradio + Rush, Beck", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1165/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/d9734924-d8b7-46cd-b8ee-a4c6e35c32a5.png", 
+        "name": "WOOD Radio 106.9 FM & 1300AM", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Dayton's Alternative", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1789/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/new_assets/bc36f482-1e4f-4c7e-addc-79764d7e43df", 
+        "name": "Alt 103.9", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Today's Variety: Defiance", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1793/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/64d0f0ea-b738-4100-8338-b950c156662a.png", 
+        "name": "Mix 98.1", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Today's Hits/Yesterday's Favorites", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1169/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1169.png", 
+        "name": "West Michigan's Star 105.7", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Lima's Hit Music Channel", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/1805/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1805.png", 
+        "name": "93.9 KissFM", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "All The Hits for Grand Rapids", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1173/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1173.png", 
+        "name": "104.5 SNX", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Your Home for Today's Country", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/1809/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1809.png", 
+        "name": "T102 Lima", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Portland's Hit Music Station ", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1961/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/5bc68370-069c-4e13-913d-5ddb82d07a34.png", 
+        "name": "Z100", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "More Variety: Lima", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/1825/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/42a57954-0dd8-4434-8239-54c48efa6918.png", 
+        "name": "MIX 103.3", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Where Marion Comes to Talk", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1829/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1829.png", 
+        "name": "1490 WMRN-AM", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Toledo Rock", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1849/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1849.png", 
+        "name": "104-7 WIOT", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The 80s to Now Toledo", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1853/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/93644ca9-bce4-4fb7-9c5a-19c685a1e4ab.png", 
+        "name": "101.5 The River", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The Twin Cities' #1 Hit Music Station!", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1201/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1201.png", 
+        "name": "101.3 KDWB", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Youngstown's Hits of the 70s and 80s", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/1873/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/bd92154a-0138-4221-b6b4-34b3a8944dfa.png", 
+        "name": "BIG 106", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The Twin Cities Sports Leader", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1209/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1209.png", 
+        "name": "KFAN Sports Radio FM 100.3", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Binghamton\u2019s Sports Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/3544/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/3544.png", 
+        "name": "FOX Sports 1430", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Louisville's Real Classic Rock", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/3383/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/3383.png", 
+        "name": "95.7 QMF", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Twin Cities News Talk", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1213/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1213.png", 
+        "name": "News Talk AM 1130", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "OKC's #1 Hit Music Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1905/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/188d8ffe-b76b-41b9-8f68-15e8509583da.png", 
+        "name": "KJ103", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "News Radio 1000 KTOK Depend On It!", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1909/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1909.png", 
+        "name": "1000 KTOK", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Oklahoma City's Only Classic Country", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1917/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1917.png", 
+        "name": "96.1 KXY", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Minneapolis / St. Paul", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1221/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1221.png", 
+        "name": "Cities 97 - Discover New Music", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Tulsa's Home for Jim Rome", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/1921/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/new_assets/42ad596c-7068-4d36-bc9e-a6330e6e520b", 
+        "name": "CBS Sports 1300 The Buzz", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Continuous Country For The Gulf Coast", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/1225/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1225.png", 
+        "name": "K99", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Escuchar en vivo en Tulsa", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/1925/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/new_assets/9d5bbbf0-5830-4301-be49-cbafb17fafd9", 
+        "name": "101.5 El Patron", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Biloxi's Best Variety", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/1229/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/new_assets/76955859-2da7-45bd-99aa-89c81af8d359", 
+        "name": "Magic 93.7", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Tulsa's Sports Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/1941/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1941.png", 
+        "name": "1430 The Buzz", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Portland's Soft Rock", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1957/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1957.png", 
+        "name": "K103", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Bakersfield\u2019s Alternative that Rocks", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/3236/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/3236.png", 
+        "name": "106.1 KRAB", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Today's Hits and Yesterday's Favorites", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/3658/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/3658.png", 
+        "name": "96.1 MIX 96", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Port Charlotte's News Talk Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/5229/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/5229.png", 
+        "name": "News Radio 1580 WCCF", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "All The Hits Harrisburg", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/1981/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1981.png", 
+        "name": "99-3 KISS FM", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Columbus\u2019 REAL Hip Hop & R&B", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/3632/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/22bde901-4e50-4eda-9cc7-109768f7e573.png", 
+        "name": "106.7 The Beat", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "News, Traffic & Weather Station ", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/1949/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/c67738ad-49a8-4bea-8503-9c4dec1d90a9.png", 
+        "name": "NewsRadio 1190 KEX", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Jackson's 60s, 70s & 80s", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1249/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1249.png", 
+        "name": "105.1 The River", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Philly\u2019s #1 Hit Music Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/1997/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1997.png", 
+        "name": "Q102", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "90 to Now for Philadelphia", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/2001/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/2001.png", 
+        "name": "Mix 106.1", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The Lehigh Valley\u2019s Sports Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/3348/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/cebc0844-5110-477d-afb5-8912579fd9b0.png", 
+        "name": "SportsRadio AM 1470", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Pittsburgh's Sports Talk ", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/2013/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/new_assets/54a45ed6-df8b-4238-b13b-319d6f023752", 
+        "name": "970 ESPN", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Pittsburgh's Hit Music ", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/2021/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/2021.png", 
+        "name": "96.1 Kiss", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Tulsa's Party Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/1937/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1937.png", 
+        "name": "92.1 The Beat", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "New HIT Country", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/2025/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/f4d91f09-9fac-4757-b348-0e72ae784f9e.png", 
+        "name": "Pittsburgh\u2019s Big 104.7", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Springfield\u2019s Workday Variety", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/1261/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/eb0c5554-5cf1-44e8-a4dc-e4d32485ebb0.png", 
+        "name": "105.9 KGBX", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Real Rock Variety \u2013 Reading", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/2037/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/c0bfe36f-e9eb-4161-9214-dfc338f68033.png", 
+        "name": "Y102", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "New Country Toledo", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/4028/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/4885f7c3-e444-476f-b825-587c63278c5c.png", 
+        "name": "103.7 'CKY", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Central PA's 80's to Now", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/2045/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1bfe2fa4-8790-45f3-8259-bc30eb34a1a7.png", 
+        "name": "102.7 KISS FM", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Hit Music  - Providence", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c2/2053/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/2053.png", 
+        "name": "Coast 93.3", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "New Country for the Lowcountry", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/2061/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/new_assets/df148ffd-ca43-4787-8468-750c51cbc1d7", 
+        "name": "103.5 WEZL Charleston", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The Lou\u2019s Party Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/1281/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1281.png", 
+        "name": "Wild 104-9 St. Louis", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Charleston's at Work Variety", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c3/2065/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/2065.png", 
+        "name": "Y1025", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Columbia's Hit Music Station", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/2081/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/b7c0102d-0a8e-48fd-8c30-61928a0e91b0.png", 
+        "name": "104.7 WNOK", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Columbia's News, Talk, & Sports", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c4/2085/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/a98c6864-005c-4dbc-8c07-8bb144819db2.png", 
+        "name": "560 WVOC", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Carolina's Country", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/2097/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/2097.png", 
+        "name": "92.5 WESC", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The Carolinas' Fresh New Sound", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/2101/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/2101.png", 
+        "name": "My 102.5", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Youngstown's News, Weather and Sports", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/1869/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/1869.png", 
+        "name": "NewsRadio 570 WKBN", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "The News & Talk of Biloxi", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c1/1237/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/new_assets/de40e9bd-ff38-43cb-b67f-3d16ba5a4999", 
+        "name": "News Talk 104.9", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Memphis' R&B and Old School", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/2121/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/5b7b4d7e-7d0c-4186-9bcf-98dee03baad1.png", 
+        "name": "V101", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }, 
+    {
+        "commercials": true, 
+        "description": "Memphis Classic Rock", 
+        "hlsStreams": [
+            "http://playlists.ihrhls.com/c5/2133/playlist.m3u8"
+        ], 
+        "iconUrl": "http://radioedit.iheart.com/service/img/nop()/assets/images/7606d4da-24b6-49c9-bf48-fa6d3d50e69e.png", 
+        "name": "ROCK 103", 
+        "network": "iHeartRadio", 
+        "stationUrl": "http://www.iheartradio.com"
+    }
+]

@@ -8,6 +8,7 @@ public class Station {
     private String stationUrl, name, description, iconUrl, network;
     private List<String> streams = new ArrayList<>();
     private List<String> playlists = new ArrayList<>();
+    private List<String> hlsStreams = new ArrayList<>();
     private boolean commercials;
 
 
@@ -56,6 +57,14 @@ public class Station {
 
     public boolean hasStreams() {
         return streams.size() > 0;
+    }
+
+    public boolean hasHlsStreams() {
+        return hlsStreams.size() > 0;
+    }
+
+    public List<String>  getHlsStreams() {
+        return hlsStreams;
     }
 
     public String getNetwork() {

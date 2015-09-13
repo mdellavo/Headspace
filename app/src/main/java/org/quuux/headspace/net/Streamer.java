@@ -1,17 +1,29 @@
 package org.quuux.headspace.net;
 
 
+import android.content.Context;
 import android.net.Uri;
 import android.os.Handler;
 import android.os.Looper;
 
+import com.google.android.exoplayer.DefaultLoadControl;
 import com.google.android.exoplayer.ExoPlaybackException;
 import com.google.android.exoplayer.ExoPlayer;
+import com.google.android.exoplayer.LoadControl;
 import com.google.android.exoplayer.MediaCodecAudioTrackRenderer;
 import com.google.android.exoplayer.extractor.ExtractorSampleSource;
+import com.google.android.exoplayer.hls.HlsChunkSource;
+import com.google.android.exoplayer.hls.HlsMasterPlaylist;
+import com.google.android.exoplayer.hls.HlsMediaPlaylist;
+import com.google.android.exoplayer.hls.HlsPlaylist;
+import com.google.android.exoplayer.hls.HlsPlaylistParser;
+import com.google.android.exoplayer.hls.HlsSampleSource;
 import com.google.android.exoplayer.upstream.Allocator;
 import com.google.android.exoplayer.upstream.DataSource;
 import com.google.android.exoplayer.upstream.DefaultAllocator;
+import com.google.android.exoplayer.upstream.DefaultBandwidthMeter;
+import com.google.android.exoplayer.upstream.DefaultUriDataSource;
+import com.google.android.exoplayer.util.ManifestFetcher;
 
 import org.quuux.headspace.data.Station;
 import org.quuux.headspace.data.StreamMetaData;
@@ -23,6 +35,9 @@ import org.quuux.headspace.events.PlayerError;
 import org.quuux.headspace.events.PlayerStateChange;
 import org.quuux.headspace.events.StreamMetaDataUpdate;
 
+import java.io.IOException;
+import java.util.Collections;
+
 public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Playlist.Listener {
 
     private static final String TAG = Log.buildTag(Streamer.class);
@@ -31,6 +46,7 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
     private static final int BUFFER_SEGMENT_COUNT = 160;
 
     private static Streamer instance = null;
+    private  DefaultUriDataSource uriDataSource;
 
     private ExoPlayer player;
     private Handler handler;
@@ -38,6 +54,8 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
     private Station station;
     private StreamMetaData lastMetaData;
     private MediaCodecAudioTrackRenderer audioRenderer;
+    private DefaultBandwidthMeter bandwidthMeter;
+    private ManifestFetcher<HlsPlaylist> playlistFetcher;
 
     protected Streamer() {
         handler = new Handler(Looper.getMainLooper());
@@ -54,19 +72,45 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
         return instance;
     }
 
-    private void loadStream(final String url) {
+    public void initialize(final Context context) {
+        bandwidthMeter = new DefaultBandwidthMeter();
+        uriDataSource = new DefaultUriDataSource(context, bandwidthMeter, "headspace/1.0");
+    }
 
-        stop();
+    private void loadHlsStream(final String url) {
+        playlistFetcher = new ManifestFetcher<>(url, uriDataSource, new HlsPlaylistParser());
+        playlistFetcher.singleLoad(Looper.getMainLooper(), new ManifestFetcher.ManifestCallback<HlsPlaylist>() {
+            @Override
+            public void onSingleManifest(final HlsPlaylist hlsPlaylist) {
 
+                LoadControl loadControl = new DefaultLoadControl(new DefaultAllocator(BUFFER_SEGMENT_SIZE));
+                HlsChunkSource chunkSource = new HlsChunkSource(uriDataSource, url, hlsPlaylist, bandwidthMeter,
+                        null, HlsChunkSource.ADAPTIVE_MODE_SPLICE, null);
+                HlsSampleSource sampleSource = new HlsSampleSource(chunkSource, loadControl,
+                        BUFFER_SEGMENT_COUNT * BUFFER_SEGMENT_SIZE);
+
+                audioRenderer = new MediaCodecAudioTrackRenderer(sampleSource);
+                player.prepare(audioRenderer);
+            }
+
+            @Override
+            public void onSingleManifestError(final IOException e) {
+
+            }
+        });
+    }
+
+    private void loadIcyStream(final String url) {
         final Uri uri = Uri.parse(url);
         final Allocator allocator = new DefaultAllocator(BUFFER_SEGMENT_SIZE);
+
         final DataSource dataSource = new IcyDataSource(this);
         final ExtractorSampleSource sampleSource = new ExtractorSampleSource(uri, dataSource, allocator, BUFFER_SEGMENT_COUNT * BUFFER_SEGMENT_SIZE);
+
         audioRenderer = new MediaCodecAudioTrackRenderer(sampleSource);
         player.prepare(audioRenderer);
-
-        start();
     }
+
 
     private void loadStream(final Playlist playlist) {
 
@@ -74,7 +118,7 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
         if (url == null)
             return;
 
-        loadStream(url);
+        loadIcyStream(url);
     }
 
     public void destroy() {
@@ -141,12 +185,16 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
             return;
 
         this.station = station;
+
+        Log.d(TAG, "loading station %s", station);
+
         if (station.hasPlaylists()) {
             final String playlistUrl = station.getPlaylists().get(0);
-            Log.d(TAG, "loading playlist %s", playlistUrl);
             Playlist.parseAsyc(playlistUrl, this);
+        } else if (station.hasHlsStreams()) {
+            loadHlsStream(station.getHlsStreams().get(0));
         } else if (station.hasStreams()) {
-            loadStream(station.getStreams().get(0));
+            loadIcyStream(station.getStreams().get(0));
         }
 
         EventBus.getInstance().post(new StationUpdate(station));
