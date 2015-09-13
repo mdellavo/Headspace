@@ -5,10 +5,11 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.media.MediaMetadata;
+import android.media.session.MediaSession;
+import android.media.session.PlaybackState;
 import android.os.Build;
 import android.text.TextUtils;
-
-import com.squareup.picasso.Picasso;
 
 import org.quuux.headspace.MainActivity;
 import org.quuux.headspace.PlaybackService;
@@ -19,7 +20,7 @@ import org.quuux.headspace.net.Streamer;
 
 public class PlaybackNotification {
 
-    public static Notification getInstance(final Context context, final Bitmap bitmap) {
+    public static Notification getInstance(final Context context, final Bitmap bitmap, final MediaSession mediaSession) {
         final Notification.Builder builder = new Notification.Builder(context);
 
         final Streamer stream = Streamer.getInstance();
@@ -48,13 +49,34 @@ public class PlaybackNotification {
         stopIntent.setAction(PlaybackService.ACTION_STOP_PLAYBACK);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+
+            final PlaybackState.Builder stateBuilder = new PlaybackState.Builder()
+                    .setState(PlaybackState.STATE_PLAYING, 0, 1)
+                    .setActions((stream.isPlaying() ? PlaybackState.ACTION_PAUSE : PlaybackState.ACTION_PLAY) | PlaybackState.ACTION_STOP);
+
+            mediaSession.setPlaybackState(stateBuilder.build());
+            final MediaMetadata mediaMetadata = new MediaMetadata.Builder()
+
+                    .putString(MediaMetadata.METADATA_KEY_DISPLAY_TITLE, text)
+                    .putString(MediaMetadata.METADATA_KEY_DISPLAY_SUBTITLE, station.getName())
+
+                    .putString(MediaMetadata.METADATA_KEY_TITLE, text)
+                    .putString(MediaMetadata.METADATA_KEY_ARTIST, station.getName())
+
+                    .putBitmap(MediaMetadata.METADATA_KEY_DISPLAY_ICON, bitmap)
+                    .putBitmap(MediaMetadata.METADATA_KEY_ART, bitmap)
+                    .build();
+            mediaSession.setMetadata(mediaMetadata);
+
             builder.setVisibility(Notification.VISIBILITY_PUBLIC);
-            builder.setStyle(new Notification.MediaStyle().setShowActionsInCompactView());
             final Notification.Action play = new Notification.Action.Builder(playbackIcon, playbackText, PendingIntent.getService(context, 0, playbackIntent, 0)).build();
             builder.addAction(play);
 
             final Notification.Action stop = new Notification.Action.Builder(R.mipmap.ic_stop, context.getString(R.string.stop), PendingIntent.getService(context, 0, stopIntent, 0)).build();
             builder.addAction(stop);
+
+            builder.setStyle(new Notification.MediaStyle().setShowActionsInCompactView(0, 1).setMediaSession(mediaSession.getSessionToken()));
+
         } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN){
             builder.addAction(playbackIcon, playbackText, PendingIntent.getService(context, 0, playbackIntent, 0));
             builder.addAction(R.mipmap.ic_stop, context.getString(R.string.stop), PendingIntent.getService(context, 0, stopIntent, 0));
@@ -65,5 +87,4 @@ public class PlaybackNotification {
 
         return builder.getNotification();
     }
-
 }

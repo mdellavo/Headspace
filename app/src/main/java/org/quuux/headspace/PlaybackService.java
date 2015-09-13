@@ -1,15 +1,21 @@
 package org.quuux.headspace;
 
+import android.annotation.TargetApi;
 import android.app.Notification;
 import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.app.Service;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.media.AudioManager;
+import android.media.RemoteControlClient;
+import android.media.session.MediaSession;
 import android.net.wifi.WifiManager;
 import android.os.Binder;
+import android.os.Build;
 import android.os.IBinder;
 import android.os.PowerManager;
 import android.support.annotation.Nullable;
@@ -37,16 +43,34 @@ public class PlaybackService extends Service implements AudioManager.OnAudioFocu
     public static final String ACTION_PAUSE_PLAYBACK = "org.quuux.headspace.actions.PAUSE_PLAYBACK";
 
     private static final int NOTIFICATION_ID = 1231231;
-    private static final String MEDIA_SESSION_TAG = "headspace";
 
     private final IBinder binder = new LocalBinder();
     private PowerManager.WakeLock wakeLock;
     private WifiManager.WifiLock wifiLock;
+    private RemoteControlClient remoteControlClient;
+    private ComponentName remoteControlReceiver;
+    private MediaSession mediaSession;
 
     @Override
     public void onCreate() {
         super.onCreate();
         EventBus.getInstance().register(this);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            mediaSession = new MediaSession(this, "headspace");
+            mediaSession.setFlags(MediaSession.FLAG_HANDLES_MEDIA_BUTTONS | MediaSession.FLAG_HANDLES_TRANSPORT_CONTROLS);
+
+            final Intent intent = new Intent(this, MainActivity.class);
+            mediaSession.setSessionActivity(PendingIntent.getActivity(this, 0, intent, 0));
+        } else {
+            remoteControlReceiver = new ComponentName(getPackageName(), PlaybackReceiver.class.getName());
+
+            final Intent mediaButtonIntent = new Intent(Intent.ACTION_MEDIA_BUTTON);
+            mediaButtonIntent.setComponent(remoteControlReceiver);
+            final PendingIntent mediaPendingIntent = PendingIntent.getBroadcast(getApplicationContext(), 0, mediaButtonIntent, 0);
+
+            remoteControlClient = new RemoteControlClient(mediaPendingIntent);
+        }
     }
 
     @Override
@@ -54,20 +78,22 @@ public class PlaybackService extends Service implements AudioManager.OnAudioFocu
         super.onDestroy();
         EventBus.getInstance().unregister(this);
         Streamer.getInstance().destroy();
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            mediaSession.release();
+        }
     }
 
     @Override
     public int onStartCommand(final Intent intent, final int flags, final int startId) {
-        final String action = intent.getAction();
-        if (action != null) {
-            if (ACTION_TOGGLE_PLAYBACK.equals(action)) {
-                togglePlayback();
-            } else if (ACTION_STOP_PLAYBACK.equals(action)) {
-                stopPlayback();
-                stopSelf();
-            } else if (ACTION_PAUSE_PLAYBACK.equals(action)) {
-                setPlaying(false);
-            }
+        final String action = intent != null ? intent.getAction() : null;
+        if (ACTION_TOGGLE_PLAYBACK.equals(action)) {
+            togglePlayback();
+        } else if (ACTION_STOP_PLAYBACK.equals(action)) {
+            stopPlayback();
+            stopSelf();
+        } else if (ACTION_PAUSE_PLAYBACK.equals(action)) {
+            setPlaying(false);
         } else {
             return super.onStartCommand(intent, flags, startId);
         }
@@ -90,7 +116,7 @@ public class PlaybackService extends Service implements AudioManager.OnAudioFocu
     private boolean releaseAudioFocus() {
         final AudioManager audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
         final int result = audioManager.abandonAudioFocus(this);
-        return result == AudioManager.AUDIOFOCUS_GAIN;
+        return result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED;
     }
 
     private void ensureLocked() {
@@ -116,6 +142,14 @@ public class PlaybackService extends Service implements AudioManager.OnAudioFocu
             wifiLock.release();
             wifiLock = null;
         }
+    }
+
+    private void buildNotification(final Bitmap bitmap) {
+        final NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        final Notification notification = PlaybackNotification.getInstance(this, bitmap, mediaSession);
+        nm.notify(NOTIFICATION_ID, notification);
+        startForeground(NOTIFICATION_ID, notification);
+
     }
 
     private void updateNotification() {
@@ -146,12 +180,52 @@ public class PlaybackService extends Service implements AudioManager.OnAudioFocu
         }
     }
 
-    private void registerRemote() {
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+    private void startMediaSession() {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP)
+            return;
 
+        mediaSession.setActive(true);
+    }
+
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+    private void stopMediaSession() {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP)
+            return;
+
+        mediaSession.setActive(false);
+    }
+
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+    private MediaSession.Token getMediaSessionToken() {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP)
+            return null;
+
+        return mediaSession != null ? mediaSession.getSessionToken() : null;
+    }
+
+    // FIXME support new api
+    private void registerRemote() {
+        final AudioManager am = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+
+        if (remoteControlReceiver != null) {
+            am.registerMediaButtonEventReceiver(remoteControlReceiver);
+        }
+        if (remoteControlClient != null) {
+            am.registerRemoteControlClient(remoteControlClient);
+        }
     }
 
     private void unregisterRemote() {
+        final AudioManager am = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 
+        if (remoteControlReceiver != null) {
+            am.unregisterMediaButtonEventReceiver(remoteControlReceiver);
+        }
+
+        if (remoteControlClient != null) {
+            am.unregisterRemoteControlClient(remoteControlClient);
+        }
     }
 
     private void duck() {
@@ -188,17 +262,6 @@ public class PlaybackService extends Service implements AudioManager.OnAudioFocu
         final Streamer streamer = Streamer.getInstance();
         streamer.stop();
         releaseAudioFocus();
-    }
-
-    private void buildNotification(final Bitmap bitmap) {
-        final NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-        final Notification notification = PlaybackNotification.getInstance(this, bitmap);
-        nm.notify(NOTIFICATION_ID, notification);
-        startForeground(NOTIFICATION_ID, notification);
-    }
-
-    public boolean isPlaying() {
-        return Streamer.getInstance().isPlaying();
     }
 
     @Override
@@ -241,11 +304,20 @@ public class PlaybackService extends Service implements AudioManager.OnAudioFocu
         if (!Streamer.getInstance().isStopped()) {
             ensureLocked();
             requestAudioFocus();
-            registerRemote();
+
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                startMediaSession();
+            } else {
+                registerRemote();
+            }
         } else {
             ensureUnlocked();
             releaseAudioFocus();
-            unregisterRemote();
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                stopMediaSession();
+            } else {
+                unregisterRemote();
+            }
         }
     }
 
