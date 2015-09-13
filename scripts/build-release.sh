@@ -34,7 +34,7 @@ echo "------------------------------------------------------------------"
 echo "Building ${MODULE} - name: ${VERSION_NAME} - code: ${VERSION_CODE}"
 echo "------------------------------------------------------------------"
 
-./android/gradlew clean assembleRelease
+./gradlew clean assembleRelease
 
 if [ $? -ne 0 ]
 then
@@ -46,7 +46,7 @@ fi
 git tag -d ${TAG} 2>&1 >& /dev/null
 git tag -a ${TAG} -m "release - ${VERSION}"
 
-cp -f "android/app/build/outputs/apk/app-release.apk" ${APK_PATH}
+cp -f "app/build/outputs/apk/app-release.apk" ${APK_PATH}
 
 echo
 echo "Build Complete -> ${APK_PATH}"
