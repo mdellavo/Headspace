@@ -78,6 +78,8 @@ public class PlaybackService extends Service implements AudioManager.OnAudioFocu
         super.onDestroy();
         EventBus.getInstance().unregister(this);
         Streamer.getInstance().destroy();
+        ensureUnlocked();
+        releaseAudioFocus();
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             mediaSession.release();

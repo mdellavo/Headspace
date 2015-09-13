@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@color/player_background"
+    >
 
     <ImageButton
         android:id="@+id/playback"
@@ -20,32 +22,34 @@
         android:layout_alignParentRight="true"
         />
 
-
-    <TextView
-        android:id="@+id/stream"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
         android:layout_toRightOf="@id/playback"
         android:layout_toLeftOf="@id/icon"
-        />
+        >
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/stream"
-        android:layout_toRightOf="@id/playback"
-        android:layout_toLeftOf="@id/icon"
-        />
+        <TextView
+            android:id="@+id/station"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/player_text_bright"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            />
 
-    <TextView
-        android:id="@+id/url"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/title"
-        android:layout_toRightOf="@id/playback"
-        android:layout_toLeftOf="@id/icon"
-        />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/player_text"
+            android:maxLines="2"
+            android:ellipsize="end"
+            />
 
+    </LinearLayout>
 
 </RelativeLayout>

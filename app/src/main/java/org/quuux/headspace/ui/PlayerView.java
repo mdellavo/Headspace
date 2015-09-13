@@ -23,7 +23,7 @@ public class PlayerView extends RelativeLayout {
 
     private static final String TAG = Log.buildTag(PlayerView.class);
 
-    private TextView streamView, titleView, urlView;
+    private TextView stationView, titleView;
     private ImageButton playbackButton;
     private ImageView iconView;
 
@@ -50,16 +50,14 @@ public class PlayerView extends RelativeLayout {
 
     private void init() {
         inflate(getContext(), R.layout.player_view, this);
-        streamView = (TextView) findViewById(R.id.stream);
+        stationView = (TextView) findViewById(R.id.station);
         titleView = (TextView) findViewById(R.id.title);
-        urlView = (TextView) findViewById(R.id.url);
         playbackButton = (ImageButton) findViewById(R.id.playback);
         iconView = (ImageView) findViewById(R.id.icon);
     }
 
     public void updateStreamInfo(final StreamMetaData metadata) {
         titleView.setText(metadata.get("StreamTitle"));
-        urlView.setText(metadata.get("StreamUrl"));
     }
 
     @Subscribe
@@ -69,16 +67,16 @@ public class PlayerView extends RelativeLayout {
 
     @Subscribe
     public void onPlayerStateChanged(final PlayerStateChange update) {
-        playbackButton.setImageResource(update.playWhenReady ? R.mipmap.ic_pause : R.mipmap.ic_play);
+        playbackButton.setImageResource(update.playWhenReady ? R.mipmap.ic_player_pause : R.mipmap.ic_player_play);
     }
 
     @Subscribe
     public void onStationChanged(final StationUpdate update) {
         Log.d(TAG, "onPlaylistLoaded(playlist=%s)", update.station);
-        streamView.setText(update.station.getName());
-        urlView.setText(update.station.getDescription());
+        final String text = String.format("%s: %s", update.station.getNetwork(), update.station.getName());
+        stationView.setText(text);
+        titleView.setText(null);
         Picasso.with(iconView.getContext()).load(update.station.getIconUrl()).fit().centerCrop().into(iconView);
-
     }
 
     public void setOnClickListener(final OnClickListener listener) {

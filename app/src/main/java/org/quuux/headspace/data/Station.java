@@ -5,9 +5,11 @@ import java.util.List;
 
 public class Station {
 
-    private String stationUrl, name, description, iconUrl;
+    private String stationUrl, name, description, iconUrl, network;
     private List<String> streams = new ArrayList<>();
     private List<String> playlists = new ArrayList<>();
+    private boolean commercials;
+
 
     @Override
     public boolean equals(final Object o) {
@@ -54,5 +56,13 @@ public class Station {
 
     public boolean hasStreams() {
         return streams.size() > 0;
+    }
+
+    public String getNetwork() {
+        return network;
+    }
+
+    public boolean hasCommercials() {
+        return commercials;
     }
 }
