@@ -77,7 +77,7 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
         loadStream(url);
     }
 
-    private void destroy() {
+    public void destroy() {
         Log.d(TAG, "destroy");
         player.release();
     }

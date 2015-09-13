@@ -8,8 +8,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.squareup.picasso.Picasso;
-
 import org.quuux.headspace.R;
 import org.quuux.headspace.data.Directory;
 import org.quuux.headspace.data.Station;

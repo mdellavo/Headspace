@@ -10,7 +10,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.squareup.otto.Subscribe;
-import com.squareup.picasso.Picasso;
 
 import org.quuux.headspace.R;
 import org.quuux.headspace.data.StreamMetaData;
