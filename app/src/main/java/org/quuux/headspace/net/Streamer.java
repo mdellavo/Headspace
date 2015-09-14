@@ -184,6 +184,8 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
         if (station == null)
             return;
 
+        stop();
+
         this.station = station;
 
         Log.d(TAG, "loading station %s", station);
@@ -196,6 +198,8 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
         } else if (station.hasStreams()) {
             loadIcyStream(station.getStreams().get(0));
         }
+
+        start();
 
         EventBus.getInstance().post(new StationUpdate(station));
     }

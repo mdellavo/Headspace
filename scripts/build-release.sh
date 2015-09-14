@@ -34,7 +34,7 @@ echo "------------------------------------------------------------------"
 echo "Building ${MODULE} - name: ${VERSION_NAME} - code: ${VERSION_CODE}"
 echo "------------------------------------------------------------------"
 
-./gradlew clean assembleRelease
+./gradlew -PversionCode="${VERSION_CODE}" -PversionName="${VERSION_NAME}" clean assembleRelease
 
 if [ $? -ne 0 ]
 then
