@@ -74,4 +74,11 @@ public class Station {
     public boolean hasCommercials() {
         return commercials;
     }
+
+    public boolean matchesQuery(String query) {
+        query = query.toLowerCase();
+        return name.toLowerCase().contains(query) ||
+                description.toLowerCase().contains(query) ||
+                network.toLowerCase().contains(query);
+    }
 }

@@ -2,10 +2,8 @@ package org.quuux.headspace.ui;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.Color;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.RecyclerView;
-import android.telecom.Call;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,23 +17,25 @@ import org.quuux.headspace.R;
 import org.quuux.headspace.data.Directory;
 import org.quuux.headspace.data.Station;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
 public class DirectoryAdapter extends RecyclerView.Adapter<DirectoryAdapter.ViewHolder> {
 
-    private Listener listener;
-
     public interface Listener {
         void onStationClicked(final Station station);
     }
 
-    private final List<Station> stations;
+    private final List<Station> stations = new LinkedList<>();
+    private Listener listener;
     private Map<String, Palette> paletteCache = new HashMap<>();
 
     public DirectoryAdapter(final Context context) {
-        stations = Directory.getStations(context);
+        stations.addAll(Directory.getStations(context));
     }
 
     @Override
@@ -107,6 +107,56 @@ public class DirectoryAdapter extends RecyclerView.Adapter<DirectoryAdapter.View
 
     public void setListener(final Listener listener) {
         this.listener = listener;
+    }
+
+
+    public void filterStations(final String query) {
+        List<Station> filteredStations = queryStations(query);
+        removeFilteredStations(filteredStations);
+        addFilteredStations(filteredStations);
+    }
+
+    private void removeFilteredStations(final List<Station> filteredStations) {
+        final Iterator<Station> iterator = stations.iterator();
+        while (iterator.hasNext()) {
+            final Station station = iterator.next();
+            if (!filteredStations.contains(station)) {
+                final int position = stations.indexOf(station);
+                iterator.remove();
+                notifyItemRemoved(position);
+            }
+        }
+    }
+
+    private void addFilteredStations(final List<Station> filteredStations) {
+        for (Station station : filteredStations) {
+            if (!stations.contains(station)) {
+                final int position = findPosition(station);
+                stations.add(position, station);
+                notifyItemInserted(position);
+
+            }
+        }
+    }
+
+    private int findPosition(final Station station) {
+
+        int position = 0;
+        while(position < stations.size() && stations.get(position).getName().compareToIgnoreCase(station.getName()) < 0) {
+            position++;
+        }
+
+        return position;
+    }
+
+    private List<Station> queryStations(final String query) {
+        final List<Station> filtered = new ArrayList<>();
+
+        for (Station station : Directory.getStations(null)) {
+            if (station.matchesQuery(query))
+                filtered.add(station);
+        }
+        return filtered;
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {

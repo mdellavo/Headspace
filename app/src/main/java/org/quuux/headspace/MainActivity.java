@@ -8,10 +8,12 @@ import android.media.AudioManager;
 import android.os.IBinder;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.SwipeDismissBehavior;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -28,8 +30,11 @@ import org.quuux.headspace.ui.DirectoryAdapter;
 import org.quuux.headspace.ui.PlayerView;
 import org.quuux.headspace.util.Log;
 
+import java.util.ArrayList;
+import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener, DirectoryAdapter.Listener {
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, DirectoryAdapter.Listener, SearchView.OnQueryTextListener {
 
     private static final String TAG = Log.buildTag(MainActivity.class);
 
@@ -115,6 +120,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
+
+        final MenuItem item = menu.findItem(R.id.action_search);
+        final SearchView searchView = (SearchView) MenuItemCompat.getActionView(item);
+        searchView.setOnQueryTextListener(this);
+
         return true;
     }
 
@@ -130,12 +140,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return super.onOptionsItemSelected(item);
     }
 
-    @Subscribe
-    public void onError(final PlayerError error) {
-        Log.e(TAG, "player error", error.error);
-        Toast.makeText(this, error.error.toString(), Toast.LENGTH_LONG).show();
-    }
-
     @Override
     public void onClick(final View v) {
         switch (v.getId()) {
@@ -145,11 +149,38 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+    @Override
+    public boolean onQueryTextChange(String query) {
+        adapter.filterStations(query);
+        directory.scrollToPosition(0);
+        return true;
+    }
+
+    @Override
+    public boolean onQueryTextSubmit(String query) {
+        return true;
+    }
+
+    @Override
+    public void onStationClicked(final Station station) {
+        playerView.setTranslationX(0);
+        playerView.setAlpha(1);
+
+        if (playbackService != null)
+            playbackService.loadStation(station);
+    }
+
     @Subscribe
     public void onPlayerStateChanged(final PlayerStateChange update) {
         final Streamer streamer = Streamer.getInstance();
         final boolean isPlaying = !streamer.isStopped();
         playerView.setVisibility(isPlaying ? View.VISIBLE : View.GONE);
+    }
+
+    @Subscribe
+    public void onError(final PlayerError error) {
+        Log.e(TAG, "player error", error.error);
+        Toast.makeText(this, error.error.toString(), Toast.LENGTH_LONG).show();
     }
 
     private void togglePlayback() {
@@ -174,12 +205,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     };
 
-    @Override
-    public void onStationClicked(final Station station) {
-        playerView.setTranslationX(0);
-        playerView.setAlpha(1);
-
-        if (playbackService != null)
-            playbackService.loadStation(station);
-    }
 }
