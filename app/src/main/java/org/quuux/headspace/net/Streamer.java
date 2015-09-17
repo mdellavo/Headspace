@@ -13,8 +13,6 @@ import com.google.android.exoplayer.LoadControl;
 import com.google.android.exoplayer.MediaCodecAudioTrackRenderer;
 import com.google.android.exoplayer.extractor.ExtractorSampleSource;
 import com.google.android.exoplayer.hls.HlsChunkSource;
-import com.google.android.exoplayer.hls.HlsMasterPlaylist;
-import com.google.android.exoplayer.hls.HlsMediaPlaylist;
 import com.google.android.exoplayer.hls.HlsPlaylist;
 import com.google.android.exoplayer.hls.HlsPlaylistParser;
 import com.google.android.exoplayer.hls.HlsSampleSource;
@@ -36,7 +34,6 @@ import org.quuux.headspace.events.PlayerStateChange;
 import org.quuux.headspace.events.StreamMetaDataUpdate;
 
 import java.io.IOException;
-import java.util.Collections;
 
 public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Playlist.Listener {
 

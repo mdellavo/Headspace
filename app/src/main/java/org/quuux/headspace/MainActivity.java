@@ -8,11 +8,12 @@ import android.media.AudioManager;
 import android.os.IBinder;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ListView;
 import android.widget.Toast;
 
 import com.squareup.otto.Subscribe;
@@ -27,12 +28,12 @@ import org.quuux.headspace.ui.PlayerView;
 import org.quuux.headspace.util.Log;
 
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, DirectoryAdapter.Listener {
 
     private static final String TAG = Log.buildTag(MainActivity.class);
 
     private PlaybackService playbackService = null;
-    private ListView directory;
+    private RecyclerView directory;
     private PlayerView playerView;
     private DirectoryAdapter adapter;
 
@@ -43,11 +44,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         startService(new Intent(this, PlaybackService.class));
 
         setContentView(R.layout.activity_main);
-        directory = (ListView)findViewById(R.id.directory);
-        directory.setOnItemClickListener(this);
+        directory = (RecyclerView)findViewById(R.id.directory);
+        directory.setHasFixedSize(true);
+        directory.setLayoutManager(new GridLayoutManager(this, 3, GridLayoutManager.VERTICAL, false));
 
         adapter = new DirectoryAdapter(this);
         directory.setAdapter(adapter);
+        adapter.setListener(this);
 
         playerView = (PlayerView)findViewById(R.id.player);
         playerView.setOnClickListener(this);
@@ -142,8 +145,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     };
 
     @Override
-    public void onItemClick(final AdapterView<?> parent, final View view, final int position, final long id) {
-        final Station station = (Station) adapter.getItem(position);
+    public void onStationClicked(final Station station) {
         if (playbackService != null)
             playbackService.loadStation(station);
     }
