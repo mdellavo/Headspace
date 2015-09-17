@@ -137,6 +137,8 @@ public class Streamer implements ExoPlayer.Listener, IcyDataSource.Listener, Pla
         Log.d(TAG, "stop");
         player.stop();
         player.seekTo(0);
+        station = null;
+        lastMetaData = null;
     }
 
     public void setVolume(final float volume){

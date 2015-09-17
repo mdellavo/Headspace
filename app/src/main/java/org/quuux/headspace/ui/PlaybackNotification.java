@@ -32,13 +32,11 @@ public class PlaybackNotification {
             text = station.getDescription();
 
         builder.setAutoCancel(false);
-        builder.setOngoing(true);
         builder.setSmallIcon(R.mipmap.ic_play);
         if (bitmap != null)
             builder.setLargeIcon(bitmap);
         builder.setContentTitle(station.getName());
         builder.setContentText(text);
-        builder.setContentInfo("Headspace");
 
         final int playbackIcon = stream.isPlaying() ? R.mipmap.ic_pause : R.mipmap.ic_play;
         final String playbackText = context.getString(stream.isPlaying() ? R.string.action_pause : R.string.action_play);

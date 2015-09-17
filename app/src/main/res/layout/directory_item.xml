@@ -15,20 +15,20 @@
 
     <TextView
         android:id="@+id/name"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
         android:fontFamily="sans-serif-medium"
         android:textColor="#ccc"
         />
 
     <TextView
         android:id="@+id/description"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:textColor="#ccc"
         android:paddingBottom="20dp"
         android:textSize="12sp"
+        android:textStyle="italic"
         />
 </LinearLayout>
