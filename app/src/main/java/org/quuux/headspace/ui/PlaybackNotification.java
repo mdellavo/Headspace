@@ -32,6 +32,7 @@ public class PlaybackNotification {
             text = station.getDescription();
 
         builder.setAutoCancel(false);
+        builder.setOngoing(true);
         builder.setSmallIcon(R.mipmap.ic_play);
         if (bitmap != null)
             builder.setLargeIcon(bitmap);

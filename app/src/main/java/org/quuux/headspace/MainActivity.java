@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.media.AudioManager;
 import android.os.IBinder;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.SwipeDismissBehavior;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
@@ -36,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private RecyclerView directory;
     private PlayerView playerView;
     private DirectoryAdapter adapter;
+    private CoordinatorLayout container;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +47,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         startService(new Intent(this, PlaybackService.class));
 
         setContentView(R.layout.activity_main);
+
+        container = (CoordinatorLayout)findViewById(R.id.container);
+
         directory = (RecyclerView)findViewById(R.id.directory);
         directory.setHasFixedSize(true);
         directory.setLayoutManager(new GridLayoutManager(this, 3, GridLayoutManager.VERTICAL, false));
@@ -54,9 +60,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         playerView = (PlayerView)findViewById(R.id.player);
         playerView.setOnClickListener(this);
+
         onPlayerStateChanged(null);
 
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
+
+        CoordinatorLayout.LayoutParams params = (CoordinatorLayout.LayoutParams) playerView.getLayoutParams();
+        final SwipeDismissBehavior<PlayerView> swipeDismissBehavior = new SwipeDismissBehavior<>();
+        swipeDismissBehavior.setSwipeDirection(SwipeDismissBehavior.SWIPE_DIRECTION_START_TO_END);
+        swipeDismissBehavior.setListener(new SwipeDismissBehavior.OnDismissListener() {
+            @Override
+            public void onDismiss(final View view) {
+                stopPlayback();
+            }
+
+            @Override
+            public void onDragStateChanged(final int i) {
+
+            }
+        });
+        params.setBehavior(swipeDismissBehavior);
+
     }
 
     @Override
@@ -124,12 +148,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Subscribe
     public void onPlayerStateChanged(final PlayerStateChange update) {
-        playerView.setVisibility(Streamer.getInstance().isStopped() ? View.GONE : View.VISIBLE);
+        final Streamer streamer = Streamer.getInstance();
+        final boolean isPlaying = !streamer.isStopped();
+        playerView.setVisibility(isPlaying ? View.VISIBLE : View.GONE);
+        if (isPlaying) {
+            playerView.setTranslationX(0);
+            playerView.setAlpha(1);
+        }
     }
 
     private void togglePlayback() {
         if (playbackService != null)
             playbackService.togglePlayback();
+    }
+
+    private void stopPlayback() {
+        if (playbackService != null)
+            playbackService.stopPlayback();
     }
 
     final ServiceConnection serviceConnection = new ServiceConnection() {

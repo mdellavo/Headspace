@@ -49,7 +49,7 @@ public class DirectoryAdapter extends RecyclerView.Adapter<DirectoryAdapter.View
     public void onBindViewHolder(final ViewHolder holder, final int position) {
         final Station station = stations.get(position);
         holder.nameView.setText(station.getName());
-        holder.descriptionView.setText(station.getDescription());
+        holder.descriptionView.setText(String.format("%s (%s)", station.getDescription(), station.getNetwork()));
 
         Picasso.with(holder.itemView.getContext()).load(station.getIconUrl()).fit().centerCrop().transform(new Transformation() {
             @Override
