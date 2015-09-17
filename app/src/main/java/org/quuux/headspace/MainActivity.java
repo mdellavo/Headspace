@@ -11,7 +11,6 @@ import android.support.design.widget.SwipeDismissBehavior;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -151,10 +150,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         final Streamer streamer = Streamer.getInstance();
         final boolean isPlaying = !streamer.isStopped();
         playerView.setVisibility(isPlaying ? View.VISIBLE : View.GONE);
-        if (isPlaying) {
-            playerView.setTranslationX(0);
-            playerView.setAlpha(1);
-        }
     }
 
     private void togglePlayback() {
@@ -181,6 +176,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onStationClicked(final Station station) {
+        playerView.setTranslationX(0);
+        playerView.setAlpha(1);
+
         if (playbackService != null)
             playbackService.loadStation(station);
     }
