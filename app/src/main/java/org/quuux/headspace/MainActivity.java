@@ -17,6 +17,7 @@ import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
 import com.squareup.otto.Subscribe;
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private PlayerView playerView;
     private DirectoryAdapter adapter;
     private CoordinatorLayout container;
+    private SearchView searchView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +59,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         directory = (RecyclerView)findViewById(R.id.directory);
         directory.setHasFixedSize(true);
         directory.setLayoutManager(new GridLayoutManager(this, 3, GridLayoutManager.VERTICAL, false));
+        directory.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(final RecyclerView recyclerView, final int newState) {
+                super.onScrollStateChanged(recyclerView, newState);
+                if (newState == RecyclerView.SCROLL_STATE_DRAGGING) {
+                    final InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+
+                    if (imm.isAcceptingText()) {
+                        imm.hideSoftInputFromWindow(directory.getWindowToken(), 0);
+                    }
+                }
+            }
+        });
 
         adapter = new DirectoryAdapter(this);
         directory.setAdapter(adapter);
@@ -117,12 +132,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
+    public void onBackPressed() {
+        if (searchView.isIconified()) {
+            super.onBackPressed();
+        } else {
+            searchView.setQuery(null, true);
+            searchView.clearFocus();
+            searchView.setIconified(true);
+        }
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
 
         final MenuItem item = menu.findItem(R.id.action_search);
-        final SearchView searchView = (SearchView) MenuItemCompat.getActionView(item);
+        searchView = (SearchView) MenuItemCompat.getActionView(item);
         searchView.setOnQueryTextListener(this);
 
         return true;
@@ -158,6 +184,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public boolean onQueryTextSubmit(String query) {
+
         return true;
     }
 

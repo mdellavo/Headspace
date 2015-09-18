@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -152,8 +153,9 @@ public class DirectoryAdapter extends RecyclerView.Adapter<DirectoryAdapter.View
     private List<Station> queryStations(final String query) {
         final List<Station> filtered = new ArrayList<>();
 
+        final boolean isEmpty = TextUtils.isEmpty(query);
         for (Station station : Directory.getStations(null)) {
-            if (station.matchesQuery(query))
+            if (isEmpty || station.matchesQuery(query))
                 filtered.add(station);
         }
         return filtered;
