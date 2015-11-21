@@ -1,6 +1,4 @@
 package org.quuux.headspace.ui;
-
-import android.content.Context;
 import android.graphics.Bitmap;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.RecyclerView;
@@ -16,16 +14,18 @@ import com.squareup.picasso.Transformation;
 
 import org.quuux.headspace.R;
 import org.quuux.headspace.data.Directory;
+import org.quuux.headspace.data.Favorites;
 import org.quuux.headspace.data.Station;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 
 public class DirectoryAdapter extends RecyclerView.Adapter<DirectoryAdapter.ViewHolder> {
+
+    private static int MODE_DIRECTORY = 0;
+    private static int MODE_FAVORITES = 1;
 
     public interface Listener {
         void onStationClicked(final Station station);
@@ -33,10 +33,10 @@ public class DirectoryAdapter extends RecyclerView.Adapter<DirectoryAdapter.View
 
     private final List<Station> stations = new LinkedList<>();
     private Listener listener;
-    private Map<String, Palette> paletteCache = new HashMap<>();
+    private int mode;
 
-    public DirectoryAdapter(final Context context) {
-        stations.addAll(Directory.getStations(context));
+    public DirectoryAdapter() {
+        stations.addAll(getStations());
     }
 
     @Override
@@ -55,12 +55,7 @@ public class DirectoryAdapter extends RecyclerView.Adapter<DirectoryAdapter.View
         Picasso.with(holder.itemView.getContext()).load(station.getIconUrl()).fit().centerCrop().transform(new Transformation() {
             @Override
             public Bitmap transform(final Bitmap source) {
-
-                if (!paletteCache.containsKey(station.getIconUrl())) {
-                    final Palette palette = Palette.from(source).generate();
-                    paletteCache.put(station.getIconUrl(), palette);
-                }
-
+                PaletteCache.generate(station.getIconUrl(), source);
                 return source;
             }
 
@@ -71,7 +66,7 @@ public class DirectoryAdapter extends RecyclerView.Adapter<DirectoryAdapter.View
         }).into(holder.iconView, new Callback() {
             @Override
             public void onSuccess() {
-                final Palette palette = paletteCache.get(station.getIconUrl());
+                final Palette palette = PaletteCache.get(station.getIconUrl());
                 if (palette == null)
                     return;
 
@@ -106,6 +101,24 @@ public class DirectoryAdapter extends RecyclerView.Adapter<DirectoryAdapter.View
         return stations.size();
     }
 
+    private List<Station> getStations() {
+        if (mode == MODE_FAVORITES) {
+            return Favorites.getFavorites();
+        }
+
+        return Directory.getStations();
+    }
+
+    public void showFavorites() {
+        mode = MODE_FAVORITES;
+        updateStations();
+    }
+
+    public void showDirectory() {
+        mode = MODE_DIRECTORY;
+        updateStations();
+    }
+
     public void setListener(final Listener listener) {
         this.listener = listener;
     }
@@ -113,8 +126,16 @@ public class DirectoryAdapter extends RecyclerView.Adapter<DirectoryAdapter.View
 
     public void filterStations(final String query) {
         List<Station> filteredStations = queryStations(query);
+        updateStations(filteredStations);
+    }
+
+    public void updateStations(final List<Station> filteredStations) {
         removeFilteredStations(filteredStations);
         addFilteredStations(filteredStations);
+    }
+
+    public void updateStations() {
+        updateStations(getStations());
     }
 
     private void removeFilteredStations(final List<Station> filteredStations) {
@@ -154,7 +175,7 @@ public class DirectoryAdapter extends RecyclerView.Adapter<DirectoryAdapter.View
         final List<Station> filtered = new ArrayList<>();
 
         final boolean isEmpty = TextUtils.isEmpty(query);
-        for (Station station : Directory.getStations(null)) {
+        for (Station station : getStations()) {
             if (isEmpty || station.matchesQuery(query))
                 filtered.add(station);
         }

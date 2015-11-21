@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import json
 
+
 def scrape_stations():
     r = requests.get("http://somafm.com/listen/")
     assert r.status_code == 200

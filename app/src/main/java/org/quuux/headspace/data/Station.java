@@ -4,6 +4,8 @@ import android.text.TextUtils;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Station implements Serializable {
@@ -83,5 +85,14 @@ public class Station implements Serializable {
         return name.toLowerCase().contains(query) ||
                 description.toLowerCase().contains(query) ||
                 network.toLowerCase().contains(query);
+    }
+
+    public static void sort(final List<Station> stations) {
+        Collections.sort(stations, new Comparator<Station>() {
+            @Override
+            public int compare(final Station lhs, final Station rhs) {
+                return lhs.getName().compareToIgnoreCase(rhs.getName());
+            }
+        });
     }
 }

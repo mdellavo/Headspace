@@ -2,7 +2,9 @@ package org.quuux.headspace;
 
 import android.app.Application;
 
+import org.quuux.headspace.data.CacheManager;
 import org.quuux.headspace.data.Directory;
+import org.quuux.headspace.data.Favorites;
 import org.quuux.headspace.net.Streamer;
 import org.quuux.headspace.util.Log;
 
@@ -14,7 +16,10 @@ public class HeadspaceApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Directory.getStations(this); // trigger loading
+
+        CacheManager.initialize(this);
+        Directory.loadStations(this);
+        Favorites.load();
 
         Streamer.getInstance().initialize(this);
     }

@@ -27,7 +27,7 @@ public class PlaybackNotification {
         final Station station = stream.getStation();
         final StreamMetaData metadata = stream.getLastMetaData();
 
-        String text = metadata != null ? metadata.get("StreamTitle") : null;
+        String text = metadata != null ? metadata.getTitle() : null;
         if (TextUtils.isEmpty(text))
             text = station.getDescription();
 

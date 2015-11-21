@@ -198,14 +198,6 @@ public class PlaybackService extends Service implements AudioManager.OnAudioFocu
         mediaSession.setActive(false);
     }
 
-    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    private MediaSession.Token getMediaSessionToken() {
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP)
-            return null;
-
-        return mediaSession != null ? mediaSession.getSessionToken() : null;
-    }
-
     // FIXME support new api
     private void registerRemote() {
         final AudioManager am = (AudioManager) getSystemService(Context.AUDIO_SERVICE);

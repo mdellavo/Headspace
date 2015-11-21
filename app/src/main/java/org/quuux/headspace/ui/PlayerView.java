@@ -22,13 +22,19 @@ import org.quuux.headspace.net.Streamer;
 import org.quuux.headspace.util.Log;
 
 
-public class PlayerView extends RelativeLayout {
+public class PlayerView extends RelativeLayout implements View.OnClickListener {
+
+    public interface Listener {
+        void togglePlayback();
+        void openStation(Station station);
+    }
 
     private static final String TAG = Log.buildTag(PlayerView.class);
 
     private TextView stationView, titleView;
     private ImageButton playbackButton;
     private ImageView iconView;
+    private Listener listener;
 
     public PlayerView(final Context context) {
         super(context);
@@ -53,11 +59,21 @@ public class PlayerView extends RelativeLayout {
 
     private void init() {
         inflate(getContext(), R.layout.player_view, this);
+
+        findViewById(R.id.container).setOnClickListener(this);
+
+        iconView = (ImageView) findViewById(R.id.icon);
         stationView = (TextView) findViewById(R.id.station);
         titleView = (TextView) findViewById(R.id.title);
+
         playbackButton = (ImageButton) findViewById(R.id.playback);
-        iconView = (ImageView) findViewById(R.id.icon);
+        playbackButton.setOnClickListener(this);
+
         update();
+    }
+
+    public void setListener(final Listener listener) {
+        this.listener = listener;
     }
 
     public void update() {
@@ -99,7 +115,21 @@ public class PlayerView extends RelativeLayout {
         update(update.station, null);
     }
 
-    public void setOnClickListener(final OnClickListener listener) {
-        playbackButton.setOnClickListener(listener);
+    @Override
+    public void onClick(final View v) {
+        switch (v.getId()) {
+            case R.id.container:
+                if (listener != null)
+                    listener.openStation(Streamer.getInstance().getStation());
+                break;
+
+            case R.id.playback:
+                if (listener != null)
+                    listener.togglePlayback();
+                break;
+
+            default:
+                break;
+        }
     }
 }

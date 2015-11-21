@@ -31,11 +31,8 @@ import org.quuux.headspace.ui.DirectoryAdapter;
 import org.quuux.headspace.ui.PlayerView;
 import org.quuux.headspace.util.Log;
 
-import java.util.ArrayList;
-import java.util.List;
 
-
-public class MainActivity extends AppCompatActivity implements View.OnClickListener, DirectoryAdapter.Listener, SearchView.OnQueryTextListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, DirectoryAdapter.Listener, SearchView.OnQueryTextListener, PlayerView.Listener {
 
     private static final String TAG = Log.buildTag(MainActivity.class);
 
@@ -73,12 +70,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-        adapter = new DirectoryAdapter(this);
+        adapter = new DirectoryAdapter();
         directory.setAdapter(adapter);
         adapter.setListener(this);
 
         playerView = (PlayerView)findViewById(R.id.player);
-        playerView.setOnClickListener(this);
+        playerView.setListener(this);
 
         onPlayerStateChanged(null);
 
@@ -156,14 +153,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        final boolean rv;
+        switch (item.getItemId()) {
+            case R.id.action_settings:
+                rv = true;
+                break;
+
+            case R.id.action_favorites:
+                showFavorites();
+                rv = true;
+                break;
+
+            default:
+                rv = super.onOptionsItemSelected(item);
+                break;
         }
 
-        return super.onOptionsItemSelected(item);
+        return rv;
+    }
+
+    private void showFavorites() {
+        adapter.showFavorites();
     }
 
     @Override
@@ -184,7 +195,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public boolean onQueryTextSubmit(String query) {
-
         return true;
     }
 
@@ -210,7 +220,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Toast.makeText(this, error.error.toString(), Toast.LENGTH_LONG).show();
     }
 
-    private void togglePlayback() {
+    public void togglePlayback() {
         if (playbackService != null)
             playbackService.togglePlayback();
     }
@@ -232,4 +242,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     };
 
+    @Override
+    public void openStation(final Station station) {
+        final Intent intent = StationActivity.getInstance(this, Streamer.getInstance().getStation());
+        startActivity(intent);
+        overridePendingTransition(R.anim.slide_in, 0);
+    }
 }
