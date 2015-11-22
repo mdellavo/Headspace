@@ -1,3 +1,0 @@
-[submodule "vendor/Sack"]
-	path = vendor/Sack
-	url = git@github.com:mdellavo/Sack.git
