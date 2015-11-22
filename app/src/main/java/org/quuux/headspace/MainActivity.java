@@ -22,6 +22,7 @@ import android.widget.Toast;
 
 import com.squareup.otto.Subscribe;
 
+import org.quuux.feller.Log;
 import org.quuux.headspace.data.Station;
 import org.quuux.headspace.events.EventBus;
 import org.quuux.headspace.events.PlayerError;
@@ -29,7 +30,6 @@ import org.quuux.headspace.events.PlayerStateChange;
 import org.quuux.headspace.net.Streamer;
 import org.quuux.headspace.ui.DirectoryAdapter;
 import org.quuux.headspace.ui.PlayerView;
-import org.quuux.headspace.util.Log;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, DirectoryAdapter.Listener, SearchView.OnQueryTextListener, PlayerView.Listener {

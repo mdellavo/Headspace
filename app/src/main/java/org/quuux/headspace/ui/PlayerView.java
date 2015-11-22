@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.squareup.otto.Subscribe;
 
+import org.quuux.feller.Log;
 import org.quuux.headspace.R;
 import org.quuux.headspace.data.Station;
 import org.quuux.headspace.data.StreamMetaData;
@@ -19,7 +20,6 @@ import org.quuux.headspace.events.PlayerStateChange;
 import org.quuux.headspace.events.StationUpdate;
 import org.quuux.headspace.events.StreamMetaDataUpdate;
 import org.quuux.headspace.net.Streamer;
-import org.quuux.headspace.util.Log;
 
 
 public class PlayerView extends RelativeLayout implements View.OnClickListener {

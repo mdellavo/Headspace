@@ -6,14 +6,13 @@ import android.content.res.AssetManager;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-import org.quuux.headspace.util.Log;
+
+import org.quuux.feller.Log;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

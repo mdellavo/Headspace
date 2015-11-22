@@ -23,10 +23,10 @@ import com.google.android.exoplayer.upstream.DefaultBandwidthMeter;
 import com.google.android.exoplayer.upstream.DefaultUriDataSource;
 import com.google.android.exoplayer.util.ManifestFetcher;
 
+import org.quuux.feller.Log;
 import org.quuux.headspace.data.Station;
 import org.quuux.headspace.data.StreamMetaData;
 import org.quuux.headspace.events.StationUpdate;
-import org.quuux.headspace.util.Log;
 import org.quuux.headspace.data.Playlist;
 import org.quuux.headspace.events.EventBus;
 import org.quuux.headspace.events.PlayerError;

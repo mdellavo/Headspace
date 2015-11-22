@@ -55,7 +55,8 @@ dependencies {
     compile 'com.google.code.gson:gson:2.4'
     compile 'com.squareup.picasso:picasso:2.5.2'
 
-    compile project(':vendor:Sack:sack')
+    compile 'org.quuux.feller:feller:0.1'
+    compile 'org.quuux.sack:sack:0.1'
 }
 
 task askForPasswords << {

@@ -23,6 +23,7 @@ import android.support.annotation.Nullable;
 import com.squareup.otto.Subscribe;
 import com.squareup.picasso.Target;
 
+import org.quuux.feller.Log;
 import org.quuux.headspace.data.Station;
 import org.quuux.headspace.events.EventBus;
 import org.quuux.headspace.events.PlayerError;
@@ -32,7 +33,6 @@ import org.quuux.headspace.events.StreamMetaDataUpdate;
 import org.quuux.headspace.net.Streamer;
 import org.quuux.headspace.ui.Picasso;
 import org.quuux.headspace.ui.PlaybackNotification;
-import org.quuux.headspace.util.Log;
 
 public class PlaybackService extends Service implements AudioManager.OnAudioFocusChangeListener {
 

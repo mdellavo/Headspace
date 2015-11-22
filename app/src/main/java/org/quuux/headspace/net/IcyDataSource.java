@@ -8,11 +8,10 @@ import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
 
+import org.quuux.feller.Log;
 import org.quuux.headspace.data.StreamMetaData;
-import org.quuux.headspace.util.Log;
 
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
